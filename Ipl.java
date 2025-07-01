@@ -1,8 +1,33 @@
 class Ipl{
+/*	
+		static String csk="CSK";
+	static String rcb="RCB";
+	static String mi="MI";
+	static String kkr="KKR";
+	static String srh="SRH";
+	static String gt="GT";
+	static String pk="PBKS";
+	static String rr= "RR";
+	static String dc= "DC";
+	static String lsg= "LSG";
 			
-		static	String	iplTeamNames[]={"1. CSK ","2. RCB","3. MI","4. KKR","5. SRH","6. GT","7. PBKS","8. RR","9. GT","10. LSG"};
-
+	*/		
 			public static void main(String teams[]){
+				
+				
+	 String csk="CSK";
+	 String rcb="RCB";
+	 String mi="MI";
+	 String kkr="KKR";
+	 String srh="SRH";
+	 String gt="GT";
+	 String pk="PBKS";
+	 String rr= "RR";
+	 String dc= "DC";
+	 String lsg= "LSG";
+	 
+	 String	iplTeamNames[]={csk,rcb,mi,kkr,srh,gt,pk,rr,dc,lsg};
+
 			
 			System.out.println("the total number of teams are "+iplTeamNames.length);
 			
