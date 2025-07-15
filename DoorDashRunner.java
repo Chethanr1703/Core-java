@@ -1,6 +1,12 @@
 class DoorDashRunner{
 public static void main(String []ddr){
-	double price = DoorDash.getPrice("Chocolate");
+	String shakeName ="Chocolate Almond";
 	
-	System.out.println("the price of Shake is :"+price);
+	double price = DoorDash.getPrice(shakeName);
+	System.out.println("the price of "+shakeName+" is :"+price);
+	
+	int quantity = 5;
+	double priceWithQuantity = DoorDash.getPrice(shakeName,quantity);
+	System.out.println("the price of "+shakeName+"with Quantity"+quantity+" is :"+priceWithQuantity);
+
 }}
