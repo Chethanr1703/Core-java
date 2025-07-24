@@ -9,11 +9,13 @@ class KarateRunner{
 		karate1.karateStyle="Shudo Kan";
 		karate1.isOlampicSport=true;
 		
-		System.out.println("the id of the karate1 :"+karate1.karateId);
-		System.out.println("the id of the karate1 :"+karate1.levelOfBelt);
-		System.out.println("the id of the karate1 :"+karate1.noOfMoves);
-		System.out.println("the id of the karate1 :"+karate1.karateStyle);
-		System.out.println("the id of the karate1 :"+karate1.isOlampicSport);
+		karate1.getKararteInfo();
+		
+		// System.out.println("the id of the karate1 :"+karate1.karateId);
+		// System.out.println("the id of the karate1 :"+karate1.levelOfBelt);
+		// System.out.println("the id of the karate1 :"+karate1.noOfMoves);
+		// System.out.println("the id of the karate1 :"+karate1.karateStyle);
+		// System.out.println("the id of the karate1 :"+karate1.isOlampicSport);
 		
 
 		System.out.println();
@@ -25,11 +27,14 @@ class KarateRunner{
 		karate2.karateStyle = "Shotokan";
 		karate2.isOlampicSport = true;
 		
-		System.out.println("the id of the karate2 :"+karate2.karateId);
-		System.out.println("the id of the karate2 :"+karate2.levelOfBelt);
-		System.out.println("the id of the karate2 :"+karate2.noOfMoves);
-		System.out.println("the id of the karate2 :"+karate2.karateStyle);
-		System.out.println("the id of the karate2 :"+karate2.isOlampicSport);
+		karate2.getKararteInfo();
+		
+		
+		// System.out.println("the id of the karate2 :"+karate2.karateId);
+		// System.out.println("the id of the karate2 :"+karate2.levelOfBelt);
+		// System.out.println("the id of the karate2 :"+karate2.noOfMoves);
+		// System.out.println("the id of the karate2 :"+karate2.karateStyle);
+		// System.out.println("the id of the karate2 :"+karate2.isOlampicSport);
 		System.out.println();
 		
 		Karate karate3 = new Karate();
@@ -39,11 +44,14 @@ class KarateRunner{
 		karate3.karateStyle = "Goju Ryu";
 		karate3.isOlampicSport = true;
 		
-		System.out.println("the id of the karate3 :"+karate3.karateId);
-		System.out.println("the id of the karate3 :"+karate3.levelOfBelt);
-		System.out.println("the id of the karate3 :"+karate3.noOfMoves);
-		System.out.println("the id of the karate3 :"+karate3.karateStyle);
-		System.out.println("the id of the karate3 :"+karate3.isOlampicSport);
+		karate3.getKararteInfo();
+		
+		
+		// System.out.println("the id of the karate3 :"+karate3.karateId);
+		// System.out.println("the id of the karate3 :"+karate3.levelOfBelt);
+		// System.out.println("the id of the karate3 :"+karate3.noOfMoves);
+		// System.out.println("the id of the karate3 :"+karate3.karateStyle);
+		// System.out.println("the id of the karate3 :"+karate3.isOlampicSport);
 		System.out.println();
 		
 		Karate karate4 = new Karate();
@@ -53,11 +61,14 @@ class KarateRunner{
 		karate4.karateStyle = "Kyokushin";
 		karate4.isOlampicSport = true;
 		
-		System.out.println("the id of the karate4 :"+karate4.karateId);
-		System.out.println("the id of the karate4 :"+karate4.levelOfBelt);
-		System.out.println("the id of the karate4 :"+karate4.noOfMoves);
-		System.out.println("the id of the karate4 :"+karate4.karateStyle);
-		System.out.println("the id of the karate4 :"+karate4.isOlampicSport);
+		karate4.getKararteInfo();
+		
+		
+		// System.out.println("the id of the karate4 :"+karate4.karateId);
+		// System.out.println("the id of the karate4 :"+karate4.levelOfBelt);
+		// System.out.println("the id of the karate4 :"+karate4.noOfMoves);
+		// System.out.println("the id of the karate4 :"+karate4.karateStyle);
+		// System.out.println("the id of the karate4 :"+karate4.isOlampicSport);
 		System.out.println();
 		
 		Karate karate5 = new Karate();
@@ -67,11 +78,14 @@ class KarateRunner{
 		karate5.karateStyle = "Wado Ryu";
 		karate5.isOlampicSport = true;
 		
-		System.out.println("the id of the karate5 :"+karate5.karateId);
-		System.out.println("the id of the karate5 :"+karate5.levelOfBelt);
-		System.out.println("the id of the karate5 :"+karate5.noOfMoves);
-		System.out.println("the id of the karate5 :"+karate5.karateStyle);
-		System.out.println("the id of the karate5 :"+karate5.isOlampicSport);
+		
+		karate5.getKararteInfo();
+		
+		// System.out.println("the id of the karate5 :"+karate5.karateId);
+		// System.out.println("the id of the karate5 :"+karate5.levelOfBelt);
+		// System.out.println("the id of the karate5 :"+karate5.noOfMoves);
+		// System.out.println("the id of the karate5 :"+karate5.karateStyle);
+		// System.out.println("the id of the karate5 :"+karate5.isOlampicSport);
 		System.out.println();
 		
 		Karate karate6 = new Karate();
@@ -81,11 +95,14 @@ class KarateRunner{
 		karate6.karateStyle = "Shito Ryu";
 		karate6.isOlampicSport = true;
 		
-		System.out.println("the id of the karate6 :"+karate6.karateId);
-		System.out.println("the id of the karate6 :"+karate6.levelOfBelt);
-		System.out.println("the id of the karate6 :"+karate6.noOfMoves);
-		System.out.println("the id of the karate6 :"+karate6.karateStyle);
-		System.out.println("the id of the karate6 :"+karate6.isOlampicSport);
+		karate6.getKararteInfo();
+		
+		
+		// System.out.println("the id of the karate6 :"+karate6.karateId);
+		// System.out.println("the id of the karate6 :"+karate6.levelOfBelt);
+		// System.out.println("the id of the karate6 :"+karate6.noOfMoves);
+		// System.out.println("the id of the karate6 :"+karate6.karateStyle);
+		// System.out.println("the id of the karate6 :"+karate6.isOlampicSport);
 		System.out.println();
 		
 		Karate karate7 = new Karate();
@@ -95,11 +112,14 @@ class KarateRunner{
 		karate7.karateStyle = "Shorin Ryu";
 		karate7.isOlampicSport = true;
 		
-		System.out.println("the id of the karate7 :"+karate7.karateId);
-		System.out.println("the id of the karate7 :"+karate7.levelOfBelt);
-		System.out.println("the id of the karate7 :"+karate7.noOfMoves);
-		System.out.println("the id of the karate7 :"+karate7.karateStyle);
-		System.out.println("the id of the karate7 :"+karate7.isOlampicSport);
+		
+		karate7.getKararteInfo();
+		
+		// System.out.println("the id of the karate7 :"+karate7.karateId);
+		// System.out.println("the id of the karate7 :"+karate7.levelOfBelt);
+		// System.out.println("the id of the karate7 :"+karate7.noOfMoves);
+		// System.out.println("the id of the karate7 :"+karate7.karateStyle);
+		// System.out.println("the id of the karate7 :"+karate7.isOlampicSport);
 		System.out.println();
 		
 		Karate karate8 = new Karate();
@@ -109,11 +129,14 @@ class KarateRunner{
 		karate8.karateStyle = "Uechi Ryu";
 		karate8.isOlampicSport = true;
 		
-		System.out.println("the id of the karate8 :"+karate8.karateId);
-		System.out.println("the id of the karate8 :"+karate8.levelOfBelt);
-		System.out.println("the id of the karate8 :"+karate8.noOfMoves);
-		System.out.println("the id of the karate8 :"+karate8.karateStyle);
-		System.out.println("the id of the karate8 :"+karate8.isOlampicSport);
+		karate8.getKararteInfo();
+		
+		
+		// System.out.println("the id of the karate8 :"+karate8.karateId);
+		// System.out.println("the id of the karate8 :"+karate8.levelOfBelt);
+		// System.out.println("the id of the karate8 :"+karate8.noOfMoves);
+		// System.out.println("the id of the karate8 :"+karate8.karateStyle);
+		// System.out.println("the id of the karate8 :"+karate8.isOlampicSport);
 		System.out.println();
 		
 		Karate karate9 = new Karate();
@@ -123,11 +146,14 @@ class KarateRunner{
 		karate9.karateStyle = "Isshin Ryu";
 		karate9.isOlampicSport = true;
 		
-		System.out.println("the id of the karate9 :"+karate9.karateId);
-		System.out.println("the id of the karate9 :"+karate9.levelOfBelt);
-		System.out.println("the id of the karate9 :"+karate9.noOfMoves);
-		System.out.println("the id of the karate9 :"+karate9.karateStyle);
-		System.out.println("the id of the karate9 :"+karate9.isOlampicSport);
+		karate9.getKararteInfo();
+		
+		
+		// System.out.println("the id of the karate9 :"+karate9.karateId);
+		// System.out.println("the id of the karate9 :"+karate9.levelOfBelt);
+		// System.out.println("the id of the karate9 :"+karate9.noOfMoves);
+		// System.out.println("the id of the karate9 :"+karate9.karateStyle);
+		// System.out.println("the id of the karate9 :"+karate9.isOlampicSport);
 		System.out.println();
 		
 		Karate karate10 = new Karate();
@@ -137,11 +163,14 @@ class KarateRunner{
 		karate10.karateStyle = "Enshin";
 		karate10.isOlampicSport = true;
 		
-		System.out.println("the id of the karate10 :"+karate10.karateId);
-		System.out.println("the id of the karate10 :"+karate10.levelOfBelt);
-		System.out.println("the id of the karate10 :"+karate10.noOfMoves);
-		System.out.println("the id of the karate10 :"+karate10.karateStyle);
-		System.out.println("the id of the karate10 :"+karate10.isOlampicSport);
+		
+		karate10.getKararteInfo();
+		
+		// System.out.println("the id of the karate10 :"+karate10.karateId);
+		// System.out.println("the id of the karate10 :"+karate10.levelOfBelt);
+		// System.out.println("the id of the karate10 :"+karate10.noOfMoves);
+		// System.out.println("the id of the karate10 :"+karate10.karateStyle);
+		// System.out.println("the id of the karate10 :"+karate10.isOlampicSport);
 		System.out.println();
 		
 		Karate karate11 = new Karate();
@@ -151,11 +180,13 @@ class KarateRunner{
 		karate11.karateStyle = "Shindo Jinen Ryu";
 		karate11.isOlampicSport = true;
 		
-		System.out.println("the id of the karate11 :"+karate11.karateId);
-		System.out.println("the id of the karate11 :"+karate11.levelOfBelt);
-		System.out.println("the id of the karate11 :"+karate11.noOfMoves);
-		System.out.println("the id of the karate11 :"+karate11.karateStyle);
-		System.out.println("the id of the karate11 :"+karate11.isOlampicSport);
+		karate11.getKararteInfo();
+		
+		// System.out.println("the id of the karate11 :"+karate11.karateId);
+		// System.out.println("the id of the karate11 :"+karate11.levelOfBelt);
+		// System.out.println("the id of the karate11 :"+karate11.noOfMoves);
+		// System.out.println("the id of the karate11 :"+karate11.karateStyle);
+		// System.out.println("the id of the karate11 :"+karate11.isOlampicSport);
 		System.out.println();
 		
 		Karate karate12 = new Karate();
@@ -165,11 +196,14 @@ class KarateRunner{
 		karate12.karateStyle = "Seido";
 		karate12.isOlampicSport = true;
 		
-		System.out.println("the id of the karate12 :"+karate12.karateId);
-		System.out.println("the id of the karate12 :"+karate12.levelOfBelt);
-		System.out.println("the id of the karate12 :"+karate12.noOfMoves);
-		System.out.println("the id of the karate12 :"+karate12.karateStyle);
-		System.out.println("the id of the karate12 :"+karate12.isOlampicSport);
+		
+		karate12.getKararteInfo();
+		
+		// System.out.println("the id of the karate12 :"+karate12.karateId);
+		// System.out.println("the id of the karate12 :"+karate12.levelOfBelt);
+		// System.out.println("the id of the karate12 :"+karate12.noOfMoves);
+		// System.out.println("the id of the karate12 :"+karate12.karateStyle);
+		// System.out.println("the id of the karate12 :"+karate12.isOlampicSport);
 		System.out.println();
 		
 		Karate karate13 = new Karate();
@@ -179,11 +213,14 @@ class KarateRunner{
 		karate13.karateStyle = "Ashihara";
 		karate13.isOlampicSport = true;
 		
-		System.out.println("the id of the karate13 :"+karate13.karateId);
-		System.out.println("the id of the karate13 :"+karate13.levelOfBelt);
-		System.out.println("the id of the karate13 :"+karate13.noOfMoves);
-		System.out.println("the id of the karate13 :"+karate13.karateStyle);
-		System.out.println("the id of the karate13 :"+karate13.isOlampicSport);
+		
+		karate13.getKararteInfo();
+		
+		// System.out.println("the id of the karate13 :"+karate13.karateId);
+		// System.out.println("the id of the karate13 :"+karate13.levelOfBelt);
+		// System.out.println("the id of the karate13 :"+karate13.noOfMoves);
+		// System.out.println("the id of the karate13 :"+karate13.karateStyle);
+		// System.out.println("the id of the karate13 :"+karate13.isOlampicSport);
 		System.out.println();
 		
 		Karate karate14 = new Karate();
@@ -193,11 +230,14 @@ class KarateRunner{
 		karate14.karateStyle = "Chito Ryu";
 		karate14.isOlampicSport = true;
 		
-		System.out.println("the id of the karate14 :"+karate14.karateId);
-		System.out.println("the id of the karate14 :"+karate14.levelOfBelt);
-		System.out.println("the id of the karate14 :"+karate14.noOfMoves);
-		System.out.println("the id of the karate14 :"+karate14.karateStyle);
-		System.out.println("the id of the karate14 :"+karate14.isOlampicSport);
+		
+		karate14.getKararteInfo();
+		
+		// System.out.println("the id of the karate14 :"+karate14.karateId);
+		// System.out.println("the id of the karate14 :"+karate14.levelOfBelt);
+		// System.out.println("the id of the karate14 :"+karate14.noOfMoves);
+		// System.out.println("the id of the karate14 :"+karate14.karateStyle);
+		// System.out.println("the id of the karate14 :"+karate14.isOlampicSport);
 		System.out.println();
 		
 		Karate karate15 = new Karate();
@@ -207,11 +247,14 @@ class KarateRunner{
 		karate15.karateStyle = "Ryuei Ryu";
 		karate15.isOlampicSport = true;
 		
-		System.out.println("the id of the karate15 :"+karate15.karateId);
-		System.out.println("the id of the karate15 :"+karate15.levelOfBelt);
-		System.out.println("the id of the karate15 :"+karate15.noOfMoves);
-		System.out.println("the id of the karate15 :"+karate15.karateStyle);
-		System.out.println("the id of the karate15 :"+karate15.isOlampicSport);
+		
+		karate15.getKararteInfo();
+		
+		// System.out.println("the id of the karate15 :"+karate15.karateId);
+		// System.out.println("the id of the karate15 :"+karate15.levelOfBelt);
+		// System.out.println("the id of the karate15 :"+karate15.noOfMoves);
+		// System.out.println("the id of the karate15 :"+karate15.karateStyle);
+		// System.out.println("the id of the karate15 :"+karate15.isOlampicSport);
 		System.out.println();
 		
 		Karate karate16 = new Karate();
@@ -221,11 +264,14 @@ class KarateRunner{
 		karate16.karateStyle = "Shukokai";
 		karate16.isOlampicSport = true;
 		
-		System.out.println("the id of the karate16 :"+karate16.karateId);
-		System.out.println("the id of the karate16 :"+karate16.levelOfBelt);
-		System.out.println("the id of the karate16 :"+karate16.noOfMoves);
-		System.out.println("the id of the karate16 :"+karate16.karateStyle);
-		System.out.println("the id of the karate16 :"+karate16.isOlampicSport);
+		
+		karate16.getKararteInfo();
+		
+		// System.out.println("the id of the karate16 :"+karate16.karateId);
+		// System.out.println("the id of the karate16 :"+karate16.levelOfBelt);
+		// System.out.println("the id of the karate16 :"+karate16.noOfMoves);
+		// System.out.println("the id of the karate16 :"+karate16.karateStyle);
+		// System.out.println("the id of the karate16 :"+karate16.isOlampicSport);
 		System.out.println();
 		
 		Karate karate17 = new Karate();
@@ -235,11 +281,14 @@ class KarateRunner{
 		karate17.karateStyle = "Matsubayashi Ryu";
 		karate17.isOlampicSport = true;
 		
-		System.out.println("the id of the karate17 :"+karate17.karateId);
-		System.out.println("the id of the karate17 :"+karate17.levelOfBelt);
-		System.out.println("the id of the karate17 :"+karate17.noOfMoves);
-		System.out.println("the id of the karate17 :"+karate17.karateStyle);
-		System.out.println("the id of the karate17 :"+karate17.isOlampicSport);
+		
+		karate17.getKararteInfo();
+		
+		// System.out.println("the id of the karate17 :"+karate17.karateId);
+		// System.out.println("the id of the karate17 :"+karate17.levelOfBelt);
+		// System.out.println("the id of the karate17 :"+karate17.noOfMoves);
+		// System.out.println("the id of the karate17 :"+karate17.karateStyle);
+		// System.out.println("the id of the karate17 :"+karate17.isOlampicSport);
 		System.out.println();
 		
 		Karate karate18 = new Karate();
@@ -249,11 +298,14 @@ class KarateRunner{
 		karate18.karateStyle = "Gensei Ryu";
 		karate18.isOlampicSport = true;
 		
-		System.out.println("the id of the karate18 :"+karate18.karateId);
-		System.out.println("the id of the karate18 :"+karate18.levelOfBelt);
-		System.out.println("the id of the karate18 :"+karate18.noOfMoves);
-		System.out.println("the id of the karate18 :"+karate18.karateStyle);
-		System.out.println("the id of the karate18 :"+karate18.isOlampicSport);
+		
+		karate18.getKararteInfo();
+		
+		// System.out.println("the id of the karate18 :"+karate18.karateId);
+		// System.out.println("the id of the karate18 :"+karate18.levelOfBelt);
+		// System.out.println("the id of the karate18 :"+karate18.noOfMoves);
+		// System.out.println("the id of the karate18 :"+karate18.karateStyle);
+		// System.out.println("the id of the karate18 :"+karate18.isOlampicSport);
 		System.out.println();
 		
 		Karate karate19 = new Karate();
@@ -263,11 +315,14 @@ class KarateRunner{
 		karate19.karateStyle = "Shorei Ryu";
 		karate19.isOlampicSport = true;
 		
-		System.out.println("the id of the karate19 :"+karate19.karateId);
-		System.out.println("the id of the karate19 :"+karate19.levelOfBelt);
-		System.out.println("the id of the karate19 :"+karate19.noOfMoves);
-		System.out.println("the id of the karate19 :"+karate19.karateStyle);
-		System.out.println("the id of the karate19 :"+karate19.isOlampicSport);
+		
+		karate19.getKararteInfo();
+		
+		// System.out.println("the id of the karate19 :"+karate19.karateId);
+		// System.out.println("the id of the karate19 :"+karate19.levelOfBelt);
+		// System.out.println("the id of the karate19 :"+karate19.noOfMoves);
+		// System.out.println("the id of the karate19 :"+karate19.karateStyle);
+		// System.out.println("the id of the karate19 :"+karate19.isOlampicSport);
 		System.out.println();
 		
 		Karate karate20 = new Karate();
@@ -277,11 +332,14 @@ class KarateRunner{
 		karate20.karateStyle = "Shito-Kai";
 		karate20.isOlampicSport = true;
 		
-		System.out.println("the id of the karate20 :"+karate20.karateId);
-		System.out.println("the id of the karate20 :"+karate20.levelOfBelt);
-		System.out.println("the id of the karate20 :"+karate20.noOfMoves);
-		System.out.println("the id of the karate20 :"+karate20.karateStyle);
-		System.out.println("the id of the karate20 :"+karate20.isOlampicSport);
+		
+		karate20.getKararteInfo();
+		
+		// System.out.println("the id of the karate20 :"+karate20.karateId);
+		// System.out.println("the id of the karate20 :"+karate20.levelOfBelt);
+		// System.out.println("the id of the karate20 :"+karate20.noOfMoves);
+		// System.out.println("the id of the karate20 :"+karate20.karateStyle);
+		// System.out.println("the id of the karate20 :"+karate20.isOlampicSport);
 		System.out.println();
 	}
 }

@@ -9,11 +9,13 @@ class RotiRunner{
 	roti1.rotiPrice=25;
 	roti1.isbuttered=true;
 	
-	System.out.println("the id of the roti1 "+roti1.rotiId);
-	System.out.println("the Shape of the roti1 :"+roti1.rotiShape);
-	System.out.println("the type of the roti1 "+roti1.rotiType);
-	System.out.println("the price of the roti1  "+roti1.rotiPrice);
-	System.out.println("isbuttered "+roti1.isbuttered);
+	roti1.getRotiInfo();
+	
+	// System.out.println("the id of the roti1 "+roti1.rotiId);
+	// System.out.println("the Shape of the roti1 :"+roti1.rotiShape);
+	// System.out.println("the type of the roti1 "+roti1.rotiType);
+	// System.out.println("the price of the roti1  "+roti1.rotiPrice);
+	// System.out.println("isbuttered "+roti1.isbuttered);
 	
 	System.out.println();
 
@@ -24,11 +26,14 @@ class RotiRunner{
 	roti2.rotiPrice = 30;
 	roti2.isbuttered = false;
 	
-	System.out.println("the id of the roti2 " + roti2.rotiId);
-	System.out.println("the Shape of the roti2 :" + roti2.rotiShape);
-	System.out.println("the type of the roti2 " + roti2.rotiType);
-	System.out.println("the price of the roti2  " + roti2.rotiPrice);
-	System.out.println("isbuttered " + roti2.isbuttered);
+	
+	roti2.getRotiInfo();
+	
+	// System.out.println("the id of the roti2 " + roti2.rotiId);
+	// System.out.println("the Shape of the roti2 :" + roti2.rotiShape);
+	// System.out.println("the type of the roti2 " + roti2.rotiType);
+	// System.out.println("the price of the roti2  " + roti2.rotiPrice);
+	// System.out.println("isbuttered " + roti2.isbuttered);
 	System.out.println();
 	
 	Roti roti3 = new Roti();
@@ -38,11 +43,14 @@ class RotiRunner{
 	roti3.rotiPrice = 35;
 	roti3.isbuttered = true;
 	
-	System.out.println("the id of the roti3 " + roti3.rotiId);
-	System.out.println("the Shape of the roti3 :" + roti3.rotiShape);
-	System.out.println("the type of the roti3 " + roti3.rotiType);
-	System.out.println("the price of the roti3  " + roti3.rotiPrice);
-	System.out.println("isbuttered " + roti3.isbuttered);
+	
+	roti3.getRotiInfo();
+	
+	// System.out.println("the id of the roti3 " + roti3.rotiId);
+	// System.out.println("the Shape of the roti3 :" + roti3.rotiShape);
+	// System.out.println("the type of the roti3 " + roti3.rotiType);
+	// System.out.println("the price of the roti3  " + roti3.rotiPrice);
+	// System.out.println("isbuttered " + roti3.isbuttered);
 	System.out.println();
 	
 	Roti roti4 = new Roti();
@@ -52,11 +60,14 @@ class RotiRunner{
 	roti4.rotiPrice = 40;
 	roti4.isbuttered = true;
 	
-	System.out.println("the id of the roti4 " + roti4.rotiId);
-	System.out.println("the Shape of the roti4 :" + roti4.rotiShape);
-	System.out.println("the type of the roti4 " + roti4.rotiType);
-	System.out.println("the price of the roti4  " + roti4.rotiPrice);
-	System.out.println("isbuttered " + roti4.isbuttered);
+	roti4.getRotiInfo();
+	
+	
+	// System.out.println("the id of the roti4 " + roti4.rotiId);
+	// System.out.println("the Shape of the roti4 :" + roti4.rotiShape);
+	// System.out.println("the type of the roti4 " + roti4.rotiType);
+	// System.out.println("the price of the roti4  " + roti4.rotiPrice);
+	// System.out.println("isbuttered " + roti4.isbuttered);
 	System.out.println();
 	
 	Roti roti5 = new Roti();
@@ -66,11 +77,14 @@ class RotiRunner{
 	roti5.rotiPrice = 28;
 	roti5.isbuttered = false;
 	
-	System.out.println("the id of the roti5 " + roti5.rotiId);
-	System.out.println("the Shape of the roti5 :" + roti5.rotiShape);
-	System.out.println("the type of the roti5 " + roti5.rotiType);
-	System.out.println("the price of the roti5  " + roti5.rotiPrice);
-	System.out.println("isbuttered " + roti5.isbuttered);
+	
+	roti5.getRotiInfo();
+	
+	// System.out.println("the id of the roti5 " + roti5.rotiId);
+	// System.out.println("the Shape of the roti5 :" + roti5.rotiShape);
+	// System.out.println("the type of the roti5 " + roti5.rotiType);
+	// System.out.println("the price of the roti5  " + roti5.rotiPrice);
+	// System.out.println("isbuttered " + roti5.isbuttered);
 	System.out.println();
 	
 	Roti roti6 = new Roti();
@@ -80,11 +94,14 @@ class RotiRunner{
 	roti6.rotiPrice = 50;
 	roti6.isbuttered = true;
 	
-	System.out.println("the id of the roti6 " + roti6.rotiId);
-	System.out.println("the Shape of the roti6 :" + roti6.rotiShape);
-	System.out.println("the type of the roti6 " + roti6.rotiType);
-	System.out.println("the price of the roti6  " + roti6.rotiPrice);
-	System.out.println("isbuttered " + roti6.isbuttered);
+	
+	roti6.getRotiInfo();
+	
+	// System.out.println("the id of the roti6 " + roti6.rotiId);
+	// System.out.println("the Shape of the roti6 :" + roti6.rotiShape);
+	// System.out.println("the type of the roti6 " + roti6.rotiType);
+	// System.out.println("the price of the roti6  " + roti6.rotiPrice);
+	// System.out.println("isbuttered " + roti6.isbuttered);
 	System.out.println();
 	
 	Roti roti7 = new Roti();
@@ -94,11 +111,14 @@ class RotiRunner{
 	roti7.rotiPrice = 45;
 	roti7.isbuttered = true;
 	
-	System.out.println("the id of the roti7 " + roti7.rotiId);
-	System.out.println("the Shape of the roti7 :" + roti7.rotiShape);
-	System.out.println("the type of the roti7 " + roti7.rotiType);
-	System.out.println("the price of the roti7  " + roti7.rotiPrice);
-	System.out.println("isbuttered " + roti7.isbuttered);
+	
+	roti7.getRotiInfo();
+	
+	// System.out.println("the id of the roti7 " + roti7.rotiId);
+	// System.out.println("the Shape of the roti7 :" + roti7.rotiShape);
+	// System.out.println("the type of the roti7 " + roti7.rotiType);
+	// System.out.println("the price of the roti7  " + roti7.rotiPrice);
+	// System.out.println("isbuttered " + roti7.isbuttered);
 	System.out.println();
 	
 	Roti roti8 = new Roti();
@@ -108,11 +128,14 @@ class RotiRunner{
 	roti8.rotiPrice = 20;
 	roti8.isbuttered = false;
 	
-	System.out.println("the id of the roti8 " + roti8.rotiId);
-	System.out.println("the Shape of the roti8 :" + roti8.rotiShape);
-	System.out.println("the type of the roti8 " + roti8.rotiType);
-	System.out.println("the price of the roti8  " + roti8.rotiPrice);
-	System.out.println("isbuttered " + roti8.isbuttered);
+	
+	roti8.getRotiInfo();
+	
+	// System.out.println("the id of the roti8 " + roti8.rotiId);
+	// System.out.println("the Shape of the roti8 :" + roti8.rotiShape);
+	// System.out.println("the type of the roti8 " + roti8.rotiType);
+	// System.out.println("the price of the roti8  " + roti8.rotiPrice);
+	// System.out.println("isbuttered " + roti8.isbuttered);
 	System.out.println();
 	
 	Roti roti9 = new Roti();
@@ -122,11 +145,14 @@ class RotiRunner{
 	roti9.rotiPrice = 55;
 	roti9.isbuttered = true;
 	
-	System.out.println("the id of the roti9 " + roti9.rotiId);
-	System.out.println("the Shape of the roti9 :" + roti9.rotiShape);
-	System.out.println("the type of the roti9 " + roti9.rotiType);
-	System.out.println("the price of the roti9  " + roti9.rotiPrice);
-	System.out.println("isbuttered " + roti9.isbuttered);
+	
+	roti9.getRotiInfo();
+	
+	// System.out.println("the id of the roti9 " + roti9.rotiId);
+	// System.out.println("the Shape of the roti9 :" + roti9.rotiShape);
+	// System.out.println("the type of the roti9 " + roti9.rotiType);
+	// System.out.println("the price of the roti9  " + roti9.rotiPrice);
+	// System.out.println("isbuttered " + roti9.isbuttered);
 	System.out.println();
 	
 	Roti roti10 = new Roti();
@@ -136,11 +162,14 @@ class RotiRunner{
 	roti10.rotiPrice = 15;
 	roti10.isbuttered = false;
 	
-	System.out.println("the id of the roti10 " + roti10.rotiId);
-	System.out.println("the Shape of the roti10 :" + roti10.rotiShape);
-	System.out.println("the type of the roti10 " + roti10.rotiType);
-	System.out.println("the price of the roti10  " + roti10.rotiPrice);
-	System.out.println("isbuttered " + roti10.isbuttered);
+	
+	roti10.getRotiInfo();
+	
+	// System.out.println("the id of the roti10 " + roti10.rotiId);
+	// System.out.println("the Shape of the roti10 :" + roti10.rotiShape);
+	// System.out.println("the type of the roti10 " + roti10.rotiType);
+	// System.out.println("the price of the roti10  " + roti10.rotiPrice);
+	// System.out.println("isbuttered " + roti10.isbuttered);
 	System.out.println();
 	
 	Roti roti11 = new Roti();
@@ -150,11 +179,14 @@ class RotiRunner{
 	roti11.rotiPrice = 60;
 	roti11.isbuttered = true;
 	
-	System.out.println("the id of the roti11 " + roti11.rotiId);
-	System.out.println("the Shape of the roti11 :" + roti11.rotiShape);
-	System.out.println("the type of the roti11 " + roti11.rotiType);
-	System.out.println("the price of the roti11  " + roti11.rotiPrice);
-	System.out.println("isbuttered " + roti11.isbuttered);
+	
+	roti11.getRotiInfo();
+	
+	// System.out.println("the id of the roti11 " + roti11.rotiId);
+	// System.out.println("the Shape of the roti11 :" + roti11.rotiShape);
+	// System.out.println("the type of the roti11 " + roti11.rotiType);
+	// System.out.println("the price of the roti11  " + roti11.rotiPrice);
+	// System.out.println("isbuttered " + roti11.isbuttered);
 	System.out.println();
 	
 	Roti roti12 = new Roti();
@@ -164,11 +196,14 @@ class RotiRunner{
 	roti12.rotiPrice = 25;
 	roti12.isbuttered = false;
 	
-	System.out.println("the id of the roti12 " + roti12.rotiId);
-	System.out.println("the Shape of the roti12 :" + roti12.rotiShape);
-	System.out.println("the type of the roti12 " + roti12.rotiType);
-	System.out.println("the price of the roti12  " + roti12.rotiPrice);
-	System.out.println("isbuttered " + roti12.isbuttered);
+	
+	roti12.getRotiInfo();
+	
+	// System.out.println("the id of the roti12 " + roti12.rotiId);
+	// System.out.println("the Shape of the roti12 :" + roti12.rotiShape);
+	// System.out.println("the type of the roti12 " + roti12.rotiType);
+	// System.out.println("the price of the roti12  " + roti12.rotiPrice);
+	// System.out.println("isbuttered " + roti12.isbuttered);
 	System.out.println();
 	
 	Roti roti13 = new Roti();
@@ -178,11 +213,14 @@ class RotiRunner{
 	roti13.rotiPrice = 22;
 	roti13.isbuttered = true;
 	
-	System.out.println("the id of the roti13 " + roti13.rotiId);
-	System.out.println("the Shape of the roti13 :" + roti13.rotiShape);
-	System.out.println("the type of the roti13 " + roti13.rotiType);
-	System.out.println("the price of the roti13  " + roti13.rotiPrice);
-	System.out.println("isbuttered " + roti13.isbuttered);
+	
+	roti13.getRotiInfo();
+	
+	// System.out.println("the id of the roti13 " + roti13.rotiId);
+	// System.out.println("the Shape of the roti13 :" + roti13.rotiShape);
+	// System.out.println("the type of the roti13 " + roti13.rotiType);
+	// System.out.println("the price of the roti13  " + roti13.rotiPrice);
+	// System.out.println("isbuttered " + roti13.isbuttered);
 	System.out.println();
 	
 	Roti roti14 = new Roti();
@@ -192,11 +230,14 @@ class RotiRunner{
 	roti14.rotiPrice = 65;
 	roti14.isbuttered = true;
 	
-	System.out.println("the id of the roti14 " + roti14.rotiId);
-	System.out.println("the Shape of the roti14 :" + roti14.rotiShape);
-	System.out.println("the type of the roti14 " + roti14.rotiType);
-	System.out.println("the price of the roti14  " + roti14.rotiPrice);
-	System.out.println("isbuttered " + roti14.isbuttered);
+	
+	roti14.getRotiInfo();
+	
+	// System.out.println("the id of the roti14 " + roti14.rotiId);
+	// System.out.println("the Shape of the roti14 :" + roti14.rotiShape);
+	// System.out.println("the type of the roti14 " + roti14.rotiType);
+	// System.out.println("the price of the roti14  " + roti14.rotiPrice);
+	// System.out.println("isbuttered " + roti14.isbuttered);
 	System.out.println();
 	
 	Roti roti15 = new Roti();
@@ -206,11 +247,14 @@ class RotiRunner{
 	roti15.rotiPrice = 38;
 	roti15.isbuttered = true;
 	
-	System.out.println("the id of the roti15 " + roti15.rotiId);
-	System.out.println("the Shape of the roti15 :" + roti15.rotiShape);
-	System.out.println("the type of the roti15 " + roti15.rotiType);
-	System.out.println("the price of the roti15  " + roti15.rotiPrice);
-	System.out.println("isbuttered " + roti15.isbuttered);
+	
+	roti15.getRotiInfo();
+	
+	// System.out.println("the id of the roti15 " + roti15.rotiId);
+	// System.out.println("the Shape of the roti15 :" + roti15.rotiShape);
+	// System.out.println("the type of the roti15 " + roti15.rotiType);
+	// System.out.println("the price of the roti15  " + roti15.rotiPrice);
+	// System.out.println("isbuttered " + roti15.isbuttered);
 	System.out.println();
 	
 	Roti roti16 = new Roti();
@@ -220,11 +264,14 @@ class RotiRunner{
 	roti16.rotiPrice = 55;
 	roti16.isbuttered = false;
 	
-	System.out.println("the id of the roti16 " + roti16.rotiId);
-	System.out.println("the Shape of the roti16 :" + roti16.rotiShape);
-	System.out.println("the type of the roti16 " + roti16.rotiType);
-	System.out.println("the price of the roti16  " + roti16.rotiPrice);
-	System.out.println("isbuttered " + roti16.isbuttered);
+	
+	roti16.getRotiInfo();
+	
+	// System.out.println("the id of the roti16 " + roti16.rotiId);
+	// System.out.println("the Shape of the roti16 :" + roti16.rotiShape);
+	// System.out.println("the type of the roti16 " + roti16.rotiType);
+	// System.out.println("the price of the roti16  " + roti16.rotiPrice);
+	// System.out.println("isbuttered " + roti16.isbuttered);
 	System.out.println();
 	
 	Roti roti17 = new Roti();
@@ -234,11 +281,14 @@ class RotiRunner{
 	roti17.rotiPrice = 42;
 	roti17.isbuttered = true;
 	
-	System.out.println("the id of the roti17 " + roti17.rotiId);
-	System.out.println("the Shape of the roti17 :" + roti17.rotiShape);
-	System.out.println("the type of the roti17 " + roti17.rotiType);
-	System.out.println("the price of the roti17  " + roti17.rotiPrice);
-	System.out.println("isbuttered " + roti17.isbuttered);
+	
+	roti17.getRotiInfo();
+	
+	// System.out.println("the id of the roti17 " + roti17.rotiId);
+	// System.out.println("the Shape of the roti17 :" + roti17.rotiShape);
+	// System.out.println("the type of the roti17 " + roti17.rotiType);
+	// System.out.println("the price of the roti17  " + roti17.rotiPrice);
+	// System.out.println("isbuttered " + roti17.isbuttered);
 	System.out.println();
 	
 	Roti roti18 = new Roti();
@@ -248,11 +298,14 @@ class RotiRunner{
 	roti18.rotiPrice = 30;
 	roti18.isbuttered = false;
 	
-	System.out.println("the id of the roti18 " + roti18.rotiId);
-	System.out.println("the Shape of the roti18 :" + roti18.rotiShape);
-	System.out.println("the type of the roti18 " + roti18.rotiType);
-	System.out.println("the price of the roti18  " + roti18.rotiPrice);
-	System.out.println("isbuttered " + roti18.isbuttered);
+	
+	roti18.getRotiInfo();
+	
+	// System.out.println("the id of the roti18 " + roti18.rotiId);
+	// System.out.println("the Shape of the roti18 :" + roti18.rotiShape);
+	// System.out.println("the type of the roti18 " + roti18.rotiType);
+	// System.out.println("the price of the roti18  " + roti18.rotiPrice);
+	// System.out.println("isbuttered " + roti18.isbuttered);
 	System.out.println();
 	
 	Roti roti19 = new Roti();
@@ -262,11 +315,14 @@ class RotiRunner{
 	roti19.rotiPrice = 58;
 	roti19.isbuttered = true;
 	
-	System.out.println("the id of the roti19 " + roti19.rotiId);
-	System.out.println("the Shape of the roti19 :" + roti19.rotiShape);
-	System.out.println("the type of the roti19 " + roti19.rotiType);
-	System.out.println("the price of the roti19  " + roti19.rotiPrice);
-	System.out.println("isbuttered " + roti19.isbuttered);
+	roti19.getRotiInfo();
+	
+	
+	// System.out.println("the id of the roti19 " + roti19.rotiId);
+	// System.out.println("the Shape of the roti19 :" + roti19.rotiShape);
+	// System.out.println("the type of the roti19 " + roti19.rotiType);
+	// System.out.println("the price of the roti19  " + roti19.rotiPrice);
+	// System.out.println("isbuttered " + roti19.isbuttered);
 	System.out.println();
 	
 	Roti roti20 = new Roti();
@@ -276,12 +332,15 @@ class RotiRunner{
 	roti20.rotiPrice = 18;
 	roti20.isbuttered = false;
 	
-	System.out.println("the id of the roti20 " + roti20.rotiId);
-	System.out.println("the Shape of the roti20 :" + roti20.rotiShape);
-	System.out.println("the type of the roti20 " + roti20.rotiType);
-	System.out.println("the price of the roti20  " + roti20.rotiPrice);
-	System.out.println("isbuttered " + roti20.isbuttered);
-	System.out.println();
+	roti20.getRotiInfo();
+	
+	
+	// System.out.println("the id of the roti20 " + roti20.rotiId);
+	// System.out.println("the Shape of the roti20 :" + roti20.rotiShape);
+	// System.out.println("the type of the roti20 " + roti20.rotiType);
+	// System.out.println("the price of the roti20  " + roti20.rotiPrice);
+	// System.out.println("isbuttered " + roti20.isbuttered);
+	// System.out.println();
 		
 	
 	

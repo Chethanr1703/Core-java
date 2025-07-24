@@ -9,11 +9,13 @@ class CasinoRunner{
 	casino1.openingTime="9:00";
 	casino1.isBarAvailable=true;
 	
-	System.out.println("the id of the casino1 "+casino1.casinoId);
-	System.out.println("the noOfGames of the casino1 "+casino1.noOfGames);
-	System.out.println("the entryFee of the casino1 "+casino1.entryFee);
-	System.out.println("the openingTime of the casino1 "+casino1.openingTime);
-	System.out.println("the isBarAvailable of the casino1 "+casino1.isBarAvailable);
+	
+	casino1.getCasino();
+	// System.out.println("the id of the casino1 "+casino1.casinoId);
+	// System.out.println("the noOfGames of the casino1 "+casino1.noOfGames);
+	// System.out.println("the entryFee of the casino1 "+casino1.entryFee);
+	// System.out.println("the openingTime of the casino1 "+casino1.openingTime);
+	// System.out.println("the isBarAvailable of the casino1 "+casino1.isBarAvailable);
 	
 	System.out.println();
 
@@ -24,11 +26,14 @@ class CasinoRunner{
 	casino2.openingTime = "10:00";
 	casino2.isBarAvailable = true;
 	
-	System.out.println("the id of the casino2 "+casino2.casinoId);
-	System.out.println("the noOfGames of the casino2 "+casino2.noOfGames);
-	System.out.println("the entryFee of the casino2 "+casino2.entryFee);
-	System.out.println("the openingTime of the casino2 "+casino2.openingTime);
-	System.out.println("the isBarAvailable of the casino2 "+casino2.isBarAvailable);
+	casino2.getCasino();
+	
+	
+	// System.out.println("the id of the casino2 "+casino2.casinoId);
+	// System.out.println("the noOfGames of the casino2 "+casino2.noOfGames);
+	// System.out.println("the entryFee of the casino2 "+casino2.entryFee);
+	// System.out.println("the openingTime of the casino2 "+casino2.openingTime);
+	// System.out.println("the isBarAvailable of the casino2 "+casino2.isBarAvailable);
 	System.out.println();
 	
 	Casino casino3 = new Casino();
@@ -38,11 +43,14 @@ class CasinoRunner{
 	casino3.openingTime = "8:30";
 	casino3.isBarAvailable = false;
 	
-	System.out.println("the id of the casino3 "+casino3.casinoId);
-	System.out.println("the noOfGames of the casino3 "+casino3.noOfGames);
-	System.out.println("the entryFee of the casino3 "+casino3.entryFee);
-	System.out.println("the openingTime of the casino3 "+casino3.openingTime);
-	System.out.println("the isBarAvailable of the casino3 "+casino3.isBarAvailable);
+	casino3.getCasino();
+	
+	
+	// System.out.println("the id of the casino3 "+casino3.casinoId);
+	// System.out.println("the noOfGames of the casino3 "+casino3.noOfGames);
+	// System.out.println("the entryFee of the casino3 "+casino3.entryFee);
+	// System.out.println("the openingTime of the casino3 "+casino3.openingTime);
+	// System.out.println("the isBarAvailable of the casino3 "+casino3.isBarAvailable);
 	System.out.println();
 	
 	Casino casino4 = new Casino();
@@ -52,11 +60,13 @@ class CasinoRunner{
 	casino4.openingTime = "11:00";
 	casino4.isBarAvailable = true;
 	
-	System.out.println("the id of the casino4 "+casino4.casinoId);
-	System.out.println("the noOfGames of the casino4 "+casino4.noOfGames);
-	System.out.println("the entryFee of the casino4 "+casino4.entryFee);
-	System.out.println("the openingTime of the casino4 "+casino4.openingTime);
-	System.out.println("the isBarAvailable of the casino4 "+casino4.isBarAvailable);
+	casino4.getCasino();
+	
+	// System.out.println("the id of the casino4 "+casino4.casinoId);
+	// System.out.println("the noOfGames of the casino4 "+casino4.noOfGames);
+	// System.out.println("the entryFee of the casino4 "+casino4.entryFee);
+	// System.out.println("the openingTime of the casino4 "+casino4.openingTime);
+	// System.out.println("the isBarAvailable of the casino4 "+casino4.isBarAvailable);
 	System.out.println();
 	
 	Casino casino5 = new Casino();
@@ -66,11 +76,14 @@ class CasinoRunner{
 	casino5.openingTime = "9:30";
 	casino5.isBarAvailable = true;
 	
-	System.out.println("the id of the casino5 "+casino5.casinoId);
-	System.out.println("the noOfGames of the casino5 "+casino5.noOfGames);
-	System.out.println("the entryFee of the casino5 "+casino5.entryFee);
-	System.out.println("the openingTime of the casino5 "+casino5.openingTime);
-	System.out.println("the isBarAvailable of the casino5 "+casino5.isBarAvailable);
+	
+	casino5.getCasino();
+	
+	// System.out.println("the id of the casino5 "+casino5.casinoId);
+	// System.out.println("the noOfGames of the casino5 "+casino5.noOfGames);
+	// System.out.println("the entryFee of the casino5 "+casino5.entryFee);
+	// System.out.println("the openingTime of the casino5 "+casino5.openingTime);
+	// System.out.println("the isBarAvailable of the casino5 "+casino5.isBarAvailable);
 	System.out.println();
 	
 	Casino casino6 = new Casino();
@@ -80,11 +93,14 @@ class CasinoRunner{
 	casino6.openingTime = "7:00";
 	casino6.isBarAvailable = false;
 	
-	System.out.println("the id of the casino6 "+casino6.casinoId);
-	System.out.println("the noOfGames of the casino6 "+casino6.noOfGames);
-	System.out.println("the entryFee of the casino6 "+casino6.entryFee);
-	System.out.println("the openingTime of the casino6 "+casino6.openingTime);
-	System.out.println("the isBarAvailable of the casino6 "+casino6.isBarAvailable);
+	
+	casino6.getCasino();
+	
+	// System.out.println("the id of the casino6 "+casino6.casinoId);
+	// System.out.println("the noOfGames of the casino6 "+casino6.noOfGames);
+	// System.out.println("the entryFee of the casino6 "+casino6.entryFee);
+	// System.out.println("the openingTime of the casino6 "+casino6.openingTime);
+	// System.out.println("the isBarAvailable of the casino6 "+casino6.isBarAvailable);
 	System.out.println();
 	
 	Casino casino7 = new Casino();
@@ -94,11 +110,14 @@ class CasinoRunner{
 	casino7.openingTime = "8:00";
 	casino7.isBarAvailable = true;
 	
-	System.out.println("the id of the casino7 "+casino7.casinoId);
-	System.out.println("the noOfGames of the casino7 "+casino7.noOfGames);
-	System.out.println("the entryFee of the casino7 "+casino7.entryFee);
-	System.out.println("the openingTime of the casino7 "+casino7.openingTime);
-	System.out.println("the isBarAvailable of the casino7 "+casino7.isBarAvailable);
+	
+	casino7.getCasino();
+
+	// System.out.println("the id of the casino7 "+casino7.casinoId);
+	// System.out.println("the noOfGames of the casino7 "+casino7.noOfGames);
+	// System.out.println("the entryFee of the casino7 "+casino7.entryFee);
+	// System.out.println("the openingTime of the casino7 "+casino7.openingTime);
+	// System.out.println("the isBarAvailable of the casino7 "+casino7.isBarAvailable);
 	System.out.println();
 	
 	Casino casino8 = new Casino();
@@ -108,11 +127,14 @@ class CasinoRunner{
 	casino8.openingTime = "6:00";
 	casino8.isBarAvailable = false;
 	
-	System.out.println("the id of the casino8 "+casino8.casinoId);
-	System.out.println("the noOfGames of the casino8 "+casino8.noOfGames);
-	System.out.println("the entryFee of the casino8 "+casino8.entryFee);
-	System.out.println("the openingTime of the casino8 "+casino8.openingTime);
-	System.out.println("the isBarAvailable of the casino8 "+casino8.isBarAvailable);
+	
+	casino8.getCasino();
+	
+	// System.out.println("the id of the casino8 "+casino8.casinoId);
+	// System.out.println("the noOfGames of the casino8 "+casino8.noOfGames);
+	// System.out.println("the entryFee of the casino8 "+casino8.entryFee);
+	// System.out.println("the openingTime of the casino8 "+casino8.openingTime);
+	// System.out.println("the isBarAvailable of the casino8 "+casino8.isBarAvailable);
 	System.out.println();
 	
 	Casino casino9 = new Casino();
@@ -122,11 +144,14 @@ class CasinoRunner{
 	casino9.openingTime = "10:30";
 	casino9.isBarAvailable = true;
 	
-	System.out.println("the id of the casino9 "+casino9.casinoId);
-	System.out.println("the noOfGames of the casino9 "+casino9.noOfGames);
-	System.out.println("the entryFee of the casino9 "+casino9.entryFee);
-	System.out.println("the openingTime of the casino9 "+casino9.openingTime);
-	System.out.println("the isBarAvailable of the casino9 "+casino9.isBarAvailable);
+	
+	casino9.getCasino();
+	
+	// System.out.println("the id of the casino9 "+casino9.casinoId);
+	// System.out.println("the noOfGames of the casino9 "+casino9.noOfGames);
+	// System.out.println("the entryFee of the casino9 "+casino9.entryFee);
+	// System.out.println("the openingTime of the casino9 "+casino9.openingTime);
+	// System.out.println("the isBarAvailable of the casino9 "+casino9.isBarAvailable);
 	System.out.println();
 	
 	Casino casino10 = new Casino();
@@ -136,11 +161,14 @@ class CasinoRunner{
 	casino10.openingTime = "9:15";
 	casino10.isBarAvailable = false;
 	
-	System.out.println("the id of the casino10 "+casino10.casinoId);
-	System.out.println("the noOfGames of the casino10 "+casino10.noOfGames);
-	System.out.println("the entryFee of the casino10 "+casino10.entryFee);
-	System.out.println("the openingTime of the casino10 "+casino10.openingTime);
-	System.out.println("the isBarAvailable of the casino10 "+casino10.isBarAvailable);
+	
+	casino10.getCasino();
+	
+	// System.out.println("the id of the casino10 "+casino10.casinoId);
+	// System.out.println("the noOfGames of the casino10 "+casino10.noOfGames);
+	// System.out.println("the entryFee of the casino10 "+casino10.entryFee);
+	// System.out.println("the openingTime of the casino10 "+casino10.openingTime);
+	// System.out.println("the isBarAvailable of the casino10 "+casino10.isBarAvailable);
 	System.out.println();
 	
 	Casino casino11 = new Casino();
@@ -150,11 +178,14 @@ class CasinoRunner{
 	casino11.openingTime = "5:00";
 	casino11.isBarAvailable = true;
 	
-	System.out.println("the id of the casino11 "+casino11.casinoId);
-	System.out.println("the noOfGames of the casino11 "+casino11.noOfGames);
-	System.out.println("the entryFee of the casino11 "+casino11.entryFee);
-	System.out.println("the openingTime of the casino11 "+casino11.openingTime);
-	System.out.println("the isBarAvailable of the casino11 "+casino11.isBarAvailable);
+	
+	casino11.getCasino();
+	
+	// System.out.println("the id of the casino11 "+casino11.casinoId);
+	// System.out.println("the noOfGames of the casino11 "+casino11.noOfGames);
+	// System.out.println("the entryFee of the casino11 "+casino11.entryFee);
+	// System.out.println("the openingTime of the casino11 "+casino11.openingTime);
+	// System.out.println("the isBarAvailable of the casino11 "+casino11.isBarAvailable);
 	System.out.println();
 	
 	Casino casino12 = new Casino();
@@ -164,11 +195,14 @@ class CasinoRunner{
 	casino12.openingTime = "11:30";
 	casino12.isBarAvailable = false;
 	
-	System.out.println("the id of the casino12 "+casino12.casinoId);
-	System.out.println("the noOfGames of the casino12 "+casino12.noOfGames);
-	System.out.println("the entryFee of the casino12 "+casino12.entryFee);
-	System.out.println("the openingTime of the casino12 "+casino12.openingTime);
-	System.out.println("the isBarAvailable of the casino12 "+casino12.isBarAvailable);
+	
+	casino12.getCasino();
+	
+	// System.out.println("the id of the casino12 "+casino12.casinoId);
+	// System.out.println("the noOfGames of the casino12 "+casino12.noOfGames);
+	// System.out.println("the entryFee of the casino12 "+casino12.entryFee);
+	// System.out.println("the openingTime of the casino12 "+casino12.openingTime);
+	// System.out.println("the isBarAvailable of the casino12 "+casino12.isBarAvailable);
 	System.out.println();
 	
 	Casino casino13 = new Casino();
@@ -178,11 +212,14 @@ class CasinoRunner{
 	casino13.openingTime = "7:30";
 	casino13.isBarAvailable = true;
 	
-	System.out.println("the id of the casino13 "+casino13.casinoId);
-	System.out.println("the noOfGames of the casino13 "+casino13.noOfGames);
-	System.out.println("the entryFee of the casino13 "+casino13.entryFee);
-	System.out.println("the openingTime of the casino13 "+casino13.openingTime);
-	System.out.println("the isBarAvailable of the casino13 "+casino13.isBarAvailable);
+	
+	casino13.getCasino();
+	
+	// System.out.println("the id of the casino13 "+casino13.casinoId);
+	// System.out.println("the noOfGames of the casino13 "+casino13.noOfGames);
+	// System.out.println("the entryFee of the casino13 "+casino13.entryFee);
+	// System.out.println("the openingTime of the casino13 "+casino13.openingTime);
+	// System.out.println("the isBarAvailable of the casino13 "+casino13.isBarAvailable);
 	System.out.println();
 	
 	Casino casino14 = new Casino();
@@ -192,11 +229,14 @@ class CasinoRunner{
 	casino14.openingTime = "6:30";
 	casino14.isBarAvailable = false;
 	
-	System.out.println("the id of the casino14 "+casino14.casinoId);
-	System.out.println("the noOfGames of the casino14 "+casino14.noOfGames);
-	System.out.println("the entryFee of the casino14 "+casino14.entryFee);
-	System.out.println("the openingTime of the casino14 "+casino14.openingTime);
-	System.out.println("the isBarAvailable of the casino14 "+casino14.isBarAvailable);
+	
+	casino14.getCasino();
+	
+	// System.out.println("the id of the casino14 "+casino14.casinoId);
+	// System.out.println("the noOfGames of the casino14 "+casino14.noOfGames);
+	// System.out.println("the entryFee of the casino14 "+casino14.entryFee);
+	// System.out.println("the openingTime of the casino14 "+casino14.openingTime);
+	// System.out.println("the isBarAvailable of the casino14 "+casino14.isBarAvailable);
 	System.out.println();
 	
 	Casino casino15 = new Casino();
@@ -205,12 +245,15 @@ class CasinoRunner{
 	casino15.entryFee = 130;
 	casino15.openingTime = "8:45";
 	casino15.isBarAvailable = true;
+
+
+	casino15.getCasino();
 	
-	System.out.println("the id of the casino15 "+casino15.casinoId);
-	System.out.println("the noOfGames of the casino15 "+casino15.noOfGames);
-	System.out.println("the entryFee of the casino15 "+casino15.entryFee);
-	System.out.println("the openingTime of the casino15 "+casino15.openingTime);
-	System.out.println("the isBarAvailable of the casino15 "+casino15.isBarAvailable);
+	// System.out.println("the id of the casino15 "+casino15.casinoId);
+	// System.out.println("the noOfGames of the casino15 "+casino15.noOfGames);
+	// System.out.println("the entryFee of the casino15 "+casino15.entryFee);
+	// System.out.println("the openingTime of the casino15 "+casino15.openingTime);
+	// System.out.println("the isBarAvailable of the casino15 "+casino15.isBarAvailable);
 	System.out.println();
 	
 	Casino casino16 = new Casino();
@@ -220,11 +263,14 @@ class CasinoRunner{
 	casino16.openingTime = "9:20";
 	casino16.isBarAvailable = false;
 	
-	System.out.println("the id of the casino16 "+casino16.casinoId);
-	System.out.println("the noOfGames of the casino16 "+casino16.noOfGames);
-	System.out.println("the entryFee of the casino16 "+casino16.entryFee);
-	System.out.println("the openingTime of the casino16 "+casino16.openingTime);
-	System.out.println("the isBarAvailable of the casino16 "+casino16.isBarAvailable);
+	
+	casino16.getCasino();
+	
+	// System.out.println("the id of the casino16 "+casino16.casinoId);
+	// System.out.println("the noOfGames of the casino16 "+casino16.noOfGames);
+	// System.out.println("the entryFee of the casino16 "+casino16.entryFee);
+	// System.out.println("the openingTime of the casino16 "+casino16.openingTime);
+	// System.out.println("the isBarAvailable of the casino16 "+casino16.isBarAvailable);
 	System.out.println();
 	
 	Casino casino17 = new Casino();
@@ -234,11 +280,14 @@ class CasinoRunner{
 	casino17.openingTime = "5:30";
 	casino17.isBarAvailable = true;
 	
-	System.out.println("the id of the casino17 "+casino17.casinoId);
-	System.out.println("the noOfGames of the casino17 "+casino17.noOfGames);
-	System.out.println("the entryFee of the casino17 "+casino17.entryFee);
-	System.out.println("the openingTime of the casino17 "+casino17.openingTime);
-	System.out.println("the isBarAvailable of the casino17 "+casino17.isBarAvailable);
+	
+	casino17.getCasino();
+	
+	// System.out.println("the id of the casino17 "+casino17.casinoId);
+	// System.out.println("the noOfGames of the casino17 "+casino17.noOfGames);
+	// System.out.println("the entryFee of the casino17 "+casino17.entryFee);
+	// System.out.println("the openingTime of the casino17 "+casino17.openingTime);
+	// System.out.println("the isBarAvailable of the casino17 "+casino17.isBarAvailable);
 	System.out.println();
 	
 	Casino casino18 = new Casino();
@@ -248,11 +297,13 @@ class CasinoRunner{
 	casino18.openingTime = "10:45";
 	casino18.isBarAvailable = false;
 	
-	System.out.println("the id of the casino18 "+casino18.casinoId);
-	System.out.println("the noOfGames of the casino18 "+casino18.noOfGames);
-	System.out.println("the entryFee of the casino18 "+casino18.entryFee);
-	System.out.println("the openingTime of the casino18 "+casino18.openingTime);
-	System.out.println("the isBarAvailable of the casino18 "+casino18.isBarAvailable);
+	casino18.getCasino();
+	
+	// System.out.println("the id of the casino18 "+casino18.casinoId);
+	// System.out.println("the noOfGames of the casino18 "+casino18.noOfGames);
+	// System.out.println("the entryFee of the casino18 "+casino18.entryFee);
+	// System.out.println("the openingTime of the casino18 "+casino18.openingTime);
+	// System.out.println("the isBarAvailable of the casino18 "+casino18.isBarAvailable);
 	System.out.println();
 	
 	Casino casino19 = new Casino();
@@ -262,11 +313,17 @@ class CasinoRunner{
 	casino19.openingTime = "7:15";
 	casino19.isBarAvailable = true;
 	
-	System.out.println("the id of the casino19 "+casino19.casinoId);
-	System.out.println("the noOfGames of the casino19 "+casino19.noOfGames);
-	System.out.println("the entryFee of the casino19 "+casino19.entryFee);
-	System.out.println("the openingTime of the casino19 "+casino19.openingTime);
-	System.out.println("the isBarAvailable of the casino19 "+casino19.isBarAvailable);
+	
+	casino19.getCasino();
+	
+	
+	casino19.getCasino();
+	
+	// System.out.println("the id of the casino19 "+casino19.casinoId);
+	// System.out.println("the noOfGames of the casino19 "+casino19.noOfGames);
+	// System.out.println("the entryFee of the casino19 "+casino19.entryFee);
+	// System.out.println("the openingTime of the casino19 "+casino19.openingTime);
+	// System.out.println("the isBarAvailable of the casino19 "+casino19.isBarAvailable);
 	System.out.println();
 	
 	Casino casino20 = new Casino();
@@ -276,11 +333,14 @@ class CasinoRunner{
 	casino20.openingTime = "6:15";
 	casino20.isBarAvailable = false;
 	
-	System.out.println("the id of the casino20 "+casino20.casinoId);
-	System.out.println("the noOfGames of the casino20 "+casino20.noOfGames);
-	System.out.println("the entryFee of the casino20 "+casino20.entryFee);
-	System.out.println("the openingTime of the casino20 "+casino20.openingTime);
-	System.out.println("the isBarAvailable of the casino20 "+casino20.isBarAvailable);
+	casino20.getCasino();
+	
+	
+	// System.out.println("the id of the casino20 "+casino20.casinoId);
+	// System.out.println("the noOfGames of the casino20 "+casino20.noOfGames);
+	// System.out.println("the entryFee of the casino20 "+casino20.entryFee);
+	// System.out.println("the openingTime of the casino20 "+casino20.openingTime);
+	// System.out.println("the isBarAvailable of the casino20 "+casino20.isBarAvailable);
 	System.out.println();
 	}
 }

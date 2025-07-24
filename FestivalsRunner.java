@@ -8,11 +8,13 @@ class FestivalsRunner{
 		festival1.religion = "Hindu";
 		festival1.festivalType = "Religious";
 		
-		System.out.println("the festivalId of festival1 " + festival1.festivalId);
-		System.out.println("the festivalName of festival1 " + festival1.festivalName);
-		System.out.println("the duration of festival1 " + festival1.duration);
-		System.out.println("the religion of festival1 " + festival1.religion);
-		System.out.println("the festivalType of festival1 " + festival1.festivalType);
+		festival1.getFestialInfo();
+		
+		// System.out.println("the festivalId of festival1 " + festival1.festivalId);
+		// System.out.println("the festivalName of festival1 " + festival1.festivalName);
+		// System.out.println("the duration of festival1 " + festival1.duration);
+		// System.out.println("the religion of festival1 " + festival1.religion);
+		// System.out.println("the festivalType of festival1 " + festival1.festivalType);
 		System.out.println();
 		
 		Festivals festival2 = new Festivals();
@@ -22,11 +24,14 @@ class FestivalsRunner{
 		festival2.religion = "Islam";
 		festival2.festivalType = "Religious";
 		
-		System.out.println("the festivalId of festival2 " + festival2.festivalId);
-		System.out.println("the festivalName of festival2 " + festival2.festivalName);
-		System.out.println("the duration of festival2 " + festival2.duration);
-		System.out.println("the religion of festival2 " + festival2.religion);
-		System.out.println("the festivalType of festival2 " + festival2.festivalType);
+		festival2.getFestialInfo();
+		
+		
+		// System.out.println("the festivalId of festival2 " + festival2.festivalId);
+		// System.out.println("the festivalName of festival2 " + festival2.festivalName);
+		// System.out.println("the duration of festival2 " + festival2.duration);
+		// System.out.println("the religion of festival2 " + festival2.religion);
+		// System.out.println("the festivalType of festival2 " + festival2.festivalType);
 		System.out.println();
 		
 		Festivals festival3 = new Festivals();
@@ -36,11 +41,14 @@ class FestivalsRunner{
 		festival3.religion = "Christian";
 		festival3.festivalType = "Religious";
 		
-		System.out.println("the festivalId of festival3 " + festival3.festivalId);
-		System.out.println("the festivalName of festival3 " + festival3.festivalName);
-		System.out.println("the duration of festival3 " + festival3.duration);
-		System.out.println("the religion of festival3 " + festival3.religion);
-		System.out.println("the festivalType of festival3 " + festival3.festivalType);
+		festival3.getFestialInfo();
+		
+		
+		// System.out.println("the festivalId of festival3 " + festival3.festivalId);
+		// System.out.println("the festivalName of festival3 " + festival3.festivalName);
+		// System.out.println("the duration of festival3 " + festival3.duration);
+		// System.out.println("the religion of festival3 " + festival3.religion);
+		// System.out.println("the festivalType of festival3 " + festival3.festivalType);
 		System.out.println();
 		
 		Festivals festival4 = new Festivals();
@@ -50,11 +58,14 @@ class FestivalsRunner{
 		festival4.religion = "Hindu";
 		festival4.festivalType = "Religious";
 		
-		System.out.println("the festivalId of festival4 " + festival4.festivalId);
-		System.out.println("the festivalName of festival4 " + festival4.festivalName);
-		System.out.println("the duration of festival4 " + festival4.duration);
-		System.out.println("the religion of festival4 " + festival4.religion);
-		System.out.println("the festivalType of festival4 " + festival4.festivalType);
+		festival4.getFestialInfo();
+		
+		
+		// System.out.println("the festivalId of festival4 " + festival4.festivalId);
+		// System.out.println("the festivalName of festival4 " + festival4.festivalName);
+		// System.out.println("the duration of festival4 " + festival4.duration);
+		// System.out.println("the religion of festival4 " + festival4.religion);
+		// System.out.println("the festivalType of festival4 " + festival4.festivalType);
 		System.out.println();
 		
 		Festivals festival5 = new Festivals();
@@ -64,11 +75,14 @@ class FestivalsRunner{
 		festival5.religion = "Hindu";
 		festival5.festivalType = "Harvest";
 		
-		System.out.println("the festivalId of festival5 " + festival5.festivalId);
-		System.out.println("the festivalName of festival5 " + festival5.festivalName);
-		System.out.println("the duration of festival5 " + festival5.duration);
-		System.out.println("the religion of festival5 " + festival5.religion);
-		System.out.println("the festivalType of festival5 " + festival5.festivalType);
+		festival5.getFestialInfo();
+		
+		
+		// System.out.println("the festivalId of festival5 " + festival5.festivalId);
+		// System.out.println("the festivalName of festival5 " + festival5.festivalName);
+		// System.out.println("the duration of festival5 " + festival5.duration);
+		// System.out.println("the religion of festival5 " + festival5.religion);
+		// System.out.println("the festivalType of festival5 " + festival5.festivalType);
 		System.out.println();
 		
 		Festivals festival6 = new Festivals();
@@ -78,11 +92,15 @@ class FestivalsRunner{
 		festival6.religion = "Hindu";
 		festival6.festivalType = "Harvest";
 		
-		System.out.println("the festivalId of festival6 " + festival6.festivalId);
-		System.out.println("the festivalName of festival6 " + festival6.festivalName);
-		System.out.println("the duration of festival6 " + festival6.duration);
-		System.out.println("the religion of festival6 " + festival6.religion);
-		System.out.println("the festivalType of festival6 " + festival6.festivalType);
+		
+		festival6.getFestialInfo();
+		
+		
+		// System.out.println("the festivalId of festival6 " + festival6.festivalId);
+		// System.out.println("the festivalName of festival6 " + festival6.festivalName);
+		// System.out.println("the duration of festival6 " + festival6.duration);
+		// System.out.println("the religion of festival6 " + festival6.religion);
+		// System.out.println("the festivalType of festival6 " + festival6.festivalType);
 		System.out.println();
 		
 		Festivals festival7 = new Festivals();
@@ -92,11 +110,14 @@ class FestivalsRunner{
 		festival7.religion = "Sikh";
 		festival7.festivalType = "Harvest";
 		
-		System.out.println("the festivalId of festival7 " + festival7.festivalId);
-		System.out.println("the festivalName of festival7 " + festival7.festivalName);
-		System.out.println("the duration of festival7 " + festival7.duration);
-		System.out.println("the religion of festival7 " + festival7.religion);
-		System.out.println("the festivalType of festival7 " + festival7.festivalType);
+		festival7.getFestialInfo();
+		
+		
+		// System.out.println("the festivalId of festival7 " + festival7.festivalId);
+		// System.out.println("the festivalName of festival7 " + festival7.festivalName);
+		// System.out.println("the duration of festival7 " + festival7.duration);
+		// System.out.println("the religion of festival7 " + festival7.religion);
+		// System.out.println("the festivalType of festival7 " + festival7.festivalType);
 		System.out.println();
 		
 		Festivals festival8 = new Festivals();
@@ -106,11 +127,14 @@ class FestivalsRunner{
 		festival8.religion = "Hindu";
 		festival8.festivalType = "Religious";
 		
-		System.out.println("the festivalId of festival8 " + festival8.festivalId);
-		System.out.println("the festivalName of festival8 " + festival8.festivalName);
-		System.out.println("the duration of festival8 " + festival8.duration);
-		System.out.println("the religion of festival8 " + festival8.religion);
-		System.out.println("the festivalType of festival8 " + festival8.festivalType);
+		festival8.getFestialInfo();
+		
+		
+		// System.out.println("the festivalId of festival8 " + festival8.festivalId);
+		// System.out.println("the festivalName of festival8 " + festival8.festivalName);
+		// System.out.println("the duration of festival8 " + festival8.duration);
+		// System.out.println("the religion of festival8 " + festival8.religion);
+		// System.out.println("the festivalType of festival8 " + festival8.festivalType);
 		System.out.println();
 		
 		Festivals festival9 = new Festivals();
@@ -120,11 +144,15 @@ class FestivalsRunner{
 		festival9.religion = "Hindu";
 		festival9.festivalType = "Religious";
 		
-		System.out.println("the festivalId of festival9 " + festival9.festivalId);
-		System.out.println("the festivalName of festival9 " + festival9.festivalName);
-		System.out.println("the duration of festival9 " + festival9.duration);
-		System.out.println("the religion of festival9 " + festival9.religion);
-		System.out.println("the festivalType of festival9 " + festival9.festivalType);
+		
+		festival9.getFestialInfo();
+		
+		
+		// System.out.println("the festivalId of festival9 " + festival9.festivalId);
+		// System.out.println("the festivalName of festival9 " + festival9.festivalName);
+		// System.out.println("the duration of festival9 " + festival9.duration);
+		// System.out.println("the religion of festival9 " + festival9.religion);
+		// System.out.println("the festivalType of festival9 " + festival9.festivalType);
 		System.out.println();
 		
 		Festivals festival10 = new Festivals();
@@ -134,11 +162,14 @@ class FestivalsRunner{
 		festival10.religion = "Sikh";
 		festival10.festivalType = "Religious";
 		
-		System.out.println("the festivalId of festival10 " + festival10.festivalId);
-		System.out.println("the festivalName of festival10 " + festival10.festivalName);
-		System.out.println("the duration of festival10 " + festival10.duration);
-		System.out.println("the religion of festival10 " + festival10.religion);
-		System.out.println("the festivalType of festival10 " + festival10.festivalType);
+		festival10.getFestialInfo();
+		
+		
+		// System.out.println("the festivalId of festival10 " + festival10.festivalId);
+		// System.out.println("the festivalName of festival10 " + festival10.festivalName);
+		// System.out.println("the duration of festival10 " + festival10.duration);
+		// System.out.println("the religion of festival10 " + festival10.religion);
+		// System.out.println("the festivalType of festival10 " + festival10.festivalType);
 		System.out.println();
 		
 		Festivals festival11 = new Festivals();
@@ -148,11 +179,14 @@ class FestivalsRunner{
 		festival11.religion = "Hindu";
 		festival11.festivalType = "Religious";
 		
-		System.out.println("the festivalId of festival11 " + festival11.festivalId);
-		System.out.println("the festivalName of festival11 " + festival11.festivalName);
-		System.out.println("the duration of festival11 " + festival11.duration);
-		System.out.println("the religion of festival11 " + festival11.religion);
-		System.out.println("the festivalType of festival11 " + festival11.festivalType);
+		festival11.getFestialInfo();
+		
+		
+		// System.out.println("the festivalId of festival11 " + festival11.festivalId);
+		// System.out.println("the festivalName of festival11 " + festival11.festivalName);
+		// System.out.println("the duration of festival11 " + festival11.duration);
+		// System.out.println("the religion of festival11 " + festival11.religion);
+		// System.out.println("the festivalType of festival11 " + festival11.festivalType);
 		System.out.println();
 		
 		Festivals festival12 = new Festivals();
@@ -162,11 +196,14 @@ class FestivalsRunner{
 		festival12.religion = "Hindu";
 		festival12.festivalType = "Religious";
 		
-		System.out.println("the festivalId of festival12 " + festival12.festivalId);
-		System.out.println("the festivalName of festival12 " + festival12.festivalName);
-		System.out.println("the duration of festival12 " + festival12.duration);
-		System.out.println("the religion of festival12 " + festival12.religion);
-		System.out.println("the festivalType of festival12 " + festival12.festivalType);
+		festival12.getFestialInfo();
+		
+		
+		// System.out.println("the festivalId of festival12 " + festival12.festivalId);
+		// System.out.println("the festivalName of festival12 " + festival12.festivalName);
+		// System.out.println("the duration of festival12 " + festival12.duration);
+		// System.out.println("the religion of festival12 " + festival12.religion);
+		// System.out.println("the festivalType of festival12 " + festival12.festivalType);
 		System.out.println();
 		
 		Festivals festival13 = new Festivals();
@@ -176,11 +213,14 @@ class FestivalsRunner{
 		festival13.religion = "Hindu";
 		festival13.festivalType = "Harvest";
 		
-		System.out.println("the festivalId of festival13 " + festival13.festivalId);
-		System.out.println("the festivalName of festival13 " + festival13.festivalName);
-		System.out.println("the duration of festival13 " + festival13.duration);
-		System.out.println("the religion of festival13 " + festival13.religion);
-		System.out.println("the festivalType of festival13 " + festival13.festivalType);
+		festival13.getFestialInfo();
+		
+		
+		// System.out.println("the festivalId of festival13 " + festival13.festivalId);
+		// System.out.println("the festivalName of festival13 " + festival13.festivalName);
+		// System.out.println("the duration of festival13 " + festival13.duration);
+		// System.out.println("the religion of festival13 " + festival13.religion);
+		// System.out.println("the festivalType of festival13 " + festival13.festivalType);
 		System.out.println();
 		
 		Festivals festival14 = new Festivals();
@@ -190,11 +230,14 @@ class FestivalsRunner{
 		festival14.religion = "Sikh";
 		festival14.festivalType = "Harvest";
 		
-		System.out.println("the festivalId of festival14 " + festival14.festivalId);
-		System.out.println("the festivalName of festival14 " + festival14.festivalName);
-		System.out.println("the duration of festival14 " + festival14.duration);
-		System.out.println("the religion of festival14 " + festival14.religion);
-		System.out.println("the festivalType of festival14 " + festival14.festivalType);
+		festival14.getFestialInfo();
+		
+		
+		// System.out.println("the festivalId of festival14 " + festival14.festivalId);
+		// System.out.println("the festivalName of festival14 " + festival14.festivalName);
+		// System.out.println("the duration of festival14 " + festival14.duration);
+		// System.out.println("the religion of festival14 " + festival14.religion);
+		// System.out.println("the festivalType of festival14 " + festival14.festivalType);
 		System.out.println();
 		
 		Festivals festival15 = new Festivals();
@@ -204,11 +247,14 @@ class FestivalsRunner{
 		festival15.religion = "Hindu";
 		festival15.festivalType = "Harvest";
 		
-		System.out.println("the festivalId of festival15 " + festival15.festivalId);
-		System.out.println("the festivalName of festival15 " + festival15.festivalName);
-		System.out.println("the duration of festival15 " + festival15.duration);
-		System.out.println("the religion of festival15 " + festival15.religion);
-		System.out.println("the festivalType of festival15 " + festival15.festivalType);
+		festival15.getFestialInfo();
+		
+		
+		// System.out.println("the festivalId of festival15 " + festival15.festivalId);
+		// System.out.println("the festivalName of festival15 " + festival15.festivalName);
+		// System.out.println("the duration of festival15 " + festival15.duration);
+		// System.out.println("the religion of festival15 " + festival15.religion);
+		// System.out.println("the festivalType of festival15 " + festival15.festivalType);
 		System.out.println();
 		
 		Festivals festival16 = new Festivals();
@@ -218,11 +264,14 @@ class FestivalsRunner{
 		festival16.religion = "Hindu";
 		festival16.festivalType = "Religious";
 		
-		System.out.println("the festivalId of festival16 " + festival16.festivalId);
-		System.out.println("the festivalName of festival16 " + festival16.festivalName);
-		System.out.println("the duration of festival16 " + festival16.duration);
-		System.out.println("the religion of festival16 " + festival16.religion);
-		System.out.println("the festivalType of festival16 " + festival16.festivalType);
+		festival16.getFestialInfo();
+		
+		
+		// System.out.println("the festivalId of festival16 " + festival16.festivalId);
+		// System.out.println("the festivalName of festival16 " + festival16.festivalName);
+		// System.out.println("the duration of festival16 " + festival16.duration);
+		// System.out.println("the religion of festival16 " + festival16.religion);
+		// System.out.println("the festivalType of festival16 " + festival16.festivalType);
 		System.out.println();
 		
 		Festivals festival17 = new Festivals();
@@ -232,11 +281,14 @@ class FestivalsRunner{
 		festival17.religion = "Hindu";
 		festival17.festivalType = "Religious";
 		
-		System.out.println("the festivalId of festival17 " + festival17.festivalId);
-		System.out.println("the festivalName of festival17 " + festival17.festivalName);
-		System.out.println("the duration of festival17 " + festival17.duration);
-		System.out.println("the religion of festival17 " + festival17.religion);
-		System.out.println("the festivalType of festival17 " + festival17.festivalType);
+		festival17.getFestialInfo();
+		
+		
+		// System.out.println("the festivalId of festival17 " + festival17.festivalId);
+		// System.out.println("the festivalName of festival17 " + festival17.festivalName);
+		// System.out.println("the duration of festival17 " + festival17.duration);
+		// System.out.println("the religion of festival17 " + festival17.religion);
+		// System.out.println("the festivalType of festival17 " + festival17.festivalType);
 		System.out.println();
 		
 		Festivals festival18 = new Festivals();
@@ -246,11 +298,14 @@ class FestivalsRunner{
 		festival18.religion = "Hindu";
 		festival18.festivalType = "Religious";
 		
-		System.out.println("the festivalId of festival18 " + festival18.festivalId);
-		System.out.println("the festivalName of festival18 " + festival18.festivalName);
-		System.out.println("the duration of festival18 " + festival18.duration);
-		System.out.println("the religion of festival18 " + festival18.religion);
-		System.out.println("the festivalType of festival18 " + festival18.festivalType);
+		festival18.getFestialInfo();
+
+		
+		// System.out.println("the festivalId of festival18 " + festival18.festivalId);
+		// System.out.println("the festivalName of festival18 " + festival18.festivalName);
+		// System.out.println("the duration of festival18 " + festival18.duration);
+		// System.out.println("the religion of festival18 " + festival18.religion);
+		// System.out.println("the festivalType of festival18 " + festival18.festivalType);
 		System.out.println();
 		
 		Festivals festival19 = new Festivals();
@@ -260,11 +315,14 @@ class FestivalsRunner{
 		festival19.religion = "Hindu";
 		festival19.festivalType = "Religious";
 		
-		System.out.println("the festivalId of festival19 " + festival19.festivalId);
-		System.out.println("the festivalName of festival19 " + festival19.festivalName);
-		System.out.println("the duration of festival19 " + festival19.duration);
-		System.out.println("the religion of festival19 " + festival19.religion);
-		System.out.println("the festivalType of festival19 " + festival19.festivalType);
+				festival19.getFestialInfo();
+
+		
+		// System.out.println("the festivalId of festival19 " + festival19.festivalId);
+		// System.out.println("the festivalName of festival19 " + festival19.festivalName);
+		// System.out.println("the duration of festival19 " + festival19.duration);
+		// System.out.println("the religion of festival19 " + festival19.religion);
+		// System.out.println("the festivalType of festival19 " + festival19.festivalType);
 		System.out.println();
 		
 		Festivals festival20 = new Festivals();
@@ -274,11 +332,15 @@ class FestivalsRunner{
 		festival20.religion = "Hindu";
 		festival20.festivalType = "Religious";
 		
-		System.out.println("the festivalId of festival20 " + festival20.festivalId);
-		System.out.println("the festivalName of festival20 " + festival20.festivalName);
-		System.out.println("the duration of festival20 " + festival20.duration);
-		System.out.println("the religion of festival20 " + festival20.religion);
-		System.out.println("the festivalType of festival20 " + festival20.festivalType);
+		
+				festival20.getFestialInfo();
+
+		
+		// System.out.println("the festivalId of festival20 " + festival20.festivalId);
+		// System.out.println("the festivalName of festival20 " + festival20.festivalName);
+		// System.out.println("the duration of festival20 " + festival20.duration);
+		// System.out.println("the religion of festival20 " + festival20.religion);
+		// System.out.println("the festivalType of festival20 " + festival20.festivalType);
 		System.out.println();
 	
 	}

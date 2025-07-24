@@ -9,12 +9,14 @@ class AmusementParkRunner{
 		amusementPark1.parkType = "Water & Theme Park";
 		amusementPark1.price = 1200;
 		
-		System.out.println("the id of the amusementPark1 " + amusementPark1.amusmentParkId);
-		System.out.println("the name of the amusementPark1 :" + amusementPark1.name);
-		System.out.println("the place of the amusementPark1 " + amusementPark1.place);
-		System.out.println("the parkType of the amusementPark1  " + amusementPark1.parkType);
-		System.out.println("the price of the amusementPark1 " + amusementPark1.price);
-		System.out.println();
+		amusementPark1.getParkinfo();
+		
+		// System.out.println("the id of the amusementPark1 " + amusementPark1.amusmentParkId);
+		// System.out.println("the name of the amusementPark1 :" + amusementPark1.name);
+		// System.out.println("the place of the amusementPark1 " + amusementPark1.place);
+		// System.out.println("the parkType of the amusementPark1  " + amusementPark1.parkType);
+		// System.out.println("the price of the amusementPark1 " + amusementPark1.price);
+		// System.out.println();
 		
 		AmusementPark amusementPark2 = new AmusementPark();
 		amusementPark2.amusmentParkId = 2;
@@ -23,11 +25,15 @@ class AmusementParkRunner{
 		amusementPark2.parkType = "Theme Park";
 		amusementPark2.price = 1500;
 		
-		System.out.println("the id of the amusementPark2 " + amusementPark2.amusmentParkId);
-		System.out.println("the name of the amusementPark2 :" + amusementPark2.name);
-		System.out.println("the place of the amusementPark2 " + amusementPark2.place);
-		System.out.println("the parkType of the amusementPark2  " + amusementPark2.parkType);
-		System.out.println("the price of the amusementPark2 " + amusementPark2.price);
+		
+		amusementPark2.getParkinfo();
+		
+		
+		// System.out.println("the id of the amusementPark2 " + amusementPark2.amusmentParkId);
+		// System.out.println("the name of the amusementPark2 :" + amusementPark2.name);
+		// System.out.println("the place of the amusementPark2 " + amusementPark2.place);
+		// System.out.println("the parkType of the amusementPark2  " + amusementPark2.parkType);
+		// System.out.println("the price of the amusementPark2 " + amusementPark2.price);
 		System.out.println();
 		
 		AmusementPark amusementPark3 = new AmusementPark();
@@ -37,11 +43,15 @@ class AmusementParkRunner{
 		amusementPark3.parkType = "Theme Park";
 		amusementPark3.price = 1800;
 		
-		System.out.println("the id of the amusementPark3 " + amusementPark3.amusmentParkId);
-		System.out.println("the name of the amusementPark3 :" + amusementPark3.name);
-		System.out.println("the place of the amusementPark3 " + amusementPark3.place);
-		System.out.println("the parkType of the amusementPark3  " + amusementPark3.parkType);
-		System.out.println("the price of the amusementPark3 " + amusementPark3.price);
+		
+		amusementPark3.getParkinfo();
+		
+		
+		// System.out.println("the id of the amusementPark3 " + amusementPark3.amusmentParkId);
+		// System.out.println("the name of the amusementPark3 :" + amusementPark3.name);
+		// System.out.println("the place of the amusementPark3 " + amusementPark3.place);
+		// System.out.println("the parkType of the amusementPark3  " + amusementPark3.parkType);
+		// System.out.println("the price of the amusementPark3 " + amusementPark3.price);
 		System.out.println();
 		
 		AmusementPark amusementPark4 = new AmusementPark();
@@ -51,11 +61,15 @@ class AmusementParkRunner{
 		amusementPark4.parkType = "Theme Park";
 		amusementPark4.price = 1100;
 		
-		System.out.println("the id of the amusementPark4 " + amusementPark4.amusmentParkId);
-		System.out.println("the name of the amusementPark4 :" + amusementPark4.name);
-		System.out.println("the place of the amusementPark4 " + amusementPark4.place);
-		System.out.println("the parkType of the amusementPark4  " + amusementPark4.parkType);
-		System.out.println("the price of the amusementPark4 " + amusementPark4.price);
+		
+		amusementPark4.getParkinfo();
+		
+		
+		// System.out.println("the id of the amusementPark4 " + amusementPark4.amusmentParkId);
+		// System.out.println("the name of the amusementPark4 :" + amusementPark4.name);
+		// System.out.println("the place of the amusementPark4 " + amusementPark4.place);
+		// System.out.println("the parkType of the amusementPark4  " + amusementPark4.parkType);
+		// System.out.println("the price of the amusementPark4 " + amusementPark4.price);
 		System.out.println();
 		
 		AmusementPark amusementPark5 = new AmusementPark();
@@ -65,11 +79,15 @@ class AmusementParkRunner{
 		amusementPark5.parkType = "Film Theme Park";
 		amusementPark5.price = 2000;
 		
-		System.out.println("the id of the amusementPark5 " + amusementPark5.amusmentParkId);
-		System.out.println("the name of the amusementPark5 :" + amusementPark5.name);
-		System.out.println("the place of the amusementPark5 " + amusementPark5.place);
-		System.out.println("the parkType of the amusementPark5  " + amusementPark5.parkType);
-		System.out.println("the price of the amusementPark5 " + amusementPark5.price);
+		
+		amusementPark5.getParkinfo();
+		
+		
+		// System.out.println("the id of the amusementPark5 " + amusementPark5.amusmentParkId);
+		// System.out.println("the name of the amusementPark5 :" + amusementPark5.name);
+		// System.out.println("the place of the amusementPark5 " + amusementPark5.place);
+		// System.out.println("the parkType of the amusementPark5  " + amusementPark5.parkType);
+		// System.out.println("the price of the amusementPark5 " + amusementPark5.price);
 		System.out.println();
 		
 		AmusementPark amusementPark6 = new AmusementPark();
@@ -79,11 +97,14 @@ class AmusementParkRunner{
 		amusementPark6.parkType = "Theme Park";
 		amusementPark6.price = 1250;
 		
-		System.out.println("the id of the amusementPark6 " + amusementPark6.amusmentParkId);
-		System.out.println("the name of the amusementPark6 :" + amusementPark6.name);
-		System.out.println("the place of the amusementPark6 " + amusementPark6.place);
-		System.out.println("the parkType of the amusementPark6  " + amusementPark6.parkType);
-		System.out.println("the price of the amusementPark6 " + amusementPark6.price);
+		amusementPark6.getParkinfo();
+		
+		
+		// System.out.println("the id of the amusementPark6 " + amusementPark6.amusmentParkId);
+		// System.out.println("the name of the amusementPark6 :" + amusementPark6.name);
+		// System.out.println("the place of the amusementPark6 " + amusementPark6.place);
+		// System.out.println("the parkType of the amusementPark6  " + amusementPark6.parkType);
+		// System.out.println("the price of the amusementPark6 " + amusementPark6.price);
 		System.out.println();
 		
 		AmusementPark amusementPark7 = new AmusementPark();
@@ -93,11 +114,15 @@ class AmusementParkRunner{
 		amusementPark7.parkType = "Live Entertainment Park";
 		amusementPark7.price = 1700;
 		
-		System.out.println("the id of the amusementPark7 " + amusementPark7.amusmentParkId);
-		System.out.println("the name of the amusementPark7 :" + amusementPark7.name);
-		System.out.println("the place of the amusementPark7 " + amusementPark7.place);
-		System.out.println("the parkType of the amusementPark7  " + amusementPark7.parkType);
-		System.out.println("the price of the amusementPark7 " + amusementPark7.price);
+		
+		amusementPark7.getParkinfo();
+		
+		
+		// System.out.println("the id of the amusementPark7 " + amusementPark7.amusmentParkId);
+		// System.out.println("the name of the amusementPark7 :" + amusementPark7.name);
+		// System.out.println("the place of the amusementPark7 " + amusementPark7.place);
+		// System.out.println("the parkType of the amusementPark7  " + amusementPark7.parkType);
+		// System.out.println("the price of the amusementPark7 " + amusementPark7.price);
 		System.out.println();
 		
 		AmusementPark amusementPark8 = new AmusementPark();
@@ -107,11 +132,14 @@ class AmusementParkRunner{
 		amusementPark8.parkType = "Water Park";
 		amusementPark8.price = 1300;
 		
-		System.out.println("the id of the amusementPark8 " + amusementPark8.amusmentParkId);
-		System.out.println("the name of the amusementPark8 :" + amusementPark8.name);
-		System.out.println("the place of the amusementPark8 " + amusementPark8.place);
-		System.out.println("the parkType of the amusementPark8  " + amusementPark8.parkType);
-		System.out.println("the price of the amusementPark8 " + amusementPark8.price);
+		amusementPark8.getParkinfo();
+		
+		
+		// System.out.println("the id of the amusementPark8 " + amusementPark8.amusmentParkId);
+		// System.out.println("the name of the amusementPark8 :" + amusementPark8.name);
+		// System.out.println("the place of the amusementPark8 " + amusementPark8.place);
+		// System.out.println("the parkType of the amusementPark8  " + amusementPark8.parkType);
+		// System.out.println("the price of the amusementPark8 " + amusementPark8.price);
 		System.out.println();
 		
 		AmusementPark amusementPark9 = new AmusementPark();
@@ -121,11 +149,14 @@ class AmusementParkRunner{
 		amusementPark9.parkType = "Theme Park";
 		amusementPark9.price = 1400;
 		
-		System.out.println("the id of the amusementPark9 " + amusementPark9.amusmentParkId);
-		System.out.println("the name of the amusementPark9 :" + amusementPark9.name);
-		System.out.println("the place of the amusementPark9 " + amusementPark9.place);
-		System.out.println("the parkType of the amusementPark9  " + amusementPark9.parkType);
-		System.out.println("the price of the amusementPark9 " + amusementPark9.price);
+		amusementPark9.getParkinfo();
+		
+		
+		// System.out.println("the id of the amusementPark9 " + amusementPark9.amusmentParkId);
+		// System.out.println("the name of the amusementPark9 :" + amusementPark9.name);
+		// System.out.println("the place of the amusementPark9 " + amusementPark9.place);
+		// System.out.println("the parkType of the amusementPark9  " + amusementPark9.parkType);
+		// System.out.println("the price of the amusementPark9 " + amusementPark9.price);
 		System.out.println();
 		
 		AmusementPark amusementPark10 = new AmusementPark();
@@ -135,11 +166,15 @@ class AmusementParkRunner{
 		amusementPark10.parkType = "Theme Park";
 		amusementPark10.price = 1000;
 		
-		System.out.println("the id of the amusementPark10 " + amusementPark10.amusmentParkId);
-		System.out.println("the name of the amusementPark10 :" + amusementPark10.name);
-		System.out.println("the place of the amusementPark10 " + amusementPark10.place);
-		System.out.println("the parkType of the amusementPark10  " + amusementPark10.parkType);
-		System.out.println("the price of the amusementPark10 " + amusementPark10.price);
+		
+		amusementPark10.getParkinfo();
+		
+		
+		// System.out.println("the id of the amusementPark10 " + amusementPark10.amusmentParkId);
+		// System.out.println("the name of the amusementPark10 :" + amusementPark10.name);
+		// System.out.println("the place of the amusementPark10 " + amusementPark10.place);
+		// System.out.println("the parkType of the amusementPark10  " + amusementPark10.parkType);
+		// System.out.println("the price of the amusementPark10 " + amusementPark10.price);
 		System.out.println();
 		
 		AmusementPark amusementPark11 = new AmusementPark();
@@ -149,11 +184,15 @@ class AmusementParkRunner{
 		amusementPark11.parkType = "Snow Theme Park";
 		amusementPark11.price = 1600;
 		
-		System.out.println("the id of the amusementPark11 " + amusementPark11.amusmentParkId);
-		System.out.println("the name of the amusementPark11 :" + amusementPark11.name);
-		System.out.println("the place of the amusementPark11 " + amusementPark11.place);
-		System.out.println("the parkType of the amusementPark11  " + amusementPark11.parkType);
-		System.out.println("the price of the amusementPark11 " + amusementPark11.price);
+		amusementPark11.getParkinfo();
+		
+		
+		
+		// System.out.println("the id of the amusementPark11 " + amusementPark11.amusmentParkId);
+		// System.out.println("the name of the amusementPark11 :" + amusementPark11.name);
+		// System.out.println("the place of the amusementPark11 " + amusementPark11.place);
+		// System.out.println("the parkType of the amusementPark11  " + amusementPark11.parkType);
+		// System.out.println("the price of the amusementPark11 " + amusementPark11.price);
 		System.out.println();
 		
 		AmusementPark amusementPark12 = new AmusementPark();
@@ -163,11 +202,15 @@ class AmusementParkRunner{
 		amusementPark12.parkType = "Theme Park";
 		amusementPark12.price = 1150;
 		
-		System.out.println("the id of the amusementPark12 " + amusementPark12.amusmentParkId);
-		System.out.println("the name of the amusementPark12 :" + amusementPark12.name);
-		System.out.println("the place of the amusementPark12 " + amusementPark12.place);
-		System.out.println("the parkType of the amusementPark12  " + amusementPark12.parkType);
-		System.out.println("the price of the amusementPark12 " + amusementPark12.price);
+		
+		amusementPark12.getParkinfo();
+		
+		
+		// System.out.println("the id of the amusementPark12 " + amusementPark12.amusmentParkId);
+		// System.out.println("the name of the amusementPark12 :" + amusementPark12.name);
+		// System.out.println("the place of the amusementPark12 " + amusementPark12.place);
+		// System.out.println("the parkType of the amusementPark12  " + amusementPark12.parkType);
+		// System.out.println("the price of the amusementPark12 " + amusementPark12.price);
 		System.out.println();
 		
 		AmusementPark amusementPark13 = new AmusementPark();
@@ -177,11 +220,15 @@ class AmusementParkRunner{
 		amusementPark13.parkType = "Water Park";
 		amusementPark13.price = 1250;
 		
-		System.out.println("the id of the amusementPark13 " + amusementPark13.amusmentParkId);
-		System.out.println("the name of the amusementPark13 :" + amusementPark13.name);
-		System.out.println("the place of the amusementPark13 " + amusementPark13.place);
-		System.out.println("the parkType of the amusementPark13  " + amusementPark13.parkType);
-		System.out.println("the price of the amusementPark13 " + amusementPark13.price);
+		
+		amusementPark13.getParkinfo();
+		
+		
+		// System.out.println("the id of the amusementPark13 " + amusementPark13.amusmentParkId);
+		// System.out.println("the name of the amusementPark13 :" + amusementPark13.name);
+		// System.out.println("the place of the amusementPark13 " + amusementPark13.place);
+		// System.out.println("the parkType of the amusementPark13  " + amusementPark13.parkType);
+		// System.out.println("the price of the amusementPark13 " + amusementPark13.price);
 		System.out.println();
 		
 		AmusementPark amusementPark14 = new AmusementPark();
@@ -191,11 +238,14 @@ class AmusementParkRunner{
 		amusementPark14.parkType = "Science Theme Park";
 		amusementPark14.price = 1350;
 		
-		System.out.println("the id of the amusementPark14 " + amusementPark14.amusmentParkId);
-		System.out.println("the name of the amusementPark14 :" + amusementPark14.name);
-		System.out.println("the place of the amusementPark14 " + amusementPark14.place);
-		System.out.println("the parkType of the amusementPark14  " + amusementPark14.parkType);
-		System.out.println("the price of the amusementPark14 " + amusementPark14.price);
+		amusementPark14.getParkinfo();
+		
+		
+		// System.out.println("the id of the amusementPark14 " + amusementPark14.amusmentParkId);
+		// System.out.println("the name of the amusementPark14 :" + amusementPark14.name);
+		// System.out.println("the place of the amusementPark14 " + amusementPark14.place);
+		// System.out.println("the parkType of the amusementPark14  " + amusementPark14.parkType);
+		// System.out.println("the price of the amusementPark14 " + amusementPark14.price);
 		System.out.println();
 		
 		AmusementPark amusementPark15 = new AmusementPark();
@@ -205,11 +255,14 @@ class AmusementParkRunner{
 		amusementPark15.parkType = "Water Park";
 		amusementPark15.price = 1450;
 		
-		System.out.println("the id of the amusementPark15 " + amusementPark15.amusmentParkId);
-		System.out.println("the name of the amusementPark15 :" + amusementPark15.name);
-		System.out.println("the place of the amusementPark15 " + amusementPark15.place);
-		System.out.println("the parkType of the amusementPark15  " + amusementPark15.parkType);
-		System.out.println("the price of the amusementPark15 " + amusementPark15.price);
+		
+		amusementPark15.getParkinfo();
+		
+		// System.out.println("the id of the amusementPark15 " + amusementPark15.amusmentParkId);
+		// System.out.println("the name of the amusementPark15 :" + amusementPark15.name);
+		// System.out.println("the place of the amusementPark15 " + amusementPark15.place);
+		// System.out.println("the parkType of the amusementPark15  " + amusementPark15.parkType);
+		// System.out.println("the price of the amusementPark15 " + amusementPark15.price);
 		System.out.println();
 		
 		AmusementPark amusementPark16 = new AmusementPark();
@@ -219,11 +272,14 @@ class AmusementParkRunner{
 		amusementPark16.parkType = "Water & Theme Park";
 		amusementPark16.price = 1380;
 		
-		System.out.println("the id of the amusementPark16 " + amusementPark16.amusmentParkId);
-		System.out.println("the name of the amusementPark16 :" + amusementPark16.name);
-		System.out.println("the place of the amusementPark16 " + amusementPark16.place);
-		System.out.println("the parkType of the amusementPark16  " + amusementPark16.parkType);
-		System.out.println("the price of the amusementPark16 " + amusementPark16.price);
+		
+		amusementPark16.getParkinfo();
+		
+		// System.out.println("the id of the amusementPark16 " + amusementPark16.amusmentParkId);
+		// System.out.println("the name of the amusementPark16 :" + amusementPark16.name);
+		// System.out.println("the place of the amusementPark16 " + amusementPark16.place);
+		// System.out.println("the parkType of the amusementPark16  " + amusementPark16.parkType);
+		// System.out.println("the price of the amusementPark16 " + amusementPark16.price);
 		System.out.println();
 		
 		AmusementPark amusementPark17 = new AmusementPark();
@@ -233,11 +289,14 @@ class AmusementParkRunner{
 		amusementPark17.parkType = "Theme Park";
 		amusementPark17.price = 1750;
 		
-		System.out.println("the id of the amusementPark17 " + amusementPark17.amusmentParkId);
-		System.out.println("the name of the amusementPark17 :" + amusementPark17.name);
-		System.out.println("the place of the amusementPark17 " + amusementPark17.place);
-		System.out.println("the parkType of the amusementPark17  " + amusementPark17.parkType);
-		System.out.println("the price of the amusementPark17 " + amusementPark17.price);
+		
+		amusementPark17.getParkinfo();
+		
+		// System.out.println("the id of the amusementPark17 " + amusementPark17.amusmentParkId);
+		// System.out.println("the name of the amusementPark17 :" + amusementPark17.name);
+		// System.out.println("the place of the amusementPark17 " + amusementPark17.place);
+		// System.out.println("the parkType of the amusementPark17  " + amusementPark17.parkType);
+		// System.out.println("the price of the amusementPark17 " + amusementPark17.price);
 		System.out.println();
 		
 		AmusementPark amusementPark18 = new AmusementPark();
@@ -247,11 +306,14 @@ class AmusementParkRunner{
 		amusementPark18.parkType = "Theme Park";
 		amusementPark18.price = 1320;
 		
-		System.out.println("the id of the amusementPark18 " + amusementPark18.amusmentParkId);
-		System.out.println("the name of the amusementPark18 :" + amusementPark18.name);
-		System.out.println("the place of the amusementPark18 " + amusementPark18.place);
-		System.out.println("the parkType of the amusementPark18  " + amusementPark18.parkType);
-		System.out.println("the price of the amusementPark18 " + amusementPark18.price);
+		
+		amusementPark18.getParkinfo();
+
+		// System.out.println("the id of the amusementPark18 " + amusementPark18.amusmentParkId);
+		// System.out.println("the name of the amusementPark18 :" + amusementPark18.name);
+		// System.out.println("the place of the amusementPark18 " + amusementPark18.place);
+		// System.out.println("the parkType of the amusementPark18  " + amusementPark18.parkType);
+		// System.out.println("the price of the amusementPark18 " + amusementPark18.price);
 		System.out.println();
 		
 		AmusementPark amusementPark19 = new AmusementPark();
@@ -261,11 +323,14 @@ class AmusementParkRunner{
 		amusementPark19.parkType = "Water Park";
 		amusementPark19.price = 1400;
 		
-		System.out.println("the id of the amusementPark19 " + amusementPark19.amusmentParkId);
-		System.out.println("the name of the amusementPark19 :" + amusementPark19.name);
-		System.out.println("the place of the amusementPark19 " + amusementPark19.place);
-		System.out.println("the parkType of the amusementPark19  " + amusementPark19.parkType);
-		System.out.println("the price of the amusementPark19 " + amusementPark19.price);
+		
+				amusementPark19.getParkinfo();
+
+		// System.out.println("the id of the amusementPark19 " + amusementPark19.amusmentParkId);
+		// System.out.println("the name of the amusementPark19 :" + amusementPark19.name);
+		// System.out.println("the place of the amusementPark19 " + amusementPark19.place);
+		// System.out.println("the parkType of the amusementPark19  " + amusementPark19.parkType);
+		// System.out.println("the price of the amusementPark19 " + amusementPark19.price);
 		System.out.println();
 		
 		AmusementPark amusementPark20 = new AmusementPark();
@@ -275,11 +340,13 @@ class AmusementParkRunner{
 		amusementPark20.parkType = "Water & Amusement Park";
 		amusementPark20.price = 1550;
 		
-		System.out.println("the id of the amusementPark20 " + amusementPark20.amusmentParkId);
-		System.out.println("the name of the amusementPark20 :" + amusementPark20.name);
-		System.out.println("the place of the amusementPark20 " + amusementPark20.place);
-		System.out.println("the parkType of the amusementPark20  " + amusementPark20.parkType);
-		System.out.println("the price of the amusementPark20 " + amusementPark20.price);
-		System.out.println();
+		
+		amusementPark20.getParkinfo();
+
+		// System.out.println("the id of the amusementPark20 " + amusementPark20.amusmentParkId);
+		// System.out.println("the name of the amusementPark20 :" + amusementPark20.name);
+		// System.out.println("the place of the amusementPark20 " + amusementPark20.place);
+		// System.out.println("the parkType of the amusementPark20  " + amusementPark20.parkType);
+		// System.out.println("the price of the amusementPark20 " + amusementPark20.price);
 }
 }
