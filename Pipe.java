@@ -1,4 +1,20 @@
 class Pipe{
+	
+	
+	
+		Pipe(){
+		System.out.println("the  Constructor invoked" );
+	}
+	Pipe(int pipeId,int pipeLength,int pipeDaimeter,String pipeType,String pipeBrand){
+		System.out.println("the Parameter Constructor invoked" );
+		this.pipeId=pipeId;
+		this.pipeLength=pipeLength;
+		this.pipeDaimeter=pipeDaimeter;
+		this.pipeType=pipeType;
+		this.pipeBrand=pipeBrand;
+		
+	}
+	
 	int pipeId;
 	int pipeLength;
 	int pipeDaimeter;

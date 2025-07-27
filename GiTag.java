@@ -1,4 +1,19 @@
 class GiTag{
+	GiTag(){
+		System.out.println("the  Constructor invoked" );
+	}
+	GiTag(int giTagId,String  place,String year,String type, String state){
+		System.out.println("the Parameter Constructor invoked" );
+		this.giTagId=giTagId;
+		this.place=place;
+		this.year=year;
+		this.type=type;
+		this.state=state;
+		
+	}
+	
+	
+	
 	int giTagId;
 	String place;
 	String year;

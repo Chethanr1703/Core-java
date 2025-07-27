@@ -1,12 +1,12 @@
 class GiTagRunner{
 	public static void main(String[]gitag){
 		
-		GiTag giTag1 = new GiTag();
-		giTag1.giTagId = 1;
-		giTag1.place = "Alphonso Mango";
-		giTag1.year = "2007";
-		giTag1.type = "Agricultural";
-		giTag1.state = "Maharashtra";
+		GiTag giTag1 = new GiTag(1, "Alphonso Mango", "2007", "Agricultural", "Maharashtra");
+		// giTag1.giTagId = 1;
+		// giTag1.place = "Alphonso Mango";
+		// giTag1.year = "2007";
+		// giTag1.type = "Agricultural";
+		// giTag1.state = "Maharashtra";
 		
 		giTag1.getGitagInfo();
 		
@@ -17,12 +17,12 @@ class GiTagRunner{
 		// System.out.println("the state of giTag1 " + giTag1.state);
 		System.out.println();
 		
-		GiTag giTag2 = new GiTag();
-		giTag2.giTagId = 2;
-		giTag2.place = "Banarasi Saree";
-		giTag2.year = "2009";
-		giTag2.type = "Handicraft";
-		giTag2.state = "Uttar Pradesh";
+		GiTag giTag2 = new GiTag(2, "Banarasi Saree", "2009", "Handicraft", "Uttar Pradesh");
+		// giTag2.giTagId = 2;
+		// giTag2.place = "Banarasi Saree";
+		// giTag2.year = "2009";
+		// giTag2.type = "Handicraft";
+		// giTag2.state = "Uttar Pradesh";
 		
 		
 		giTag2.getGitagInfo();
@@ -34,12 +34,12 @@ class GiTagRunner{
 		// System.out.println("the state of giTag2 " + giTag2.state);
 		System.out.println();
 		
-		GiTag giTag3 = new GiTag();
-		giTag3.giTagId = 3;
-		giTag3.place = "Nagpur Orange";
-		giTag3.year = "2014";
-		giTag3.type = "Agricultural";
-		giTag3.state = "Maharashtra";
+		GiTag giTag3 = new GiTag(3, "Nagpur Orange", "2014", "Agricultural", "Maharashtra");
+		// giTag3.giTagId = 3;
+		// giTag3.place = "Nagpur Orange";
+		// giTag3.year = "2014";
+		// giTag3.type = "Agricultural";
+		// giTag3.state = "Maharashtra";
 		
 		
 		giTag3.getGitagInfo();
@@ -51,12 +51,12 @@ class GiTagRunner{
 		// System.out.println("the state of giTag3 " + giTag3.state);
 		System.out.println();
 		
-		GiTag giTag4 = new GiTag();
-		giTag4.giTagId = 4;
-		giTag4.place = "Kashmir Pashmina";
-		giTag4.year = "2008";
-		giTag4.type = "Handicraft";
-		giTag4.state = "Jammu & Kashmir";
+		GiTag giTag4 = new GiTag(4, "Kashmir Pashmina", "2008", "Handicraft", "Jammu & Kashmir");
+		// giTag4.giTagId = 4;
+		// giTag4.place = "Kashmir Pashmina";
+		// giTag4.year = "2008";
+		// giTag4.type = "Handicraft";
+		// giTag4.state = "Jammu & Kashmir";
 		
 		giTag4.getGitagInfo();
 		
@@ -67,12 +67,12 @@ class GiTagRunner{
 		// System.out.println("the state of giTag4 " + giTag4.state);
 		System.out.println();
 		
-		GiTag giTag5 = new GiTag();
-		giTag5.giTagId = 5;
-		giTag5.place = "Malabar Pepper";
-		giTag5.year = "2004";
-		giTag5.type = "Agricultural";
-		giTag5.state = "Kerala";
+		GiTag giTag5 = new GiTag(5, "Malabar Pepper", "2004", "Agricultural", "Kerala");
+		// giTag5.giTagId = 5;
+		// giTag5.place = "Malabar Pepper";
+		// giTag5.year = "2004";
+		// giTag5.type = "Agricultural";
+		// giTag5.state = "Kerala";
 		
 		giTag5.getGitagInfo();
 		
@@ -83,12 +83,12 @@ class GiTagRunner{
 		// System.out.println("the state of giTag5 " + giTag5.state);
 		System.out.println();
 		
-		GiTag giTag6 = new GiTag();
-		giTag6.giTagId = 6;
-		giTag6.place = "Mysore Sandal Soap";
-		giTag6.year = "2005";
-		giTag6.type = "Manufactured";
-		giTag6.state = "Karnataka";
+		GiTag giTag6 = new GiTag(6, "Mysore Sandal Soap", "2005", "Manufactured", "Karnataka");
+		// giTag6.giTagId = 6;
+		// giTag6.place = "Mysore Sandal Soap";
+		// giTag6.year = "2005";
+		// giTag6.type = "Manufactured";
+		// giTag6.state = "Karnataka";
 		
 		giTag6.getGitagInfo();
 		
@@ -99,12 +99,12 @@ class GiTagRunner{
 		// System.out.println("the state of giTag6 " + giTag6.state);
 		System.out.println();
 		
-		GiTag giTag7 = new GiTag();
-		giTag7.giTagId = 7;
-		giTag7.place = "Kangra Painting";
-		giTag7.year = "2012";
-		giTag7.type = "Handicraft";
-		giTag7.state = "Himachal Pradesh";
+		GiTag giTag7 = new GiTag(7, "Kangra Painting", "2012", "Handicraft", "Himachal Pradesh");
+		// giTag7.giTagId = 7;
+		// giTag7.place = "Kangra Painting";
+		// giTag7.year = "2012";
+		// giTag7.type = "Handicraft";
+		// giTag7.state = "Himachal Pradesh";
 		
 		giTag7.getGitagInfo();
 		
@@ -115,12 +115,12 @@ class GiTagRunner{
 		// System.out.println("the state of giTag7 " + giTag7.state);
 		System.out.println();
 		
-		GiTag giTag8 = new GiTag();
-		giTag8.giTagId = 8;
-		giTag8.place = "Bikaneri Bhujia";
-		giTag8.year = "2010";
-		giTag8.type = "Foodstuff";
-		giTag8.state = "Rajasthan";
+		GiTag giTag8 = new GiTag(8, "Bikaneri Bhujia", "2010", "Foodstuff", "Rajasthan");
+		// giTag8.giTagId = 8;
+		// giTag8.place = "Bikaneri Bhujia";
+		// giTag8.year = "2010";
+		// giTag8.type = "Foodstuff";
+		// giTag8.state = "Rajasthan";
 		
 		giTag8.getGitagInfo();
 		
@@ -131,12 +131,12 @@ class GiTagRunner{
 		// System.out.println("the state of giTag8 " + giTag8.state);
 		System.out.println();
 		
-		GiTag giTag9 = new GiTag();
-		giTag9.giTagId = 9;
-		giTag9.place = "Assam Orthodox Tea";
-		giTag9.year = "2007";
-		giTag9.type = "Agricultural";
-		giTag9.state = "Assam";
+		GiTag giTag9 = new GiTag(9, "Assam Orthodox Tea", "2007", "Agricultural", "Assam");
+		// giTag9.giTagId = 9;
+		// giTag9.place = "Assam Orthodox Tea";
+		// giTag9.year = "2007";
+		// giTag9.type = "Agricultural";
+		// giTag9.state = "Assam";
 		
 		giTag9.getGitagInfo();
 		
@@ -147,12 +147,12 @@ class GiTagRunner{
 		// System.out.println("the state of giTag9 " + giTag9.state);
 		System.out.println();
 		
-		GiTag giTag10 = new GiTag();
-		giTag10.giTagId = 10;
-		giTag10.place = "Hyderabadi Haleem";
-		giTag10.year = "2010";
-		giTag10.type = "Foodstuff";
-		giTag10.state = "Telangana";
+		GiTag giTag10 = new GiTag(10, "Hyderabadi Haleem", "2010", "Foodstuff", "Telangana");
+		// giTag10.giTagId = 10;
+		// giTag10.place = "Hyderabadi Haleem";
+		// giTag10.year = "2010";
+		// giTag10.type = "Foodstuff";
+		// giTag10.state = "Telangana";
 		
 		giTag10.getGitagInfo();
 		
@@ -164,12 +164,12 @@ class GiTagRunner{
 		System.out.println();
 		
 		
-		GiTag giTag11 = new GiTag();
-		giTag11.giTagId = 11;
-		giTag11.place = "Mahabalipuram Stone Sculpture";
-		giTag11.year = "2005";
-		giTag11.type = "Handicraft";
-		giTag11.state = "Tamil Nadu";
+		GiTag giTag11 = new GiTag(11, "Mahabalipuram Stone Sculpture", "2005", "Handicraft", "Tamil Nadu");
+		// giTag11.giTagId = 11;
+		// giTag11.place = "Mahabalipuram Stone Sculpture";
+		// giTag11.year = "2005";
+		// giTag11.type = "Handicraft";
+		// giTag11.state = "Tamil Nadu";
 		
 		giTag11.getGitagInfo();
 		
@@ -180,12 +180,12 @@ class GiTagRunner{
 		// System.out.println("the state of giTag11 " + giTag11.state);
 		System.out.println();
 		
-		GiTag giTag12 = new GiTag();
-		giTag12.giTagId = 12;
-		giTag12.place = "Coorg Orange";
-		giTag12.year = "2004";
-		giTag12.type = "Agricultural";
-		giTag12.state = "Karnataka";
+		GiTag giTag12 = new GiTag(12, "Coorg Orange", "2004", "Agricultural", "Karnataka");
+		// giTag12.giTagId = 12;
+		// giTag12.place = "Coorg Orange";
+		// giTag12.year = "2004";
+		// giTag12.type = "Agricultural";
+		// giTag12.state = "Karnataka";
 		
 		giTag12.getGitagInfo();
 		
@@ -196,12 +196,12 @@ class GiTagRunner{
 		// System.out.println("the state of giTag12 " + giTag12.state);
 		System.out.println();
 		
-		GiTag giTag13 = new GiTag();
-		giTag13.giTagId = 13;
-		giTag13.place = "Kutch Embroidery";
-		giTag13.year = "2013";
-		giTag13.type = "Handicraft";
-		giTag13.state = "Gujarat";
+		GiTag giTag13 = new GiTag(13, "Kutch Embroidery", "2013", "Handicraft", "Gujarat");
+		// giTag13.giTagId = 13;
+		// giTag13.place = "Kutch Embroidery";
+		// giTag13.year = "2013";
+		// giTag13.type = "Handicraft";
+		// giTag13.state = "Gujarat";
 		
 		giTag13.getGitagInfo();
 		
@@ -212,12 +212,12 @@ class GiTagRunner{
 		// System.out.println("the state of giTag13 " + giTag13.state);
 		System.out.println();
 		
-		GiTag giTag14 = new GiTag();
-		giTag14.giTagId = 14;
-		giTag14.place = "Allahabad Surkha Guava";
-		giTag14.year = "2006";
-		giTag14.type = "Agricultural";
-		giTag14.state = "Uttar Pradesh";
+		GiTag giTag14 = new GiTag(14, "Allahabad Surkha Guava", "2006", "Agricultural", "Uttar Pradesh");
+		// giTag14.giTagId = 14;
+		// giTag14.place = "Allahabad Surkha Guava";
+		// giTag14.year = "2006";
+		// giTag14.type = "Agricultural";
+		// giTag14.state = "Uttar Pradesh";
 		
 		giTag14.getGitagInfo();
 		
@@ -228,12 +228,12 @@ class GiTagRunner{
 		// System.out.println("the state of giTag14 " + giTag14.state);
 		System.out.println();
 		
-		GiTag giTag15 = new GiTag();
-		giTag15.giTagId = 15;
-		giTag15.place = "Channapatna Toys";
-		giTag15.year = "2005";
-		giTag15.type = "Handicraft";
-		giTag15.state = "Karnataka";
+		GiTag giTag15 = new GiTag(15, "Channapatna Toys", "2005", "Handicraft", "Karnataka");
+		// giTag15.giTagId = 15;
+		// giTag15.place = "Channapatna Toys";
+		// giTag15.year = "2005";
+		// giTag15.type = "Handicraft";
+		// giTag15.state = "Karnataka";
 		
 		giTag15.getGitagInfo();
 		
@@ -244,12 +244,12 @@ class GiTagRunner{
 		// System.out.println("the state of giTag15 " + giTag15.state);
 		System.out.println();
 		
-		GiTag giTag16 = new GiTag();
-		giTag16.giTagId = 16;
-		giTag16.place = "Bastar Dhokra";
-		giTag16.year = "2008";
-		giTag16.type = "Handicraft";
-		giTag16.state = "Chhattisgarh";
+		GiTag giTag16 = new GiTag(16, "Bastar Dhokra", "2008", "Handicraft", "Chhattisgarh");
+		// giTag16.giTagId = 16;
+		// giTag16.place = "Bastar Dhokra";
+		// giTag16.year = "2008";
+		// giTag16.type = "Handicraft";
+		// giTag16.state = "Chhattisgarh";
 		
 		giTag16.getGitagInfo();
 		
@@ -260,12 +260,12 @@ class GiTagRunner{
 		// System.out.println("the state of giTag16 " + giTag16.state);
 		System.out.println();
 		
-		GiTag giTag17 = new GiTag();
-		giTag17.giTagId = 17;
-		giTag17.place = "Goan Cashew Feni";
-		giTag17.year = "2009";
-		giTag17.type = "Foodstuff";
-		giTag17.state = "Goa";
+		GiTag giTag17 = new GiTag(17, "Goan Cashew Feni", "2009", "Foodstuff", "Goa");
+		// giTag17.giTagId = 17;
+		// giTag17.place = "Goan Cashew Feni";
+		// giTag17.year = "2009";
+		// giTag17.type = "Foodstuff";
+		// giTag17.state = "Goa";
 		
 		giTag17.getGitagInfo();
 		// System.out.println("the giTagId of giTag17 " + giTag17.giTagId);
@@ -275,12 +275,12 @@ class GiTagRunner{
 		// System.out.println("the state of giTag17 " + giTag17.state);
 		System.out.println();
 		
-		GiTag giTag18 = new GiTag();
-		giTag18.giTagId = 18;
-		giTag18.place = "Madhubani Paintings";
-		giTag18.year = "2007";
-		giTag18.type = "Handicraft";
-		giTag18.state = "Bihar";
+		GiTag giTag18 = new GiTag(18, "Madhubani Paintings", "2007", "Handicraft", "Bihar");
+		// giTag18.giTagId = 18;
+		// giTag18.place = "Madhubani Paintings";
+		// giTag18.year = "2007";
+		// giTag18.type = "Handicraft";
+		// giTag18.state = "Bihar";
 		
 		giTag18.getGitagInfo();
 		
@@ -291,12 +291,12 @@ class GiTagRunner{
 		// System.out.println("the state of giTag18 " + giTag18.state);
 		System.out.println();
 		
-		GiTag giTag19 = new GiTag();
-		giTag19.giTagId = 19;
-		giTag19.place = "Sikkim Large Cardamom";
-		giTag19.year = "2011";
-		giTag19.type = "Agricultural";
-		giTag19.state = "Sikkim";
+		GiTag giTag19 = new GiTag(19, "Sikkim Large Cardamom", "2011", "Agricultural", "Sikkim");
+		// giTag19.giTagId = 19;
+		// giTag19.place = "Sikkim Large Cardamom";
+		// giTag19.year = "2011";
+		// giTag19.type = "Agricultural";
+		// giTag19.state = "Sikkim";
 		
 		giTag19.getGitagInfo();
 		
@@ -307,12 +307,12 @@ class GiTagRunner{
 		// System.out.println("the state of giTag19 " + giTag19.state);
 		System.out.println();
 		
-		GiTag giTag20 = new GiTag();
-		giTag20.giTagId = 20;
-		giTag20.place = "Manipur Black Rice";
-		giTag20.year = "2015";
-		giTag20.type = "Agricultural";
-		giTag20.state = "Manipur";
+		GiTag giTag20 = new GiTag(20, "Manipur Black Rice", "2015", "Agricultural", "Manipur");
+		// giTag20.giTagId = 20;
+		// giTag20.place = "Manipur Black Rice";
+		// giTag20.year = "2015";
+		// giTag20.type = "Agricultural";
+		// giTag20.state = "Manipur";
 	
 		giTag20.getGitagInfo();
 		

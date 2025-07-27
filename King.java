@@ -1,4 +1,19 @@
 class King{
+	
+	King(){
+		System.out.println("the  Constructor invoked" );
+	}
+	King(int kingId,String  kingName,String familyName,double kingWealth, int noOfWifes){
+		System.out.println("the Parameter Constructor invoked" );
+		this.kingId=kingId;
+		this.kingName=kingName;
+		this.familyName=familyName;
+		this.kingWealth=kingWealth;
+		this.noOfWifes=noOfWifes;
+		
+	}
+	
+	
 	int kingId;
 	String kingName;
 	String familyName;

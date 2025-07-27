@@ -1,14 +1,13 @@
 class KingRunner{
 	public static void main(String []prince){
 		
-	King	king1=	new King();
-	
-		king1.kingId = 1;
-		king1.kingName="RAJA";
-		king1.familyName="Raja Raja";
-		king1.kingWealth=100;
-		king1.noOfWifes=2;
-				king1.getKingInfo();
+	King king1 = new King(1, "RAJA", "Raja Raja", 100, 2);
+		// king1.kingId = 1;
+		// king1.kingName="RAJA";
+		// king1.familyName="Raja Raja";
+		// king1.kingWealth=100;
+		// king1.noOfWifes=2;
+				// king1.getKingInfo();
 		
 		// System.out.println("the king1 id is : "+king1.kingId);
 		// System.out.println("the kingName of thw king1 is  :"+king1.kingName);
@@ -17,12 +16,12 @@ class KingRunner{
 		// System.out.println("the noOfWifes of the king1 is "+king1.noOfWifes);
 		
 		
-		King king2 = new King();
-		king2.kingId = 2;
-		king2.kingName="Krishna RAJA";
-		king2.familyName="Raja Raja";
-		king2.kingWealth=1000;
-		king2.noOfWifes=2;
+		King king2 = new King(2, "Krishna RAJA", "Raja Raja", 1000, 2);
+		// king2.kingId = 2;
+		// king2.kingName="Krishna RAJA";
+		// king2.familyName="Raja Raja";
+		// king2.kingWealth=1000;
+		// king2.noOfWifes=2;
 		
 		king2.getKingInfo();
 		
@@ -33,12 +32,12 @@ class KingRunner{
 		// System.out.println("the noOfWifes of the king2 is "+king2.noOfWifes);
 		
 		
-		King king3 = new King();
-		king3.kingId = 3;
-		king3.kingName="Bhahadur ";
-		king3.familyName="Rajendra";
-		king3.kingWealth=1000;
-		king3.noOfWifes=2;
+		  King king3 = new King(3, "Bhahadur", "Rajendra", 1000, 2);
+		// king3.kingId = 3;
+		// king3.kingName="Bhahadur ";
+		// king3.familyName="Rajendra";
+		// king3.kingWealth=1000;
+		// king3.noOfWifes=2;
 				king3.getKingInfo();
 		
 		// System.out.println("the king3 id is : "+king3.kingId);
@@ -47,12 +46,12 @@ class KingRunner{
 		// System.out.println("the kingWealth of the king3 is :"+king3.kingWealth+"Million");
 		// System.out.println("the noOfWifes of the king3 is "+king3.noOfWifes);
 		
-		King king4 = new King();
-		king4.kingId = 4;
-		king4.kingName="Krishna Rajendra";
-		king4.familyName="odeyar";
-		king4.kingWealth=1500;
-		king4.noOfWifes=2;
+	King king4 = new King(4, "Krishna Rajendra", "odeyar", 1500, 2);
+		// king4.kingId = 4;
+		// king4.kingName="Krishna Rajendra";
+		// king4.familyName="odeyar";
+		// king4.kingWealth=1500;
+		// king4.noOfWifes=2;
 				king4.getKingInfo();
 		
 		// System.out.println("the king4 id is : "+king4.kingId);
@@ -61,12 +60,12 @@ class KingRunner{
 		// System.out.println("the kingWealth of the king4 is :"+king4.kingWealth+"Million");
 		// System.out.println("the noOfWifes of the king4 is "+king4.noOfWifes);
 		
-		King king5 = new King();
-		king5.kingId = 5;
-		king5.kingName="Krishna Rajendra";
-		king5.familyName="odeyar";
-		king5.kingWealth=2000;
-		king5.noOfWifes=2;
+		  King king5 = new King(5, "Krishna Rajendra", "odeyar", 2000, 2);
+		// king5.kingId = 5;
+		// king5.kingName="Krishna Rajendra";
+		// king5.familyName="odeyar";
+		// king5.kingWealth=2000;
+		// king5.noOfWifes=2;
 				king5.getKingInfo();
 		
 		// System.out.println("the king5 id is : "+king5.kingId);
@@ -76,11 +75,11 @@ class KingRunner{
 		// System.out.println("the noOfWifes of the king5 is "+king5.noOfWifes);
 		
 			King king6 = new King();
-		king6.kingId = 6;
-		king6.kingName="vijaya Rajendra";
-		king6.familyName="odeyar";
-		king6.kingWealth=2000;
-		king6.noOfWifes=2;
+		// king6.kingId = 6;
+		// king6.kingName="vijaya Rajendra";
+		// king6.familyName="odeyar";
+		// king6.kingWealth=2000;
+		// king6.noOfWifes=2;
 				king6.getKingInfo();
 		
 		// System.out.println("the king6 id is : "+king6.kingId);
@@ -90,12 +89,12 @@ class KingRunner{
 		// System.out.println("the noOfWifes of the king6 is "+king6.noOfWifes);
 		
 		
-			King king7 = new King();
-		king7.kingId = 7;
-		king7.kingName="Chandra";
-		king7.familyName="Gupta";
-		king7.kingWealth=2500;
-		king7.noOfWifes=4;
+		 King king7 = new King(7, "Chandra", "Gupta", 2500, 4);
+		// king7.kingId = 7;
+		// king7.kingName="Chandra";
+		// king7.familyName="Gupta";
+		// king7.kingWealth=2500;
+		// king7.noOfWifes=4;
 				king7.getKingInfo();
 		
 		// System.out.println("the king7 id is : "+king7.kingId);
@@ -104,12 +103,12 @@ class KingRunner{
 		// System.out.println("the kingWealth of the king7 is :"+king7.kingWealth+"Million");
 		// System.out.println("the noOfWifes of the king7 is "+king7.noOfWifes);
 		
-			King king8 = new King();
-		king8.kingId = 8;
-		king8.kingName="Samudra";
-		king8.familyName="Gupta";
-		king8.kingWealth=1500;
-		king8.noOfWifes=4;
+		King king8 = new King(8, "Samudra", "Gupta", 1500, 4);
+		// king8.kingId = 8;
+		// king8.kingName="Samudra";
+		// king8.familyName="Gupta";
+		// king8.kingWealth=1500;
+		// king8.noOfWifes=4;
 				king8.getKingInfo();
 		
 		// System.out.println("the king8 id is : "+king8.kingId);
@@ -118,12 +117,12 @@ class KingRunner{
 		// System.out.println("the kingWealth of the king8 is :"+king8.kingWealth+"Million");
 		// System.out.println("the noOfWifes of the king8 is "+king8.noOfWifes);
 		
-			King king9 = new King();
-		king9.kingId = 9;
-		king9.kingName="Chandra II";
-		king9.familyName="Gupta";
-		king9.kingWealth=1500;
-		king9.noOfWifes=4;
+			King king9 = new King(9, "Chandra II", "Gupta", 1500, 4);
+		// king9.kingId = 9;
+		// king9.kingName="Chandra II";
+		// king9.familyName="Gupta";
+		// king9.kingWealth=1500;
+		// king9.noOfWifes=4;
 				king9.getKingInfo();
 
 		
@@ -133,12 +132,12 @@ class KingRunner{
 		// System.out.println("the kingWealth of the king9 is :"+king9.kingWealth+"Million");
 		// System.out.println("the noOfWifes of the king9 is "+king9.noOfWifes);
 	
-			King king10 = new King();
-		king10.kingId = 10;
-		king10.kingName="Chandra III";
-		king10.familyName="Gupta";
-		king10.kingWealth=1500;
-		king10.noOfWifes=4;
+			King king10 = new King(10, "Chandra III", "Gupta", 1500, 4);
+		// king10.kingId = 10;
+		// king10.kingName="Chandra III";
+		// king10.familyName="Gupta";
+		// king10.kingWealth=1500;
+		// king10.noOfWifes=4;
 				king10.getKingInfo();
 
 		// System.out.println("the king10 id is : "+king10.kingId);
@@ -147,12 +146,12 @@ class KingRunner{
 		// System.out.println("the kingWealth of the king10 is :"+king10.kingWealth+"Million");
 		// System.out.println("the noOfWifes of the king10 is "+king10.noOfWifes);
 		
-			King king11 = new King();
-		king11.kingId = 11;
-		king11.kingName="Chandra IV";
-		king11.familyName="Gupta";
-		king11.kingWealth=1500;
-		king11.noOfWifes=4;
+			King king11 = new King(11, "Chandra IV", "Gupta", 1500, 4);
+		// king11.kingId = 11;
+		// king11.kingName="Chandra IV";
+		// king11.familyName="Gupta";
+		// king11.kingWealth=1500;
+		// king11.noOfWifes=4;
 				king11.getKingInfo();
 
 		// System.out.println("the king11 id is : "+king11.kingId);
@@ -161,12 +160,12 @@ class KingRunner{
 		// System.out.println("the kingWealth of the king11 is :"+king11.kingWealth+"Million");
 		// System.out.println("the noOfWifes of the king11 is "+king11.noOfWifes);
 		
-			King king12 = new King();
-		king12.kingId = 12;
-		king12.kingName="Samudra I";
-		king12.familyName="Gupta";
-		king12.kingWealth=1500;
-		king12.noOfWifes=4;
+			 King king12 = new King(12, "Samudra I", "Gupta", 1500, 4);
+		// king12.kingId = 12;
+		// king12.kingName="Samudra I";
+		// king12.familyName="Gupta";
+		// king12.kingWealth=1500;
+		// king12.noOfWifes=4;
 				king12.getKingInfo();
 
 		// System.out.println("the king12 id is : "+king12.kingId);
@@ -175,12 +174,12 @@ class KingRunner{
 		// System.out.println("the kingWealth of the king12 is :"+king12.kingWealth+"Million");
 		// System.out.println("the noOfWifes of the king12 is "+king12.noOfWifes);
 		
-			King king13 = new King();
-		king13.kingId = 13;
-		king13.kingName="Samudra II";
-		king13.familyName="Gupta";
-		king13.kingWealth=1500;
-		king13.noOfWifes=4;
+			 King king13 = new King(13, "Samudra II", "Gupta", 1500, 4);
+		// king13.kingId = 13;
+		// king13.kingName="Samudra II";
+		// king13.familyName="Gupta";
+		// king13.kingWealth=1500;
+		// king13.noOfWifes=4;
 				king13.getKingInfo();
 
 		// System.out.println("the king13 id is : "+king13.kingId);
@@ -189,12 +188,12 @@ class KingRunner{
 		// System.out.println("the kingWealth of the king13 is :"+king13.kingWealth+"Million");
 		// System.out.println("the noOfWifes of the king13 is "+king13.noOfWifes);
 		
-			King king14 = new King();
-		king14.kingId = 14;
-		king14.kingName="akabar II";
-		king14.familyName="muhgal";
-		king14.kingWealth=1500;
-		king14.noOfWifes=4;
+			King king14 = new King(14, "akabar II", "muhgal", 1500, 4);
+		// king14.kingId = 14;
+		// king14.kingName="akabar II";
+		// king14.familyName="muhgal";
+		// king14.kingWealth=1500;
+		// king14.noOfWifes=4;
 				king14.getKingInfo();
 
 		// System.out.println("the king14 id is : "+king14.kingId);
@@ -203,12 +202,12 @@ class KingRunner{
 		// System.out.println("the kingWealth of the king14 is :"+king14.kingWealth+"Million");
 		// System.out.println("the noOfWifes of the king14 is "+king14.noOfWifes);
 		
-			King king15 = new King();
-		king15.kingId = 15;
-		king15.kingName="birbal II";
-		king15.familyName="muhgal";
-		king15.kingWealth=1500;
-		king15.noOfWifes=4;
+			 King king15 = new King(15, "birbal II", "muhgal", 1500, 4);
+		// king15.kingId = 15;
+		// king15.kingName="birbal II";
+		// king15.familyName="muhgal";
+		// king15.kingWealth=1500;
+		// king15.noOfWifes=4;
 				king15.getKingInfo();
 
 		// System.out.println("the king15 id is : "+king15.kingId);
@@ -217,12 +216,12 @@ class KingRunner{
 		// System.out.println("the kingWealth of the king15 is :"+king15.kingWealth+"Million");
 		// System.out.println("the noOfWifes of the king15 is "+king15.noOfWifes);
 		
-			King king16 = new King();
-		king16.kingId = 16;
-		king16.kingName="birbal III";
-		king16.familyName="muhgal";
-		king16.kingWealth=1500;
-		king16.noOfWifes=4;
+			 King king16 = new King(16, "birbal III", "muhgal", 1500, 4);
+		// king16.kingId = 16;
+		// king16.kingName="birbal III";
+		// king16.familyName="muhgal";
+		// king16.kingWealth=1500;
+		// king16.noOfWifes=4;
 				king16.getKingInfo();
 
 		// System.out.println("the king16 id is : "+king16.kingId);
@@ -231,12 +230,12 @@ class KingRunner{
 		// System.out.println("the kingWealth of the king16 is :"+king16.kingWealth+"Million");
 		// System.out.println("the noOfWifes of the king16 is "+king16.noOfWifes);
 		
-			King king17 = new King();
-		king17.kingId = 17;
-		king17.kingName="Akabar1 III";
-		king17.familyName="muhgal";
-		king17.kingWealth=1500;
-		king17.noOfWifes=4;
+			King king17 = new King(17, "Akabar1 III", "muhgal", 1500, 4);
+		// king17.kingId = 17;
+		// king17.kingName="Akabar1 III";
+		// king17.familyName="muhgal";
+		// king17.kingWealth=1500;
+		// king17.noOfWifes=4;
 				king17.getKingInfo();
 
 		// System.out.println("the king17 id is : "+king17.kingId);
@@ -245,12 +244,12 @@ class KingRunner{
 		// System.out.println("the kingWealth of the king17 is :"+king17.kingWealth+"Million");
 		// System.out.println("the noOfWifes of the king17 is "+king17.noOfWifes);
 		
-			King king18 = new King();
-		king18.kingId = 18;
-		king18.kingName="Akbar";
-		king18.familyName="muhgal";
-		king18.kingWealth=1500;
-		king18.noOfWifes=4;
+		 King king18 = new King(18, "Akbar", "muhgal", 1500, 4);
+		// king18.kingId = 18;
+		// king18.kingName="Akbar";
+		// king18.familyName="muhgal";
+		// king18.kingWealth=1500;
+		// king18.noOfWifes=4;
 				king18.getKingInfo();
 
 		// System.out.println("the king18 id is : "+king18.kingId);
@@ -259,12 +258,12 @@ class KingRunner{
 		// System.out.println("the kingWealth of the king18 is :"+king18.kingWealth+"Million");
 		// System.out.println("the noOfWifes of the king18 is "+king18.noOfWifes);
 		
-			King king19 = new King();
-		king19.kingId = 19;
-		king19.kingName="Shivaji";
-		king19.familyName="Bhosle";
-		king19.kingWealth=1500;
-		king19.noOfWifes=4;
+		King king19 = new King(19, "Shivaji", "Bhosle", 1500, 4);
+		// king19.kingId = 19;
+		// king19.kingName="Shivaji";
+		// king19.familyName="Bhosle";
+		// king19.kingWealth=1500;
+		// king19.noOfWifes=4;
 				king19.getKingInfo();
 
 		// System.out.println("the king19 id is : "+king19.kingId);
@@ -273,12 +272,12 @@ class KingRunner{
 		// System.out.println("the kingWealth of the king19 is :"+king19.kingWealth+"Million");
 		// System.out.println("the noOfWifes of the king19 is "+king19.noOfWifes);
 		
-			King king20 = new King();
-		king20.kingId = 20;
-		king20.kingName="Sambhaji";
-		king20.familyName="Bhosle";
-		king20.kingWealth=1500;
-		king20.noOfWifes=4;
+King king20 = new King(20, "Sambhaji", "Bhosle", 1500, 4);
+		// king20.kingId = 20;
+		// king20.kingName="Sambhaji";
+		// king20.familyName="Bhosle";
+		// king20.kingWealth=1500;
+		// king20.noOfWifes=4;
 		king20.getKingInfo();
 		// System.out.println("the king20 id is : "+king20.kingId);
 		// System.out.println("the kingName of thw king20 is  :"+king20.kingName);

@@ -1,4 +1,19 @@
 class ForestSafari{
+	
+	
+			ForestSafari(){
+		System.out.println("the  Constructor invoked" );
+	}
+	ForestSafari(int forestSafariId,String  fsName,int noOfWorkers,String location, String animalType){
+		this.forestSafariId=forestSafariId;
+		this.fsName=fsName;
+		this.noOfWorkers=noOfWorkers;
+		this.location=location;
+		this.animalType=animalType;
+		
+	}
+	
+	
 	int forestSafariId;
 	String fsName;
 	int noOfWorkers;

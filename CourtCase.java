@@ -1,4 +1,22 @@
 class CourtCase{
+	
+	
+		CourtCase(){
+			System.out.println("the  Constructor invoked" );
+		
+	}
+	CourtCase(int caseId,String rodLength,String rodDaimeter,String aquesedName,String caseRegistrationDate){
+		
+		System.out.println("the Parameter Constructor invoked" );
+		this.caseId=caseId;
+		this.client=client;
+		this.caseType=caseType;
+		this.aquesedName=aquesedName;
+		this.caseRegistrationDate=caseRegistrationDate;
+		
+	}
+	
+	
 	int caseId;
 	String client;
 	String caseType;

@@ -1,13 +1,13 @@
 class MarbleRunner{
 	public static void main(String []mr){
 		
-	Marble	marble1=new Marble();
+	Marble	marble1=new Marble(100001, "", "Black", "rectangle", "Good");
 		
-	marble1.marbleId=100001;
-	marble1.marbleType="";
-	marble1.colors="Black";
-	marble1.shape="rectangle";
-	marble1.Quality="Good";
+	// marble1.marbleId=100001;
+	// marble1.marbleType="";
+	// marble1.colors="Black";
+	// marble1.shape="rectangle";
+	// marble1.Quality="Good";
 	
 	marble1.getMarbleinfo();
 	
@@ -21,12 +21,12 @@ class MarbleRunner{
 
 	System.out.println();
 	
-	Marble marble2 = new Marble();
-	marble2.marbleId = 100002;
-	marble2.marbleType = "Marquina";
-	marble2.colors = "White";
-	marble2.shape = "Square";
-	marble2.Quality = "Excellent";
+	Marble marble2 =new Marble(100002, "Marquina", "White", "Square", "Excellent");
+	// marble2.marbleId = 100002;
+	// marble2.marbleType = "Marquina";
+	// marble2.colors = "White";
+	// marble2.shape = "Square";
+	// marble2.Quality = "Excellent";
 	
 	
 	marble2.getMarbleinfo();
@@ -38,12 +38,12 @@ class MarbleRunner{
 	// System.out.println("the Quality of the marble2 "+marble2.Quality);
 	System.out.println();
 	
-	Marble marble3 = new Marble();
-	marble3.marbleId = 100003;
-	marble3.marbleType = "Onyx";
-	marble3.colors = "Green";
-	marble3.shape = "Circular";
-	marble3.Quality = "Premium";
+	Marble marble3 = new Marble(100003, "Onyx", "Green", "Circular", "Premium");
+	// marble3.marbleId = 100003;
+	// marble3.marbleType = "Onyx";
+	// marble3.colors = "Green";
+	// marble3.shape = "Circular";
+	// marble3.Quality = "Premium";
 	
 	
 	marble3.getMarbleinfo();
@@ -55,12 +55,12 @@ class MarbleRunner{
 	// System.out.println("the Quality of the marble3 "+marble3.Quality);
 	System.out.println();
 	
-	Marble marble4 = new Marble();
-	marble4.marbleId = 100004;
-	marble4.marbleType = "Travertine";
-	marble4.colors = "Beige";
-	marble4.shape = "Rectangle";
-	marble4.Quality = "Good";
+	Marble marble4 = new Marble(100004, "Travertine", "Beige", "Rectangle", "Good");
+	// marble4.marbleId = 100004;
+	// marble4.marbleType = "Travertine";
+	// marble4.colors = "Beige";
+	// marble4.shape = "Rectangle";
+	// marble4.Quality = "Good";
 	
 	marble4.getMarbleinfo();
 	
@@ -72,12 +72,11 @@ class MarbleRunner{
 	// System.out.println("the Quality of the marble4 "+marble4.Quality);
 	System.out.println();
 	
-	Marble marble5 = new Marble();
-	marble5.marbleId = 100005;
-	marble5.marbleType = "Statuario";
-	marble5.colors = "White";
-	marble5.shape = "Rectangle";
-	marble5.Quality = "Excellent";
+	Marble marble5 =new Marble(100005, "Statuario", "White", "Rectangle", "Excellent");
+	// marble5.marbleType = "Statuario";
+	// marble5.colors = "White";
+	// marble5.shape = "Rectangle";
+	// marble5.Quality = "Excellent";
 	
 	
 	
@@ -90,12 +89,12 @@ class MarbleRunner{
 	// System.out.println("the Quality of the marble5 "+marble5.Quality);
 	System.out.println();
 	
-	Marble marble6 = new Marble();
-	marble6.marbleId = 100006;
-	marble6.marbleType = "Makrana";
-	marble6.colors = "Pink";
-	marble6.shape = "Square";
-	marble6.Quality = "Good";
+	Marble marble6 = new Marble(100006, "Makrana", "Pink", "Square", "Good");
+	// marble6.marbleId = 100006;
+	// marble6.marbleType = "Makrana";
+	// marble6.colors = "Pink";
+	// marble6.shape = "Square";
+	// marble6.Quality = "Good";
 	
 	marble6.getMarbleinfo();
 	
@@ -107,12 +106,12 @@ class MarbleRunner{
 	// System.out.println("the Quality of the marble6 "+marble6.Quality);
 	System.out.println();
 	
-	Marble marble7 = new Marble();
-	marble7.marbleId = 100007;
-	marble7.marbleType = "Katni";
-	marble7.colors = "Yellow";
-	marble7.shape = "Rectangle";
-	marble7.Quality = "Premium";
+	Marble marble7 = new Marble(100007, "Katni", "Yellow", "Rectangle", "Premium");
+	// marble7.marbleId = 100007;
+	// marble7.marbleType = "Katni";
+	// marble7.colors = "Yellow";
+	// marble7.shape = "Rectangle";
+	// marble7.Quality = "Premium";
 	
 	marble7.getMarbleinfo();
 	
@@ -124,12 +123,12 @@ class MarbleRunner{
 	// System.out.println("the Quality of the marble7 "+marble7.Quality);
 	System.out.println();
 	
-	Marble marble8 = new Marble();
-	marble8.marbleId = 100008;
-	marble8.marbleType = "Carrara";
-	marble8.colors = "Grey";
-	marble8.shape = "Circular";
-	marble8.Quality = "Good";
+	Marble marble8 = new Marble(100008, "Carrara", "Grey", "Circular", "Good");
+	// marble8.marbleId = 100008;
+	// marble8.marbleType = "Carrara";
+	// marble8.colors = "Grey";
+	// marble8.shape = "Circular";
+	// marble8.Quality = "Good";
 	
 	
 	marble8.getMarbleinfo();
@@ -142,12 +141,12 @@ class MarbleRunner{
 	// System.out.println("the Quality of the marble8 "+marble8.Quality);
 	System.out.println();
 	
-	Marble marble9 = new Marble();
-	marble9.marbleId = 100009;
-	marble9.marbleType = "Albeta";
-	marble9.colors = "White-Grey";
-	marble9.shape = "Rectangle";
-	marble9.Quality = "Excellent";
+	Marble marble9 =new Marble(100009, "Albeta", "White-Grey", "Rectangle", "Excellent");
+	// marble9.marbleId = 100009;
+	// marble9.marbleType = "Albeta";
+	// marble9.colors = "White-Grey";
+	// marble9.shape = "Rectangle";
+	// marble9.Quality = "Excellent";
 	
 	marble9.getMarbleinfo();
 	
@@ -159,12 +158,12 @@ class MarbleRunner{
 	// System.out.println("the Quality of the marble9 "+marble9.Quality);
 	System.out.println();
 	
-	Marble marble10 = new Marble();
-	marble10.marbleId = 100010;
-	marble10.marbleType = "Jaisalmer";
-	marble10.colors = "Golden";
-	marble10.shape = "Square";
-	marble10.Quality = "Premium";
+	Marble marble10 = new Marble(100010, "Jaisalmer", "Golden", "Square", "Premium");
+	// marble10.marbleId = 100010;
+	// marble10.marbleType = "Jaisalmer";
+	// marble10.colors = "Golden";
+	// marble10.shape = "Square";
+	// marble10.Quality = "Premium";
 	
 	
 	marble10.getMarbleinfo();
@@ -177,12 +176,12 @@ class MarbleRunner{
 	// System.out.println("the Quality of the marble10 "+marble10.Quality);
 	System.out.println();
 	
-	Marble marble11 = new Marble();
-	marble11.marbleId = 100011;
-	marble11.marbleType = "Abu Black";
-	marble11.colors = "Black";
-	marble11.shape = "Rectangle";
-	marble11.Quality = "Excellent";
+	Marble marble11 = new Marble(100011, "Abu Black", "Black", "Rectangle", "Excellent");
+	// marble11.marbleId = 100011;
+	// marble11.marbleType = "Abu Black";
+	// marble11.colors = "Black";
+	// marble11.shape = "Rectangle";
+	// marble11.Quality = "Excellent";
 	
 	marble11.getMarbleinfo();
 	
@@ -194,12 +193,12 @@ class MarbleRunner{
 	// System.out.println("the Quality of the marble11 "+marble11.Quality);
 	System.out.println();
 	
-	Marble marble12 = new Marble();
-	marble12.marbleId = 100012;
-	marble12.marbleType = "Forest Green";
-	marble12.colors = "Green";
-	marble12.shape = "Circular";
-	marble12.Quality = "Good";
+	Marble marble12 = new Marble(100012, "Forest Green", "Green", "Circular", "Good");
+	// marble12.marbleId = 100012;
+	// marble12.marbleType = "Forest Green";
+	// marble12.colors = "Green";
+	// marble12.shape = "Circular";
+	// marble12.Quality = "Good";
 	
 	
 	marble12.getMarbleinfo();
@@ -212,12 +211,12 @@ class MarbleRunner{
 	// System.out.println("the Quality of the marble12 "+marble12.Quality);
 	System.out.println();
 	
-	Marble marble13 = new Marble();
-	marble13.marbleId = 100013;
-	marble13.marbleType = "Pink Marble";
-	marble13.colors = "Pink";
-	marble13.shape = "Rectangle";
-	marble13.Quality = "Premium";
+	Marble marble13 = new Marble(100013, "Pink Marble", "Pink", "Rectangle", "Premium");
+	// marble13.marbleId = 100013;
+	// marble13.marbleType = "Pink Marble";
+	// marble13.colors = "Pink";
+	// marble13.shape = "Rectangle";
+	// marble13.Quality = "Premium";
 	
 	marble13.getMarbleinfo();
 	
@@ -229,12 +228,12 @@ class MarbleRunner{
 	// System.out.println("the Quality of the marble13 "+marble13.Quality);
 	System.out.println();
 	
-	Marble marble14 = new Marble();
-	marble14.marbleId = 100014;
-	marble14.marbleType = "Rainforest Brown";
-	marble14.colors = "Brown";
-	marble14.shape = "Square";
-	marble14.Quality = "Excellent";
+	Marble marble14 = new Marble(100014, "Rainforest Brown", "Brown", "Square", "Excellent");
+	// marble14.marbleId = 100014;
+	// marble14.marbleType = "Rainforest Brown";
+	// marble14.colors = "Brown";
+	// marble14.shape = "Square";
+	// marble14.Quality = "Excellent";
 	
 	
 	marble14.getMarbleinfo();
@@ -247,12 +246,12 @@ class MarbleRunner{
 	// System.out.println("the Quality of the marble14 "+marble14.Quality);
 	System.out.println();
 	
-	Marble marble15 = new Marble();
-	marble15.marbleId = 100015;
-	marble15.marbleType = "Fossil";
-	marble15.colors = "Grey-White";
-	marble15.shape = "Rectangle";
-	marble15.Quality = "Good";
+	Marble marble15 =new Marble(100015, "Fossil", "Grey-White", "Rectangle", "Good");
+	// marble15.marbleId = 100015;
+	// marble15.marbleType = "Fossil";
+	// marble15.colors = "Grey-White";
+	// marble15.shape = "Rectangle";
+	// marble15.Quality = "Good";
 	
 	marble15.getMarbleinfo();
 	
@@ -264,12 +263,12 @@ class MarbleRunner{
 	// System.out.println("the Quality of the marble15 "+marble15.Quality);
 	System.out.println();
 	
-	Marble marble16 = new Marble();
-	marble16.marbleId = 100016;
-	marble16.marbleType = "Udaipur Pink";
-	marble16.colors = "Pink";
-	marble16.shape = "Circular";
-	marble16.Quality = "Premium";
+	Marble marble16 = new Marble(100016, "Udaipur Pink", "Pink", "Circular", "Premium");
+	// marble16.marbleId = 100016;
+	// marble16.marbleType = "Udaipur Pink";
+	// marble16.colors = "Pink";
+	// marble16.shape = "Circular";
+	// marble16.Quality = "Premium";
 	
 	marble16.getMarbleinfo();
 	
@@ -281,12 +280,12 @@ class MarbleRunner{
 	// System.out.println("the Quality of the marble16 "+marble16.Quality);
 	System.out.println();
 	
-	Marble marble17 = new Marble();
-	marble17.marbleId = 100017;
-	marble17.marbleType = "Morwad White";
-	marble17.colors = "White";
-	marble17.shape = "Square";
-	marble17.Quality = "Excellent";
+	Marble marble17 = new Marble(100017, "Morwad White", "White", "Square", "Excellent");
+	// marble17.marbleId = 100017;
+	// marble17.marbleType = "Morwad White";
+	// marble17.colors = "White";
+	// marble17.shape = "Square";
+	// marble17.Quality = "Excellent";
 	
 	marble17.getMarbleinfo();
 	
@@ -298,12 +297,12 @@ class MarbleRunner{
 	// System.out.println("the Quality of the marble17 "+marble17.Quality);
 	System.out.println();
 	
-	Marble marble18 = new Marble();
-	marble18.marbleId = 100018;
-	marble18.marbleType = "Green Marble";
-	marble18.colors = "Green";
-	marble18.shape = "Rectangle";
-	marble18.Quality = "Good";
+	Marble marble18 = new Marble(100018, "Green Marble", "Green", "Rectangle", "Good");
+	// marble18.marbleId = 100018;
+	// marble18.marbleType = "Green Marble";
+	// marble18.colors = "Green";
+	// marble18.shape = "Rectangle";
+	// marble18.Quality = "Good";
 	
 	marble18.getMarbleinfo();
 	
@@ -315,12 +314,12 @@ class MarbleRunner{
 	// System.out.println("the Quality of the marble18 "+marble18.Quality);
 	System.out.println();
 	
-	Marble marble19 = new Marble();
-	marble19.marbleId = 100019;
-	marble19.marbleType = "Brown Albeta";
-	marble19.colors = "Brown";
-	marble19.shape = "Rectangle";
-	marble19.Quality = "Premium";
+	Marble marble19 = new Marble(100019, "Brown Albeta", "Brown", "Rectangle", "Premium");
+	// marble19.marbleId = 100019;
+	// marble19.marbleType = "Brown Albeta";
+	// marble19.colors = "Brown";
+	// marble19.shape = "Rectangle";
+	// marble19.Quality = "Premium";
 	
 	marble19.getMarbleinfo();
 	
@@ -332,12 +331,12 @@ class MarbleRunner{
 	// System.out.println("the Quality of the marble19 "+marble19.Quality);
 	System.out.println();
 	
-	Marble marble20 = new Marble();
-	marble20.marbleId = 100020;
-	marble20.marbleType = "Opal White";
-	marble20.colors = "White";
-	marble20.shape = "Square";
-	marble20.Quality = "Excellent";
+	Marble marble20 = new Marble(100020, "Opal White", "White", "Square", "Excellent");
+	// marble20.marbleId = 100020;
+	// marble20.marbleType = "Opal White";
+	// marble20.colors = "White";
+	// marble20.shape = "Square";
+	// marble20.Quality = "Excellent";
 	
 	marble20.getMarbleinfo();
 	

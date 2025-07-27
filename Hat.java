@@ -1,4 +1,18 @@
 class Hat{
+	
+	
+		Hat(){
+		
+	}
+	Hat(int hatId,String hatMaterialType,String hatType,String hatColor, boolean isAdjustable){
+		this.hatId=hatId;
+		this.hatMaterialType=hatMaterialType;
+		this.hatType=hatType;
+		this.hatColor=hatColor;
+		this.isAdjustable=isAdjustable;
+		
+	}
+	
 	int hatId ;
 	String hatMaterialType;
 	String hatType;

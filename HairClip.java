@@ -1,4 +1,20 @@
 class HairClip{
+	
+	HairClip(){
+		System.out.println("the  Constructor invoked" );
+	}
+	HairClip(int hairClipId,String hairClipColor,	String hairClipMaterial,int noOfTeeth,int hairClipPrice){
+				System.out.println("the Parameter Constructor invoked" );
+		
+		
+		this.hairClipId=hairClipId;
+		this.hairClipColor=hairClipColor;
+		this.hairClipMaterial=hairClipMaterial;
+		this.noOfTeeth=noOfTeeth;
+		this.hairClipPrice=hairClipPrice;
+		
+
+	}
 	int hairClipId;
 	String hairClipColor;
 	String hairClipMaterial;

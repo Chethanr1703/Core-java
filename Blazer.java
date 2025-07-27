@@ -1,4 +1,18 @@
 class Blazer{
+	Blazer(){System.out.println("the  Constructor invoked" );
+		
+	}
+	
+	Blazer(int blazerId,String blazerMaterailType,boolean isPipingAvaible,String blazerBrand,String manufactorCompanyName,String blazerColor){
+				System.out.println("the Parameter Constructor invoked" );
+		this.blazerId=blazerId;
+		this.blazerMaterailType=blazerMaterailType;
+		this.isPipingAvaible=isPipingAvaible;
+		this.blazerBrand=blazerBrand;
+		this.manufactorCompanyName=manufactorCompanyName;
+		this.blazerColor=blazerColor;
+	}
+	
 	int blazerId ;
 	String blazerMaterailType;
 	boolean isPipingAvaible;

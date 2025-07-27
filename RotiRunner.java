@@ -2,12 +2,12 @@ class RotiRunner{
 	
 	public static void main (String []rr){
 
-	Roti	roti1	=new Roti();
-	roti1.rotiId=101;
-	roti1.rotiShape="Circle";
-	roti1.rotiType="romali";
-	roti1.rotiPrice=25;
-	roti1.isbuttered=true;
+	Roti	roti1	= new Roti(101, "Circle", "romali", 25, true);
+	// roti1.rotiId=101;
+	// roti1.rotiShape="Circle";
+	// roti1.rotiType="romali";
+	// roti1.rotiPrice=25;
+	// roti1.isbuttered=true;
 	
 	roti1.getRotiInfo();
 	
@@ -19,12 +19,12 @@ class RotiRunner{
 	
 	System.out.println();
 
-	Roti roti2 = new Roti();
-	roti2.rotiId = 102;
-	roti2.rotiShape = "Square";
-	roti2.rotiType = "Tandoori";
-	roti2.rotiPrice = 30;
-	roti2.isbuttered = false;
+	Roti roti2 =new Roti(102, "Square", "Tandoori", 30, false);
+	// roti2.rotiId = 102;
+	// roti2.rotiShape = "Square";
+	// roti2.rotiType = "Tandoori";
+	// roti2.rotiPrice = 30;
+	// roti2.isbuttered = false;
 	
 	
 	roti2.getRotiInfo();
@@ -36,12 +36,12 @@ class RotiRunner{
 	// System.out.println("isbuttered " + roti2.isbuttered);
 	System.out.println();
 	
-	Roti roti3 = new Roti();
-	roti3.rotiId = 103;
-	roti3.rotiShape = "Circle";
-	roti3.rotiType = "Butter Naan";
-	roti3.rotiPrice = 35;
-	roti3.isbuttered = true;
+	Roti roti3 = new Roti(103, "Circle", "Butter Naan", 35, true);
+	// roti3.rotiId = 103;
+	// roti3.rotiShape = "Circle";
+	// roti3.rotiType = "Butter Naan";
+	// roti3.rotiPrice = 35;
+	// roti3.isbuttered = true;
 	
 	
 	roti3.getRotiInfo();
@@ -53,12 +53,12 @@ class RotiRunner{
 	// System.out.println("isbuttered " + roti3.isbuttered);
 	System.out.println();
 	
-	Roti roti4 = new Roti();
-	roti4.rotiId = 104;
-	roti4.rotiShape = "Oval";
-	roti4.rotiType = "Lachha Paratha";
-	roti4.rotiPrice = 40;
-	roti4.isbuttered = true;
+	Roti roti4 = new Roti(104, "Oval", "Lachha Paratha", 40, true);
+	// roti4.rotiId = 104;
+	// roti4.rotiShape = "Oval";
+	// roti4.rotiType = "Lachha Paratha";
+	// roti4.rotiPrice = 40;
+	// roti4.isbuttered = true;
 	
 	roti4.getRotiInfo();
 	
@@ -70,12 +70,12 @@ class RotiRunner{
 	// System.out.println("isbuttered " + roti4.isbuttered);
 	System.out.println();
 	
-	Roti roti5 = new Roti();
-	roti5.rotiId = 105;
-	roti5.rotiShape = "Circle";
-	roti5.rotiType = "Missi Roti";
-	roti5.rotiPrice = 28;
-	roti5.isbuttered = false;
+	Roti roti5 =new Roti(105, "Circle", "Missi Roti", 28, false);
+	// roti5.rotiId = 105;
+	// roti5.rotiShape = "Circle";
+	// roti5.rotiType = "Missi Roti";
+	// roti5.rotiPrice = 28;
+	// roti5.isbuttered = false;
 	
 	
 	roti5.getRotiInfo();
@@ -87,12 +87,12 @@ class RotiRunner{
 	// System.out.println("isbuttered " + roti5.isbuttered);
 	System.out.println();
 	
-	Roti roti6 = new Roti();
-	roti6.rotiId = 106;
-	roti6.rotiShape = "Rectangle";
-	roti6.rotiType = "Paneer Kulcha";
-	roti6.rotiPrice = 50;
-	roti6.isbuttered = true;
+	Roti roti6 = new Roti(106, "Rectangle", "Paneer Kulcha", 50, true);
+	// roti6.rotiId = 106;
+	// roti6.rotiShape = "Rectangle";
+	// roti6.rotiType = "Paneer Kulcha";
+	// roti6.rotiPrice = 50;
+	// roti6.isbuttered = true;
 	
 	
 	roti6.getRotiInfo();
@@ -104,12 +104,12 @@ class RotiRunner{
 	// System.out.println("isbuttered " + roti6.isbuttered);
 	System.out.println();
 	
-	Roti roti7 = new Roti();
-	roti7.rotiId = 107;
-	roti7.rotiShape = "Circle";
-	roti7.rotiType = "Garlic Naan";
-	roti7.rotiPrice = 45;
-	roti7.isbuttered = true;
+	Roti roti7 =  new Roti(107, "Circle", "Garlic Naan", 45, true);
+	// roti7.rotiId = 107;
+	// roti7.rotiShape = "Circle";
+	// roti7.rotiType = "Garlic Naan";
+	// roti7.rotiPrice = 45;
+	// roti7.isbuttered = true;
 	
 	
 	roti7.getRotiInfo();
@@ -121,12 +121,12 @@ class RotiRunner{
 	// System.out.println("isbuttered " + roti7.isbuttered);
 	System.out.println();
 	
-	Roti roti8 = new Roti();
-	roti8.rotiId = 108;
-	roti8.rotiShape = "Circle";
-	roti8.rotiType = "Plain Paratha";
-	roti8.rotiPrice = 20;
-	roti8.isbuttered = false;
+	Roti roti8 = new Roti(108, "Circle", "Plain Paratha", 20, false);
+	// roti8.rotiId = 108;
+	// roti8.rotiShape = "Circle";
+	// roti8.rotiType = "Plain Paratha";
+	// roti8.rotiPrice = 20;
+	// roti8.isbuttered = false;
 	
 	
 	roti8.getRotiInfo();
@@ -138,12 +138,12 @@ class RotiRunner{
 	// System.out.println("isbuttered " + roti8.isbuttered);
 	System.out.println();
 	
-	Roti roti9 = new Roti();
-	roti9.rotiId = 109;
-	roti9.rotiShape = "Oval";
-	roti9.rotiType = "Stuffed Paratha";
-	roti9.rotiPrice = 55;
-	roti9.isbuttered = true;
+	Roti roti9 =new Roti(109, "Oval", "Stuffed Paratha", 55, true);
+	// roti9.rotiId = 109;
+	// roti9.rotiShape = "Oval";
+	// roti9.rotiType = "Stuffed Paratha";
+	// roti9.rotiPrice = 55;
+	// roti9.isbuttered = true;
 	
 	
 	roti9.getRotiInfo();
@@ -155,12 +155,12 @@ class RotiRunner{
 	// System.out.println("isbuttered " + roti9.isbuttered);
 	System.out.println();
 	
-	Roti roti10 = new Roti();
-	roti10.rotiId = 110;
-	roti10.rotiShape = "Circle";
-	roti10.rotiType = "Phulka";
-	roti10.rotiPrice = 15;
-	roti10.isbuttered = false;
+	Roti roti10 = new Roti(110, "Circle", "Phulka", 15, false);
+	// roti10.rotiId = 110;
+	// roti10.rotiShape = "Circle";
+	// roti10.rotiType = "Phulka";
+	// roti10.rotiPrice = 15;
+	// roti10.isbuttered = false;
 	
 	
 	roti10.getRotiInfo();
@@ -172,12 +172,12 @@ class RotiRunner{
 	// System.out.println("isbuttered " + roti10.isbuttered);
 	System.out.println();
 	
-	Roti roti11 = new Roti();
-	roti11.rotiId = 111;
-	roti11.rotiShape = "Square";
-	roti11.rotiType = "Paneer Naan";
-	roti11.rotiPrice = 60;
-	roti11.isbuttered = true;
+	Roti roti11 =  new Roti(111, "Square", "Paneer Naan", 60, true);
+	// roti11.rotiId = 111;
+	// roti11.rotiShape = "Square";
+	// roti11.rotiType = "Paneer Naan";
+	// roti11.rotiPrice = 60;
+	// roti11.isbuttered = true;
 	
 	
 	roti11.getRotiInfo();
@@ -189,12 +189,12 @@ class RotiRunner{
 	// System.out.println("isbuttered " + roti11.isbuttered);
 	System.out.println();
 	
-	Roti roti12 = new Roti();
-	roti12.rotiId = 112;
-	roti12.rotiShape = "Circle";
-	roti12.rotiType = "Plain Naan";
-	roti12.rotiPrice = 25;
-	roti12.isbuttered = false;
+	Roti roti12 =new Roti(112, "Circle", "Plain Naan", 25, false);
+	// roti12.rotiId = 112;
+	// roti12.rotiShape = "Circle";
+	// roti12.rotiType = "Plain Naan";
+	// roti12.rotiPrice = 25;
+	// roti12.isbuttered = false;
 	
 	
 	roti12.getRotiInfo();
@@ -206,12 +206,12 @@ class RotiRunner{
 	// System.out.println("isbuttered " + roti12.isbuttered);
 	System.out.println();
 	
-	Roti roti13 = new Roti();
-	roti13.rotiId = 113;
-	roti13.rotiShape = "Circle";
-	roti13.rotiType = "Roomali Roti";
-	roti13.rotiPrice = 22;
-	roti13.isbuttered = true;
+	Roti roti13 = new Roti(113, "Circle", "Roomali Roti", 22, true);
+	// roti13.rotiId = 113;
+	// roti13.rotiShape = "Circle";
+	// roti13.rotiType = "Roomali Roti";
+	// roti13.rotiPrice = 22;
+	// roti13.isbuttered = true;
 	
 	
 	roti13.getRotiInfo();
@@ -223,12 +223,12 @@ class RotiRunner{
 	// System.out.println("isbuttered " + roti13.isbuttered);
 	System.out.println();
 	
-	Roti roti14 = new Roti();
-	roti14.rotiId = 114;
-	roti14.rotiShape = "Oval";
-	roti14.rotiType = "Keema Naan";
-	roti14.rotiPrice = 65;
-	roti14.isbuttered = true;
+	Roti roti14 = new Roti(114, "Oval", "Keema Naan", 65, true);
+	// roti14.rotiId = 114;
+	// roti14.rotiShape = "Oval";
+	// roti14.rotiType = "Keema Naan";
+	// roti14.rotiPrice = 65;
+	// roti14.isbuttered = true;
 	
 	
 	roti14.getRotiInfo();
@@ -240,12 +240,12 @@ class RotiRunner{
 	// System.out.println("isbuttered " + roti14.isbuttered);
 	System.out.println();
 	
-	Roti roti15 = new Roti();
-	roti15.rotiId = 115;
-	roti15.rotiShape = "Circle";
-	roti15.rotiType = "Butter Paratha";
-	roti15.rotiPrice = 38;
-	roti15.isbuttered = true;
+	Roti roti15 =  new Roti(115, "Circle", "Butter Paratha", 38, true);
+	// roti15.rotiId = 115;
+	// roti15.rotiShape = "Circle";
+	// roti15.rotiType = "Butter Paratha";
+	// roti15.rotiPrice = 38;
+	// roti15.isbuttered = true;
 	
 	
 	roti15.getRotiInfo();
@@ -257,12 +257,12 @@ class RotiRunner{
 	// System.out.println("isbuttered " + roti15.isbuttered);
 	System.out.println();
 	
-	Roti roti16 = new Roti();
-	roti16.rotiId = 116;
-	roti16.rotiShape = "Rectangle";
-	roti16.rotiType = "Cheese Naan";
-	roti16.rotiPrice = 55;
-	roti16.isbuttered = false;
+	Roti roti16 =new Roti(116, "Rectangle", "Cheese Naan", 55, false);
+	// roti16.rotiId = 116;
+	// roti16.rotiShape = "Rectangle";
+	// roti16.rotiType = "Cheese Naan";
+	// roti16.rotiPrice = 55;
+	// roti16.isbuttered = false;
 	
 	
 	roti16.getRotiInfo();
@@ -274,12 +274,12 @@ class RotiRunner{
 	// System.out.println("isbuttered " + roti16.isbuttered);
 	System.out.println();
 	
-	Roti roti17 = new Roti();
-	roti17.rotiId = 117;
-	roti17.rotiShape = "Circle";
-	roti17.rotiType = "Kulcha";
-	roti17.rotiPrice = 42;
-	roti17.isbuttered = true;
+	Roti roti17 = new Roti(117, "Circle", "Kulcha", 42, true);
+	// roti17.rotiId = 117;
+	// roti17.rotiShape = "Circle";
+	// roti17.rotiType = "Kulcha";
+	// roti17.rotiPrice = 42;
+	// roti17.isbuttered = true;
 	
 	
 	roti17.getRotiInfo();
@@ -291,12 +291,12 @@ class RotiRunner{
 	// System.out.println("isbuttered " + roti17.isbuttered);
 	System.out.println();
 	
-	Roti roti18 = new Roti();
-	roti18.rotiId = 118;
-	roti18.rotiShape = "Circle";
-	roti18.rotiType = "Tandoori Roti";
-	roti18.rotiPrice = 30;
-	roti18.isbuttered = false;
+	Roti roti18 = new Roti(118, "Circle", "Tandoori Roti", 30, false);
+	// roti18.rotiId = 118;
+	// roti18.rotiShape = "Circle";
+	// roti18.rotiType = "Tandoori Roti";
+	// roti18.rotiPrice = 30;
+	// roti18.isbuttered = false;
 	
 	
 	roti18.getRotiInfo();
@@ -308,12 +308,12 @@ class RotiRunner{
 	// System.out.println("isbuttered " + roti18.isbuttered);
 	System.out.println();
 	
-	Roti roti19 = new Roti();
-	roti19.rotiId = 119;
-	roti19.rotiShape = "Oval";
-	roti19.rotiType = "Stuffed Kulcha";
-	roti19.rotiPrice = 58;
-	roti19.isbuttered = true;
+	Roti roti19 =  new Roti(119, "Oval", "Stuffed Kulcha", 58, true);
+	// roti19.rotiId = 119;
+	// roti19.rotiShape = "Oval";
+	// roti19.rotiType = "Stuffed Kulcha";
+	// roti19.rotiPrice = 58;
+	// roti19.isbuttered = true;
 	
 	roti19.getRotiInfo();
 	
@@ -325,12 +325,12 @@ class RotiRunner{
 	// System.out.println("isbuttered " + roti19.isbuttered);
 	System.out.println();
 	
-	Roti roti20 = new Roti();
-	roti20.rotiId = 120;
-	roti20.rotiShape = "Circle";
-	roti20.rotiType = "Plain Roti";
-	roti20.rotiPrice = 18;
-	roti20.isbuttered = false;
+	Roti roti20 =new Roti(120, "Circle", "Plain Roti", 18, false);
+	// roti20.rotiId = 120;
+	// roti20.rotiShape = "Circle";
+	// roti20.rotiType = "Plain Roti";
+	// roti20.rotiPrice = 18;
+	// roti20.isbuttered = false;
 	
 	roti20.getRotiInfo();
 	

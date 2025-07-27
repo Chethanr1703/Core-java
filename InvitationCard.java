@@ -1,4 +1,19 @@
 class InvitationCard{
+	
+	InvitationCard(){
+		System.out.println("the  Constructor invoked" );
+	}
+	InvitationCard(int invitationId,String invitationType,String invitationMaterial,int invitationLength, int invitationWidht){
+		System.out.println("the Parameter Constructor invoked" );
+		this.invitationId=invitationId;
+		this.invitationType=invitationType;
+		this.invitationMaterial=invitationMaterial;
+		this.invitationLength=invitationLength;
+		this.invitationWidht=invitationWidht;
+		
+	}
+	
+	
 	int invitationId;
 	String invitationType;
 	String invitationMaterial;

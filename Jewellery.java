@@ -1,4 +1,19 @@
 class Jewellery{
+	
+	Jewellery(){
+		System.out.println("the  Constructor invoked" );
+	}
+	Jewellery(int jewelleryId,String jewelleryType,String jewelleryDesign,int noOfGrams,boolean isWasteagePresent
+	){
+						System.out.println("the Parameter Constructor invoked" );
+	this.jewelleryId=jewelleryId;
+	this.jewelleryType=jewelleryType;
+	this.jewelleryDesign=jewelleryDesign;
+	this.noOfGrams=noOfGrams;
+	this.isWasteagePresent=isWasteagePresent;
+	
+	}
+	
 	int jewelleryId;
 	String jewelleryType;
 	String jewelleryDesign;

@@ -1,4 +1,20 @@
 class Marble{
+	
+		
+		Marble(){
+		System.out.println("the Constructor invoked" );
+	}
+	Marble(int marbleId,String  marbleType,String colors,String shape, String Quality){
+		System.out.println("the Parameter Constructor invoked" );
+		this.marbleId=marbleId;
+		this.marbleType=marbleType;
+		this.colors=colors;
+		this.shape=shape;
+		this.Quality=Quality;
+		
+	}
+	
+	
 	int marbleId;
 	String marbleType;
 	String colors;

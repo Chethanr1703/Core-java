@@ -1,4 +1,20 @@
 class Flower{
+	
+	
+		Flower(){
+		System.out.println("the  Constructor invoked" );
+	}
+	Flower(int flowerId,String  flowerName,String flowerColor,int price, boolean isUsedForFood){
+		System.out.println("the Parameter Constructor invoked" );
+		this.flowerId=flowerId;
+		this.flowerName=flowerName;
+		this.flowerColor=flowerColor;
+		this.price=price;
+		this.isUsedForFood=isUsedForFood;
+		
+	}
+	
+	
 	int flowerId;
 	String flowerName;
 	String flowerColor;

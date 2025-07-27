@@ -1,14 +1,14 @@
 class BlazerRunner{
 	public static void main(String []blazer){
 		
-		Blazer	blazer1	=new Blazer();
+		Blazer	blazer1	= new Blazer(101, "Fabric", false, "Peter England", "England", "Blue");
 		
-		blazer1.blazerId =101;
-		blazer1.blazerMaterailType="Fabric";
-		blazer1.isPipingAvaible=false;
-		blazer1.blazerBrand="Peter England";
-		blazer1.manufactorCompanyName ="England";
-		blazer1.blazerColor="Blue";
+		// blazer1.blazerId =101;
+		// blazer1.blazerMaterailType="Fabric";
+		// blazer1.isPipingAvaible=false;
+		// blazer1.blazerBrand="Peter England";
+		// blazer1.manufactorCompanyName ="England";
+		// blazer1.blazerColor="Blue";
 		
 		blazer1.getBlazerInfo();
 		
@@ -21,13 +21,13 @@ class BlazerRunner{
 		
 			System.out.println("                  ");
 		
-		Blazer blazer2 = new Blazer();
-		blazer2.blazerId = 102;
-		blazer2.blazerMaterailType = "Linen";
-		blazer2.isPipingAvaible = true;
-		blazer2.blazerBrand = "UrbanStyle";
-		blazer2.manufactorCompanyName = "CityTailors";
-		blazer2.blazerColor = "Black";
+		Blazer blazer2 = new Blazer(102, "Wool", true, "Zara", "Spain", "Black");
+		// blazer2.blazerId = 102;
+		// blazer2.blazerMaterailType = "Linen";
+		// blazer2.isPipingAvaible = true;
+		// blazer2.blazerBrand = "UrbanStyle";
+		// blazer2.manufactorCompanyName = "CityTailors";
+		// blazer2.blazerColor = "Black";
 
 		blazer2.getBlazerInfo();
 
@@ -40,13 +40,13 @@ class BlazerRunner{
 
 			System.out.println("                  ");
 
-		Blazer blazer3 = new Blazer();
-		blazer3.blazerId = 103;
-		blazer3.blazerMaterailType = "Cotton Blend";
-		blazer3.isPipingAvaible = false;
-		blazer3.blazerBrand = "MetroWear";
-		blazer3.manufactorCompanyName = "MetroTex";
-		blazer3.blazerColor = "Grey";
+		Blazer blazer3 = new Blazer(103, "Linen", false, "Van Heusen", "India", "White");
+		// blazer3.blazerId = 103;
+		// blazer3.blazerMaterailType = "Cotton Blend";
+		// blazer3.isPipingAvaible = false;
+		// blazer3.blazerBrand = "MetroWear";
+		// blazer3.manufactorCompanyName = "MetroTex";
+		// blazer3.blazerColor = "Grey";
 		blazer3.getBlazerInfo();
 
 		// System.out.println("the id of the blazer3 is :" + blazer3.blazerId);
@@ -59,13 +59,13 @@ class BlazerRunner{
 
 			System.out.println("                  ");
 
-		Blazer blazer4 = new Blazer();
-		blazer4.blazerId = 104;
-		blazer4.blazerMaterailType = "Wool";
-		blazer4.isPipingAvaible = true;
-		blazer4.blazerBrand = "GlamFit";
-		blazer4.manufactorCompanyName = "FashionNest";
-		blazer4.blazerColor = "Brown";
+		Blazer blazer4 = new Blazer(104, "Cotton", true, "Allen Solly", "India", "Navy");
+		// blazer4.blazerId = 104;
+		// blazer4.blazerMaterailType = "Wool";
+		// blazer4.isPipingAvaible = true;
+		// blazer4.blazerBrand = "GlamFit";
+		// blazer4.manufactorCompanyName = "FashionNest";
+		// blazer4.blazerColor = "Brown";
 		blazer4.getBlazerInfo();
 
 		// System.out.println("the id of the blazer4 is :" + blazer4.blazerId);
@@ -77,13 +77,13 @@ class BlazerRunner{
 
 			System.out.println("                  ");
 
-		Blazer blazer5 = new Blazer();
-		blazer5.blazerId = 105;
-		blazer5.blazerMaterailType = "Polyester";
-		blazer5.isPipingAvaible = false;
-		blazer5.blazerBrand = "StyleEdge";
-		blazer5.manufactorCompanyName = "EdgeCraft";
-		blazer5.blazerColor = "Dark Blue";
+		Blazer blazer5 = new Blazer(105, "Silk", false, "Louis Philippe", "France", "Gray");
+		// blazer5.blazerId = 105;
+		// blazer5.blazerMaterailType = "Polyester";
+		// blazer5.isPipingAvaible = false;
+		// blazer5.blazerBrand = "StyleEdge";
+		// blazer5.manufactorCompanyName = "EdgeCraft";
+		// blazer5.blazerColor = "Dark Blue";
 		blazer5.getBlazerInfo();
 
 		// System.out.println("the id of the blazer5 is :" + blazer5.blazerId);
@@ -95,13 +95,13 @@ class BlazerRunner{
 	
 			System.out.println("                  ");
 	
-		Blazer blazer6 = new Blazer();
-		blazer6.blazerId = 106;
-		blazer6.blazerMaterailType = "Velvet";
-		blazer6.isPipingAvaible = true;
-		blazer6.blazerBrand = "ModeLux";
-		blazer6.manufactorCompanyName = "EliteStitch";
-		blazer6.blazerColor = "Maroon";
+		Blazer blazer6 =  new Blazer(106, "Velvet", true, "Raymond", "India", "Maroon");
+		// blazer6.blazerId = 106;
+		// blazer6.blazerMaterailType = "Velvet";
+		// blazer6.isPipingAvaible = true;
+		// blazer6.blazerBrand = "ModeLux";
+		// blazer6.manufactorCompanyName = "EliteStitch";
+		// blazer6.blazerColor = "Maroon";
 		blazer6.getBlazerInfo();
 		
 		// System.out.println("the id of the blazer6 is :" + blazer6.blazerId);
@@ -113,13 +113,13 @@ class BlazerRunner{
 	
 			System.out.println("                  ");
 	
-		Blazer blazer7 = new Blazer();
-		blazer7.blazerId = 107;
-		blazer7.blazerMaterailType = "Corduroy";
-		blazer7.isPipingAvaible = false;
-		blazer7.blazerBrand = "TexTrend";
-		blazer7.manufactorCompanyName = "TrendTailors";
-		blazer7.blazerColor = "Olive";
+		Blazer blazer7 =  new Blazer(107, "Denim", false, "Levi’s", "USA", "Dark Blue");
+		// blazer7.blazerId = 107;
+		// blazer7.blazerMaterailType = "Corduroy";
+		// blazer7.isPipingAvaible = false;
+		// blazer7.blazerBrand = "TexTrend";
+		// blazer7.manufactorCompanyName = "TrendTailors";
+		// blazer7.blazerColor = "Olive";
 		blazer7.getBlazerInfo();
 		
 		// System.out.println("the id of the blazer7 is :" + blazer7.blazerId);
@@ -131,13 +131,13 @@ class BlazerRunner{
 		
 			System.out.println("                  ");
 		
-		Blazer blazer8 = new Blazer();
-		blazer8.blazerId = 108;
-		blazer8.blazerMaterailType = "Jacquard";
-		blazer8.isPipingAvaible = true;
-		blazer8.blazerBrand = "RoyalVibe";
-		blazer8.manufactorCompanyName = "VibeFashions";
-		blazer8.blazerColor = "Navy Blue";
+		Blazer blazer8 =   new Blazer(108, "Satin", true, "Blackberrys", "India", "Dark Green");
+		// blazer8.blazerId = 108;
+		// blazer8.blazerMaterailType = "Jacquard";
+		// blazer8.isPipingAvaible = true;
+		// blazer8.blazerBrand = "RoyalVibe";
+		// blazer8.manufactorCompanyName = "VibeFashions";
+		// blazer8.blazerColor = "Navy Blue";
 		blazer8.getBlazerInfo();
 		
 		// System.out.println("the id of the blazer8 is :" + blazer8.blazerId);
@@ -149,13 +149,13 @@ class BlazerRunner{
 		
 			System.out.println("                  ");
 		
-		Blazer blazer9 = new Blazer();
-		blazer9.blazerId = 109;
-		blazer9.blazerMaterailType = "Tweed";
-		blazer9.isPipingAvaible = false;
-		blazer9.blazerBrand = "GentsCoat";
-		blazer9.manufactorCompanyName = "CoatMakers";
-		blazer9.blazerColor = "Dark Green";
+		Blazer blazer9 =  new Blazer(109, "Tweed", false, "H&M", "Sweden", "Brown");
+		// blazer9.blazerId = 109;
+		// blazer9.blazerMaterailType = "Tweed";
+		// blazer9.isPipingAvaible = false;
+		// blazer9.blazerBrand = "GentsCoat";
+		// blazer9.manufactorCompanyName = "CoatMakers";
+		// blazer9.blazerColor = "Dark Green";
 		blazer9.getBlazerInfo();
 		
 		// System.out.println("the id of the blazer9 is :" + blazer9.blazerId);
@@ -167,13 +167,13 @@ class BlazerRunner{
 		
 			System.out.println("                  ");
 		
-		Blazer blazer10 = new Blazer();
-		blazer10.blazerId = 110;
-		blazer10.blazerMaterailType = "Satin Blend";
-		blazer10.isPipingAvaible = true;
-		blazer10.blazerBrand = "ShineFormals";
-		blazer10.manufactorCompanyName = "SatinWorks";
-		blazer10.blazerColor = "Wine Red";
+		Blazer blazer10 =   new Blazer(110, "Polyester", true, "Park Avenue", "India", "Beige");
+		// blazer10.blazerId = 110;
+		// blazer10.blazerMaterailType = "Satin Blend";
+		// blazer10.isPipingAvaible = true;
+		// blazer10.blazerBrand = "ShineFormals";
+		// blazer10.manufactorCompanyName = "SatinWorks";
+		// blazer10.blazerColor = "Wine Red";
 		blazer10.getBlazerInfo();
 		
 		// System.out.println("the id of the blazer10 is :" + blazer10.blazerId);
@@ -187,13 +187,13 @@ class BlazerRunner{
 		
 		
 		
-		Blazer blazer11 = new Blazer();
-		blazer11.blazerId = 111;
-		blazer11.blazerMaterailType = "Cotton";
-		blazer11.isPipingAvaible = false;
-		blazer11.blazerBrand = "FreshLook";
-		blazer11.manufactorCompanyName = "LookMakers";
-		blazer11.blazerColor = "Beige";
+		Blazer blazer11 =   new Blazer(111, "Gabardine", true, "Boss", "Germany", "Steel Gray");
+		// blazer11.blazerId = 111;
+		// blazer11.blazerMaterailType = "Cotton";
+		// blazer11.isPipingAvaible = false;
+		// blazer11.blazerBrand = "FreshLook";
+		// blazer11.manufactorCompanyName = "LookMakers";
+		// blazer11.blazerColor = "Beige";
 		blazer11.getBlazerInfo();
 		
 		// System.out.println("the id of the blazer11 is :" + blazer11.blazerId);
@@ -205,13 +205,13 @@ class BlazerRunner{
 		
 			System.out.println("                  ");
 		
-		Blazer blazer12 = new Blazer();
-		blazer12.blazerId = 112;
-		blazer12.blazerMaterailType = "Wool Blend";
-		blazer12.isPipingAvaible = true;
-		blazer12.blazerBrand = "CoolThread";
-		blazer12.manufactorCompanyName = "ThreadGear";
-		blazer12.blazerColor = "Charcoal";
+		Blazer blazer12 =  new Blazer(112, "Nylon", false, "Uniqlo", "Japan", "Olive");
+		// blazer12.blazerId = 112;
+		// blazer12.blazerMaterailType = "Wool Blend";
+		// blazer12.isPipingAvaible = true;
+		// blazer12.blazerBrand = "CoolThread";
+		// blazer12.manufactorCompanyName = "ThreadGear";
+		// blazer12.blazerColor = "Charcoal";
 		blazer12.getBlazerInfo();
 		
 		// System.out.println("the id of the blazer12 is :" + blazer12.blazerId);
@@ -223,13 +223,13 @@ class BlazerRunner{
 		
 			System.out.println("                  ");
 		
-		Blazer blazer13 = new Blazer();
-		blazer13.blazerId = 113;
-		blazer13.blazerMaterailType = "Silk Blend";
-		blazer13.isPipingAvaible = false;
-		blazer13.blazerBrand = "EveningEdge";
-		blazer13.manufactorCompanyName = "EdgeStitch";
-		blazer13.blazerColor = "Ivory";
+		Blazer blazer13 =new Blazer(113, "Khadi", true, "FabIndia", "India", "Cream");
+		// blazer13.blazerId = 113;
+		// blazer13.blazerMaterailType = "Silk Blend";
+		// blazer13.isPipingAvaible = false;
+		// blazer13.blazerBrand = "EveningEdge";
+		// blazer13.manufactorCompanyName = "EdgeStitch";
+		// blazer13.blazerColor = "Ivory";
 		blazer13.getBlazerInfo();
 		
 		// System.out.println("the id of the blazer13 is :" + blazer13.blazerId);
@@ -241,13 +241,13 @@ class BlazerRunner{
 		
 			System.out.println("                  ");
 		
-		Blazer blazer14 = new Blazer();
-		blazer14.blazerId = 114;
-		blazer14.blazerMaterailType = "Synthetic";
-		blazer14.isPipingAvaible = true;
-		blazer14.blazerBrand = "NextWear";
-		blazer14.manufactorCompanyName = "NextTailor";
-		blazer14.blazerColor = "Steel Grey";
+		Blazer blazer14 =  new Blazer(114, "Flannel", false, "Celio", "France", "Ash");
+		// blazer14.blazerId = 114;
+		// blazer14.blazerMaterailType = "Synthetic";
+		// blazer14.isPipingAvaible = true;
+		// blazer14.blazerBrand = "NextWear";
+		// blazer14.manufactorCompanyName = "NextTailor";
+		// blazer14.blazerColor = "Steel Grey";
 		blazer14.getBlazerInfo();
 		
 		// System.out.println("the id of the blazer14 is :" + blazer14.blazerId);
@@ -259,13 +259,13 @@ class BlazerRunner{
 		
 			System.out.println("                  ");
 		
-		Blazer blazer15 = new Blazer();
-		blazer15.blazerId = 115;
-		blazer15.blazerMaterailType = "Rayon";
-		blazer15.isPipingAvaible = false;
-		blazer15.blazerBrand = "PrimeCraft";
-		blazer15.manufactorCompanyName = "CraftLine";
-		blazer15.blazerColor = "Light Brown";
+		Blazer blazer15 = new Blazer(115, "Corduroy", true, "Jack & Jones", "Denmark", "Camel");
+		// blazer15.blazerId = 115;
+		// blazer15.blazerMaterailType = "Rayon";
+		// blazer15.isPipingAvaible = false;
+		// blazer15.blazerBrand = "PrimeCraft";
+		// blazer15.manufactorCompanyName = "CraftLine";
+		// blazer15.blazerColor = "Light Brown";
 		blazer15.getBlazerInfo();
 		
 		// System.out.println("the id of the blazer15 is :" + blazer15.blazerId);
@@ -277,13 +277,13 @@ class BlazerRunner{
 		
 			System.out.println("                  ");
 		
-		Blazer blazer16 = new Blazer();
-		blazer16.blazerId = 116;
-		blazer16.blazerMaterailType = "Denim";
-		blazer16.isPipingAvaible = true;
-		blazer16.blazerBrand = "UrbanStyle";
-		blazer16.manufactorCompanyName = "DenimDesigners";
-		blazer16.blazerColor = "Stone Blue";
+		Blazer blazer16 =  new Blazer(116, "Canvas", false, "Zodiac", "India", "Stone");
+		// blazer16.blazerId = 116;
+		// blazer16.blazerMaterailType = "Denim";
+		// blazer16.isPipingAvaible = true;
+		// blazer16.blazerBrand = "UrbanStyle";
+		// blazer16.manufactorCompanyName = "DenimDesigners";
+		// blazer16.blazerColor = "Stone Blue";
 		blazer16.getBlazerInfo();
 		
 		// System.out.println("the id of the blazer16 is :" + blazer16.blazerId);
@@ -295,13 +295,13 @@ class BlazerRunner{
 		
 			System.out.println("                  ");
 		
-		Blazer blazer17 = new Blazer();
-		blazer17.blazerId = 117;
-		blazer17.blazerMaterailType = "Chambray";
-		blazer17.isPipingAvaible = false;
-		blazer17.blazerBrand = "LiteFit";
-		blazer17.manufactorCompanyName = "ChamWear Ltd";
-		blazer17.blazerColor = "Sky Blue";
+		Blazer blazer17 = new Blazer(117, "Wool Blend", true, "John Players", "India", "Dark Brown");
+		// blazer17.blazerId = 117;
+		// blazer17.blazerMaterailType = "Chambray";
+		// blazer17.isPipingAvaible = false;
+		// blazer17.blazerBrand = "LiteFit";
+		// blazer17.manufactorCompanyName = "ChamWear Ltd";
+		// blazer17.blazerColor = "Sky Blue";
 		blazer17.getBlazerInfo();
 		
 		// System.out.println("the id of the blazer17 is :" + blazer17.blazerId);
@@ -313,13 +313,13 @@ class BlazerRunner{
 		
 			System.out.println("                  ");
 		
-		Blazer blazer18 = new Blazer();
-		blazer18.blazerId = 118;
-		blazer18.blazerMaterailType = "Gabardine";
-		blazer18.isPipingAvaible = true;
-		blazer18.blazerBrand = "SharpEdge";
-		blazer18.manufactorCompanyName = "EdgeWears";
-		blazer18.blazerColor = "Forest Green";
+		Blazer blazer18 = new Blazer(118, "Microfiber", false, "Roadster", "India", "Charcoal");
+		// blazer18.blazerId = 118;
+		// blazer18.blazerMaterailType = "Gabardine";
+		// blazer18.isPipingAvaible = true;
+		// blazer18.blazerBrand = "SharpEdge";
+		// blazer18.manufactorCompanyName = "EdgeWears";
+		// blazer18.blazerColor = "Forest Green";
 		blazer18.getBlazerInfo();
 		
 		// System.out.println("the id of the blazer18 is :" + blazer18.blazerId);
@@ -331,13 +331,13 @@ class BlazerRunner{
 		
 			System.out.println("                  ");
 		
-		Blazer blazer19 = new Blazer();
-		blazer19.blazerId = 119;
-		blazer19.blazerMaterailType = "Canvas";
-		blazer19.isPipingAvaible = false;
-		blazer19.blazerBrand = "Rustique";
-		blazer19.manufactorCompanyName = "RustyThreads";
-		blazer19.blazerColor = "Khaki";
+		Blazer blazer19 = new Blazer(119, "Viscose", true, "Indian Terrain", "India", "Plum");
+		// blazer19.blazerId = 119;
+		// blazer19.blazerMaterailType = "Canvas";
+		// blazer19.isPipingAvaible = false;
+		// blazer19.blazerBrand = "Rustique";
+		// blazer19.manufactorCompanyName = "RustyThreads";
+		// blazer19.blazerColor = "Khaki";
 		blazer19.getBlazerInfo();
 		
 		// System.out.println("the id of the blazer19 is :" + blazer19.blazerId);
@@ -349,13 +349,13 @@ class BlazerRunner{
 		
 			System.out.println("                  ");
 		
-		Blazer blazer20 = new Blazer();
-		blazer20.blazerId = 120;
-		blazer20.blazerMaterailType = "Fleece";
-		blazer20.isPipingAvaible = true;
-		blazer20.blazerBrand = "WarmWear";
-		blazer20.manufactorCompanyName = "FleeceMakers";
-		blazer20.blazerColor = "Ash Grey";
+		Blazer blazer20 = new Blazer(120, "Hemp", false, "Biba Men", "India", "Light Gray");
+		// blazer20.blazerId = 120;
+		// blazer20.blazerMaterailType = "Fleece";
+		// blazer20.isPipingAvaible = true;
+		// blazer20.blazerBrand = "WarmWear";
+		// blazer20.manufactorCompanyName = "FleeceMakers";
+		// blazer20.blazerColor = "Ash Grey";
 		blazer20.getBlazerInfo();
 		
 		// System.out.println("the id of the blazer20 is :" + blazer20.blazerId);

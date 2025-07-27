@@ -1,4 +1,19 @@
 class Casino{
+	
+	
+		Casino(){
+		System.out.println("the  Constructor invoked" );
+	}
+	Casino(int casinoId,int  noOfGames,int entryFee,String openingTime, boolean isBarAvailable){
+		System.out.println("the Parameter Constructor invoked" );
+		this.casinoId=casinoId;
+		this.noOfGames=noOfGames;
+		this.entryFee=entryFee;
+		this.openingTime=openingTime;
+		this.isBarAvailable=isBarAvailable;
+		
+	}
+	
 	int casinoId;
 	int noOfGames;
 	int entryFee;

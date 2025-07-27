@@ -1,4 +1,23 @@
 class Crackers{
+	
+	
+	
+				Crackers(){
+		System.out.println("the  Constructor invoked" );
+	}
+	Crackers(int crackerId,String  crackerType,String manufactorDate,int crackerPrice, boolean isGreenCracker){
+		
+		System.out.println("the Parameter Constructor invoked" );
+		this.crackerId=crackerId;
+		this.crackerType=crackerType;
+		this.manufactorDate=manufactorDate;
+		this.crackerPrice=crackerPrice;
+		this.isGreenCracker=isGreenCracker;
+		
+	}
+	
+	
+	
 	int crackerId;
 	String crackerType;
 	String manufactorDate;

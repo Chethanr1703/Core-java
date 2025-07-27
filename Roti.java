@@ -1,4 +1,17 @@
 class Roti{
+	
+	
+		Roti(){
+		
+	}
+	Roti(int rotiId,String  rotiShape,String rotiType,int rotiPrice, boolean isbuttered){
+		this.rotiId=rotiId;
+		this.rotiShape=rotiShape;
+		this.rotiType=rotiType;
+		this.rotiPrice=rotiPrice;
+		this.isbuttered=isbuttered;
+		
+	}
 	int rotiId;
 	String rotiShape;
 	String rotiType;

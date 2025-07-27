@@ -1,4 +1,19 @@
 class Weapon{
+	
+	
+			Weapon(){
+		System.out.println("the  Constructor invoked" );
+	}
+	Weapon(int weaponId,String weaponType,int weaponWeight,int noOfBullets, boolean isManual){
+		System.out.println("the Parameter Constructor invoked" );
+		this.weaponId=weaponId;
+		this.weaponType=weaponType;
+		this.weaponWeight=weaponWeight;
+		this.noOfBullets=noOfBullets;
+		this.isManual=isManual;
+		
+	}
+	
 	int weaponId;
 	String weaponType;
 	int weaponWeight;

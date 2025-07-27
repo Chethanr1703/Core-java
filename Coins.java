@@ -1,4 +1,19 @@
 class Coins{
+	
+	Coins(){
+		System.out.println("the  Constructor invoked" );
+	}
+	
+	Coins(int coinId,int daimeterOfCoin,int coinValue,boolean isMetal,boolean isSymbolpresent){
+						System.out.println("the Parameter Constructor invoked" );
+	this.coinId=coinId;
+	this.daimeterOfCoin=daimeterOfCoin;
+	this.coinValue=coinValue;
+	this.isMetal=isMetal;
+	this.isSymbolpresent=isSymbolpresent;
+	
+		
+	}
 	int coinId;
 	int daimeterOfCoin;
 	int coinValue;

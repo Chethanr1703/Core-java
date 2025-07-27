@@ -1,4 +1,23 @@
 class Blade{
+	
+	Blade(){
+		System.out.println("the  Constructor invoked" );
+		
+	};
+	Blade(int bladeId,	String companyName,	double lengthOfBlade,	double widhtOfBlade,boolean isBothSideSharped,String manufactorDate){
+				System.out.println("the Parameter Constructor invoked" );
+				this.bladeId=bladeId;
+				this.companyName=companyName;
+				this.lengthOfBlade=lengthOfBlade;
+				this.widhtOfBlade=widhtOfBlade;
+				this.isBothSideSharped=isBothSideSharped;
+				this.manufactorDate=manufactorDate;
+				
+
+		
+	}
+	
+	
 	int bladeId;
 	String companyName;
 	double lengthOfBlade;

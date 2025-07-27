@@ -1,13 +1,13 @@
 class JewelleryRunner {
 	public static void main(String[]cr){
 	
-		Jewellery	jewellery1=new Jewellery();
+	Jewellery jewellery1 = new Jewellery(10001, "gold", "fashion", 10, true);
 	
-	jewellery1.jewelleryId=10001;
-	jewellery1.jewelleryType="gold";
-	jewellery1.jewelleryDesign="fashion";
-	jewellery1.noOfGrams=10;
-	jewellery1.isWasteagePresent=true;
+	// jewellery1.jewelleryId=10001;
+	// jewellery1.jewelleryType="gold";
+	// jewellery1.jewelleryDesign="fashion";
+	// jewellery1.noOfGrams=10;
+	// jewellery1.isWasteagePresent=true;
 	
 	jewellery1.getjewellleryinfo();
 	
@@ -18,12 +18,12 @@ class JewelleryRunner {
 	// System.out.println("isWasteagePresent in jewellery1 is "+jewellery1.isWasteagePresent);
 	
 	
-	Jewellery jewellery2 = new Jewellery();
-	jewellery2.jewelleryId = 10002;
-	jewellery2.jewelleryType = "silver";
-	jewellery2.jewelleryDesign = "classic";
-	jewellery2.noOfGrams = 15;
-	jewellery2.isWasteagePresent = false;
+	        Jewellery jewellery2 = new Jewellery(10002, "silver", "classic", 15, false);
+	// jewellery2.jewelleryId = 10002;
+	// jewellery2.jewelleryType = "silver";
+	// jewellery2.jewelleryDesign = "classic";
+	// jewellery2.noOfGrams = 15;
+	// jewellery2.isWasteagePresent = false;
 	jewellery2.getjewellleryinfo();
 	
 	// System.out.println("the id of the jewellery2 is " + jewellery2.jewelleryId);
@@ -32,12 +32,12 @@ class JewelleryRunner {
 	// System.out.println("the noOfGrams of the jewellery2 is " + jewellery2.noOfGrams);
 	// System.out.println("isWasteagePresent in jewellery2 is " + jewellery2.isWasteagePresent);
 	
-	Jewellery jewellery3 = new Jewellery();
-	jewellery3.jewelleryId = 10003;
-	jewellery3.jewelleryType = "platinum";
-	jewellery3.jewelleryDesign = "modern";
-	jewellery3.noOfGrams = 20;
-	jewellery3.isWasteagePresent = true;
+ Jewellery jewellery3 = new Jewellery(10003, "platinum", "modern", 20, true);
+	// jewellery3.jewelleryId = 10003;
+	// jewellery3.jewelleryType = "platinum";
+	// jewellery3.jewelleryDesign = "modern";
+	// jewellery3.noOfGrams = 20;
+	// jewellery3.isWasteagePresent = true;
 	jewellery3.getjewellleryinfo();
 	
 	// System.out.println("the id of the jewellery3 is " + jewellery3.jewelleryId);
@@ -46,12 +46,12 @@ class JewelleryRunner {
 	// System.out.println("the noOfGrams of the jewellery3 is " + jewellery3.noOfGrams);
 	// System.out.println("isWasteagePresent in jewellery3 is " + jewellery3.isWasteagePresent);
 	
-	Jewellery jewellery4 = new Jewellery();
-	jewellery4.jewelleryId = 10004;
-	jewellery4.jewelleryType = "gold";
-	jewellery4.jewelleryDesign = "vintage";
-	jewellery4.noOfGrams = 8;
-	jewellery4.isWasteagePresent = false;
+Jewellery jewellery4 = new Jewellery(10004, "gold", "vintage", 8, false);
+	// jewellery4.jewelleryId = 10004;
+	// jewellery4.jewelleryType = "gold";
+	// jewellery4.jewelleryDesign = "vintage";
+	// jewellery4.noOfGrams = 8;
+	// jewellery4.isWasteagePresent = false;
 	jewellery4.getjewellleryinfo();
 	
 	// System.out.println("the id of the jewellery4 is " + jewellery4.jewelleryId);
@@ -60,12 +60,12 @@ class JewelleryRunner {
 	// System.out.println("the noOfGrams of the jewellery4 is " + jewellery4.noOfGrams);
 	// System.out.println("isWasteagePresent in jewellery4 is " + jewellery4.isWasteagePresent);
 	
-	Jewellery jewellery5 = new Jewellery();
-	jewellery5.jewelleryId = 10005;
-	jewellery5.jewelleryType = "silver";
-	jewellery5.jewelleryDesign = "traditional";
-	jewellery5.noOfGrams = 25;
-	jewellery5.isWasteagePresent = true;
+ Jewellery jewellery5 = new Jewellery(10005, "silver", "traditional", 25, true);
+	// jewellery5.jewelleryId = 10005;
+	// jewellery5.jewelleryType = "silver";
+	// jewellery5.jewelleryDesign = "traditional";
+	// jewellery5.noOfGrams = 25;
+	// jewellery5.isWasteagePresent = true;
 	jewellery5.getjewellleryinfo();
 	
 	// System.out.println("the id of the jewellery5 is " + jewellery5.jewelleryId);
@@ -74,12 +74,12 @@ class JewelleryRunner {
 	// System.out.println("the noOfGrams of the jewellery5 is " + jewellery5.noOfGrams);
 	// System.out.println("isWasteagePresent in jewellery5 is " + jewellery5.isWasteagePresent);
 	
-	Jewellery jewellery6 = new Jewellery();
-	jewellery6.jewelleryId = 10006;
-	jewellery6.jewelleryType = "gold";
-	jewellery6.jewelleryDesign = "temple";
-	jewellery6.noOfGrams = 12;
-	jewellery6.isWasteagePresent = false;
+Jewellery jewellery6 = new Jewellery(10006, "gold", "temple", 12, false);
+	// jewellery6.jewelleryId = 10006;
+	// jewellery6.jewelleryType = "gold";
+	// jewellery6.jewelleryDesign = "temple";
+	// jewellery6.noOfGrams = 12;
+	// jewellery6.isWasteagePresent = false;
 	jewellery6.getjewellleryinfo();
 	
 	// System.out.println("the id of the jewellery6 is " + jewellery6.jewelleryId);
@@ -88,12 +88,12 @@ class JewelleryRunner {
 	// System.out.println("the noOfGrams of the jewellery6 is " + jewellery6.noOfGrams);
 	// System.out.println("isWasteagePresent in jewellery6 is " + jewellery6.isWasteagePresent);
 	
-	Jewellery jewellery7 = new Jewellery();
-	jewellery7.jewelleryId = 10007;
-	jewellery7.jewelleryType = "platinum";
-	jewellery7.jewelleryDesign = "engraved";
-	jewellery7.noOfGrams = 30;
-	jewellery7.isWasteagePresent = true;
+        Jewellery jewellery7 = new Jewellery(10007, "platinum", "engraved", 30, true);
+	// jewellery7.jewelleryId = 10007;
+	// jewellery7.jewelleryType = "platinum";
+	// jewellery7.jewelleryDesign = "engraved";
+	// jewellery7.noOfGrams = 30;
+	// jewellery7.isWasteagePresent = true;
 	jewellery7.getjewellleryinfo();
 	
 	// System.out.println("the id of the jewellery7 is " + jewellery7.jewelleryId);
@@ -102,12 +102,13 @@ class JewelleryRunner {
 	// System.out.println("the noOfGrams of the jewellery7 is " + jewellery7.noOfGrams);
 	// System.out.println("isWasteagePresent in jewellery7 is " + jewellery7.isWasteagePresent);
 	
-	Jewellery jewellery8 = new Jewellery();
-	jewellery8.jewelleryId = 10008;
-	jewellery8.jewelleryType = "silver";
-	jewellery8.jewelleryDesign = "kundan";
-	jewellery8.noOfGrams = 18;
-	jewellery8.isWasteagePresent = false;
+
+        Jewellery jewellery8 = new Jewellery(10008, "silver", "kundan", 18, false);
+	// jewellery8.jewelleryId = 10008;
+	// jewellery8.jewelleryType = "silver";
+	// jewellery8.jewelleryDesign = "kundan";
+	// jewellery8.noOfGrams = 18;
+	// jewellery8.isWasteagePresent = false;
 	jewellery8.getjewellleryinfo();
 	
 	// System.out.println("the id of the jewellery8 is " + jewellery8.jewelleryId);
@@ -116,12 +117,13 @@ class JewelleryRunner {
 	// System.out.println("the noOfGrams of the jewellery8 is " + jewellery8.noOfGrams);
 	// System.out.println("isWasteagePresent in jewellery8 is " + jewellery8.isWasteagePresent);
 	
-	Jewellery jewellery9 = new Jewellery();
-	jewellery9.jewelleryId = 10009;
-	jewellery9.jewelleryType = "gold";
-	jewellery9.jewelleryDesign = "modern";
-	jewellery9.noOfGrams = 22;
-	jewellery9.isWasteagePresent = true;
+	
+        Jewellery jewellery9 = new Jewellery(10009, "gold", "modern", 22, true);
+	// jewellery9.jewelleryId = 10009;
+	// jewellery9.jewelleryType = "gold";
+	// jewellery9.jewelleryDesign = "modern";
+	// jewellery9.noOfGrams = 22;
+	// jewellery9.isWasteagePresent = true;
 	jewellery9.getjewellleryinfo();
 	
 	// System.out.println("the id of the jewellery9 is " + jewellery9.jewelleryId);
@@ -130,12 +132,13 @@ class JewelleryRunner {
 	// System.out.println("the noOfGrams of the jewellery9 is " + jewellery9.noOfGrams);
 	// System.out.println("isWasteagePresent in jewellery9 is " + jewellery9.isWasteagePresent);
 	
-	Jewellery jewellery10 = new Jewellery();
-	jewellery10.jewelleryId = 10010;
-	jewellery10.jewelleryType = "silver";
-	jewellery10.jewelleryDesign = "filigree";
-	jewellery10.noOfGrams = 14;
-	jewellery10.isWasteagePresent = false;
+
+        Jewellery jewellery10 = new Jewellery(10010, "silver", "filigree", 14, false);
+	// jewellery10.jewelleryId = 10010;
+	// jewellery10.jewelleryType = "silver";
+	// jewellery10.jewelleryDesign = "filigree";
+	// jewellery10.noOfGrams = 14;
+	// jewellery10.isWasteagePresent = false;
 	jewellery10.getjewellleryinfo();
 	
 	// System.out.println("the id of the jewellery10 is " + jewellery10.jewelleryId);
@@ -144,12 +147,13 @@ class JewelleryRunner {
 	// System.out.println("the noOfGrams of the jewellery10 is " + jewellery10.noOfGrams);
 	// System.out.println("isWasteagePresent in jewellery10 is " + jewellery10.isWasteagePresent);
 	
-	Jewellery jewellery11 = new Jewellery();
-	jewellery11.jewelleryId = 10011;
-	jewellery11.jewelleryType = "platinum";
-	jewellery11.jewelleryDesign = "classic";
-	jewellery11.noOfGrams = 28;
-	jewellery11.isWasteagePresent = true;
+	
+        Jewellery jewellery11 = new Jewellery(10011, "platinum", "classic", 28, true);
+	// jewellery11.jewelleryId = 10011;
+	// jewellery11.jewelleryType = "platinum";
+	// jewellery11.jewelleryDesign = "classic";
+	// jewellery11.noOfGrams = 28;
+	// jewellery11.isWasteagePresent = true;
 	jewellery11.getjewellleryinfo();
 	
 	// System.out.println("the id of the jewellery11 is " + jewellery11.jewelleryId);
@@ -158,12 +162,13 @@ class JewelleryRunner {
 	// System.out.println("the noOfGrams of the jewellery11 is " + jewellery11.noOfGrams);
 	// System.out.println("isWasteagePresent in jewellery11 is " + jewellery11.isWasteagePresent);
 	
-	Jewellery jewellery12 = new Jewellery();
-	jewellery12.jewelleryId = 10012;
-	jewellery12.jewelleryType = "gold";
-	jewellery12.jewelleryDesign = "bold";
-	jewellery12.noOfGrams = 15;
-	jewellery12.isWasteagePresent = false;
+	
+        Jewellery jewellery12 = new Jewellery(10012, "gold", "bold", 15, false);
+	// jewellery12.jewelleryId = 10012;
+	// jewellery12.jewelleryType = "gold";
+	// jewellery12.jewelleryDesign = "bold";
+	// jewellery12.noOfGrams = 15;
+	// jewellery12.isWasteagePresent = false;
 	jewellery12.getjewellleryinfo();
 	
 	// System.out.println("the id of the jewellery12 is " + jewellery12.jewelleryId);
@@ -172,12 +177,13 @@ class JewelleryRunner {
 	// System.out.println("the noOfGrams of the jewellery12 is " + jewellery12.noOfGrams);
 	// System.out.println("isWasteagePresent in jewellery12 is " + jewellery12.isWasteagePresent);
 	
-	Jewellery jewellery13 = new Jewellery();
-	jewellery13.jewelleryId = 10013;
-	jewellery13.jewelleryType = "silver";
-	jewellery13.jewelleryDesign = "engraved";
-	jewellery13.noOfGrams = 19;
-	jewellery13.isWasteagePresent = true;
+	
+        Jewellery jewellery13 = new Jewellery(10013, "silver", "engraved", 19, true);
+	// jewellery13.jewelleryId = 10013;
+	// jewellery13.jewelleryType = "silver";
+	// jewellery13.jewelleryDesign = "engraved";
+	// jewellery13.noOfGrams = 19;
+	// jewellery13.isWasteagePresent = true;
 	jewellery13.getjewellleryinfo();
 	
 	// System.out.println("the id of the jewellery13 is " + jewellery13.jewelleryId);
@@ -186,12 +192,13 @@ class JewelleryRunner {
 	// System.out.println("the noOfGrams of the jewellery13 is " + jewellery13.noOfGrams);
 	// System.out.println("isWasteagePresent in jewellery13 is " + jewellery13.isWasteagePresent);
 	
-	Jewellery jewellery14 = new Jewellery();
-	jewellery14.jewelleryId = 10014;
-	jewellery14.jewelleryType = "gold";
-	jewellery14.jewelleryDesign = "temple";
-	jewellery14.noOfGrams = 11;
-	jewellery14.isWasteagePresent = false;
+
+        Jewellery jewellery14 = new Jewellery(10014, "gold", "temple", 11, false);
+	// jewellery14.jewelleryId = 10014;
+	// jewellery14.jewelleryType = "gold";
+	// jewellery14.jewelleryDesign = "temple";
+	// jewellery14.noOfGrams = 11;
+	// jewellery14.isWasteagePresent = false;
 	jewellery14.getjewellleryinfo();
 	
 	// System.out.println("the id of the jewellery14 is " + jewellery14.jewelleryId);
@@ -200,12 +207,13 @@ class JewelleryRunner {
 	// System.out.println("the noOfGrams of the jewellery14 is " + jewellery14.noOfGrams);
 	// System.out.println("isWasteagePresent in jewellery14 is " + jewellery14.isWasteagePresent);
 	
-	Jewellery jewellery15 = new Jewellery();
-	jewellery15.jewelleryId = 10015;
-	jewellery15.jewelleryType = "platinum";
-	jewellery15.jewelleryDesign = "signature";
-	jewellery15.noOfGrams = 33;
-	jewellery15.isWasteagePresent = true;
+	
+        Jewellery jewellery15 = new Jewellery(10015, "platinum", "signature", 33, true);
+	// jewellery15.jewelleryId = 10015;
+	// jewellery15.jewelleryType = "platinum";
+	// jewellery15.jewelleryDesign = "signature";
+	// jewellery15.noOfGrams = 33;
+	// jewellery15.isWasteagePresent = true;
 	jewellery15.getjewellleryinfo();
 	
 	// System.out.println("the id of the jewellery15 is " + jewellery15.jewelleryId);
@@ -214,12 +222,13 @@ class JewelleryRunner {
 	// System.out.println("the noOfGrams of the jewellery15 is " + jewellery15.noOfGrams);
 	// System.out.println("isWasteagePresent in jewellery15 is " + jewellery15.isWasteagePresent);
 	
-	Jewellery jewellery16 = new Jewellery();
-	jewellery16.jewelleryId = 10016;
-	jewellery16.jewelleryType = "silver";
-	jewellery16.jewelleryDesign = "tribal";
-	jewellery16.noOfGrams = 16;
-	jewellery16.isWasteagePresent = false;
+	
+        Jewellery jewellery16 = new Jewellery(10016, "silver", "tribal", 16, false);
+	// jewellery16.jewelleryId = 10016;
+	// jewellery16.jewelleryType = "silver";
+	// jewellery16.jewelleryDesign = "tribal";
+	// jewellery16.noOfGrams = 16;
+	// jewellery16.isWasteagePresent = false;
 	jewellery16.getjewellleryinfo();
 	
 	// System.out.println("the id of the jewellery16 is " + jewellery16.jewelleryId);
@@ -228,12 +237,13 @@ class JewelleryRunner {
 	// System.out.println("the noOfGrams of the jewellery16 is " + jewellery16.noOfGrams);
 	// System.out.println("isWasteagePresent in jewellery16 is " + jewellery16.isWasteagePresent);
 	
-	Jewellery jewellery17 = new Jewellery();
-	jewellery17.jewelleryId = 10017;
-	jewellery17.jewelleryType = "gold";
-	jewellery17.jewelleryDesign = "kundan";
-	jewellery17.noOfGrams = 20;
-	jewellery17.isWasteagePresent = true;
+	
+        Jewellery jewellery17 = new Jewellery(10017, "gold", "kundan", 20, true);
+	// jewellery17.jewelleryId = 10017;
+	// jewellery17.jewelleryType = "gold";
+	// jewellery17.jewelleryDesign = "kundan";
+	// jewellery17.noOfGrams = 20;
+	// jewellery17.isWasteagePresent = true;
 	jewellery17.getjewellleryinfo();
 	
 	// System.out.println("the id of the jewellery17 is " + jewellery17.jewelleryId);
@@ -242,12 +252,13 @@ class JewelleryRunner {
 	// System.out.println("the noOfGrams of the jewellery17 is " + jewellery17.noOfGrams);
 	// System.out.println("isWasteagePresent in jewellery17 is " + jewellery17.isWasteagePresent);
 	
-	Jewellery jewellery18 = new Jewellery();
-	jewellery18.jewelleryId = 10018;
-	jewellery18.jewelleryType = "platinum";
-	jewellery18.jewelleryDesign = "simple";
-	jewellery18.noOfGrams = 24;
-	jewellery18.isWasteagePresent = false;
+	
+        Jewellery jewellery18 = new Jewellery(10018, "platinum", "simple", 24, false);
+	// jewellery18.jewelleryId = 10018;
+	// jewellery18.jewelleryType = "platinum";
+	// jewellery18.jewelleryDesign = "simple";
+	// jewellery18.noOfGrams = 24;
+	// jewellery18.isWasteagePresent = false;
 	jewellery18.getjewellleryinfo();
 	
 	// System.out.println("the id of the jewellery18 is " + jewellery18.jewelleryId);
@@ -256,12 +267,13 @@ class JewelleryRunner {
 	// System.out.println("the noOfGrams of the jewellery18 is " + jewellery18.noOfGrams);
 	// System.out.println("isWasteagePresent in jewellery18 is " + jewellery18.isWasteagePresent);
 	
-	Jewellery jewellery19 = new Jewellery();
-	jewellery19.jewelleryId = 10019;
-	jewellery19.jewelleryType = "silver";
-	jewellery19.jewelleryDesign = "mirror";
-	jewellery19.noOfGrams = 13;
-	jewellery19.isWasteagePresent = true;
+	
+        Jewellery jewellery19 = new Jewellery(10019, "silver", "mirror", 13, true);
+	// jewellery19.jewelleryId = 10019;
+	// jewellery19.jewelleryType = "silver";
+	// jewellery19.jewelleryDesign = "mirror";
+	// jewellery19.noOfGrams = 13;
+	// jewellery19.isWasteagePresent = true;
 	jewellery19.getjewellleryinfo();
 	
 	// System.out.println("the id of the jewellery19 is " + jewellery19.jewelleryId);
@@ -270,12 +282,13 @@ class JewelleryRunner {
 	// System.out.println("the noOfGrams of the jewellery19 is " + jewellery19.noOfGrams);
 	// System.out.println("isWasteagePresent in jewellery19 is " + jewellery19.isWasteagePresent);
 	
-	Jewellery jewellery20 = new Jewellery();
-	jewellery20.jewelleryId = 10020;
-	jewellery20.jewelleryType = "gold";
-	jewellery20.jewelleryDesign = "stone";
-	jewellery20.noOfGrams = 17;
-	jewellery20.isWasteagePresent = false;
+	
+        Jewellery jewellery20 = new Jewellery(10020, "gold", "stone", 17, false);
+	// jewellery20.jewelleryId = 10020;
+	// jewellery20.jewelleryType = "gold";
+	// jewellery20.jewelleryDesign = "stone";
+	// jewellery20.noOfGrams = 17;
+	// jewellery20.isWasteagePresent = false;
 	jewellery20.getjewellleryinfo();
 	
 	// System.out.println("the id of the jewellery20 is " + jewellery20.jewelleryId);

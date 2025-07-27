@@ -1,4 +1,21 @@
 class Network{
+	
+	
+	
+			Network(){
+		System.out.println("the  Constructor invoked" );
+	}
+	Network(int networkId,int  noOfClient,int noOfServer,boolean isConnectionAvailable, String networkType){
+		System.out.println("the Parameter Constructor invoked" );
+		this.networkId=networkId;
+		this.noOfClient=noOfClient;
+		this.noOfServer=noOfServer;
+		this.isConnectionAvailable=isConnectionAvailable;
+		this.networkType=networkType;
+		
+	}
+	
+	
 	int networkId;
 	int noOfClient;
 	int noOfServer;
