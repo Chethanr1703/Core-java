@@ -1,25 +1,35 @@
 class Flower{
+	int flowerId;
+	String flowerName[];
+	String flowerColor;
+	int price;
+	boolean isUsedForFood;
 	
 	
 		Flower(){
 		System.out.println("the  Constructor invoked" );
 	}
-	Flower(int flowerId,String  flowerName,String flowerColor,int price, boolean isUsedForFood){
+	Flower(int flowerId,String  flowerName[]){
 		System.out.println("the Parameter Constructor invoked" );
 		this.flowerId=flowerId;
 		this.flowerName=flowerName;
-		this.flowerColor=flowerColor;
-		this.price=price;
-		this.isUsedForFood=isUsedForFood;
 		
 	}
 	
+	Flower(String flowerColor,int price){
+	this.flowerColor=flowerColor;
+		this.price=price;
+		
 	
-	int flowerId;
-	String flowerName;
-	String flowerColor;
-	int price;
-	boolean isUsedForFood;
+	}
+	
+	Flower( boolean isUsedForFood){
+	
+		this.isUsedForFood=isUsedForFood;
+	
+	}
+	
+	
 	
 	public void getFlowerinfo(){
 		

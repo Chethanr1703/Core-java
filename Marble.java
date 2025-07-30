@@ -1,13 +1,21 @@
 class Marble{
+	int marbleId;
 	
+	String colors[];
+	String marbleType;
+	String shape;
+	String Quality;
 		
 		Marble(){
 		System.out.println("the Constructor invoked" );
 	}
-	Marble(int marbleId,String  marbleType,String colors,String shape, String Quality){
+	Marble(int marbleId,String colors[] ){
 		System.out.println("the Parameter Constructor invoked" );
 		this.marbleId=marbleId;
 		this.marbleType=marbleType;
+		
+	}
+	Marble(String  marbleType,String shape, String Quality){
 		this.colors=colors;
 		this.shape=shape;
 		this.Quality=Quality;
@@ -15,11 +23,7 @@ class Marble{
 	}
 	
 	
-	int marbleId;
-	String marbleType;
-	String colors;
-	String shape;
-	String Quality;
+	
 	
 	public void getMarbleinfo(){
 		

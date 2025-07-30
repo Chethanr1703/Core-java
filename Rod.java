@@ -1,22 +1,29 @@
 class Rod{
-	Rod(){
-		System.out.println("the  Constructor invoked" );
-	}
-	Rod(int rodId,int rodLength,int rodDaimeter,String rodType,String rodBrand){
-		System.out.println("the  Constructor invoked" );
-		this.rodId=rodId;
-		this.rodLength=rodLength;
-		this.rodDaimeter=rodDaimeter;
-		this.rodType=rodType;
-		this.rodBrand=rodBrand;
-		
-	}
 	
 	int rodId;
 	int rodLength;
 	int rodDaimeter;
 	String rodType;
-	String rodBrand;
+	String rodBrand[];
+	
+	Rod(){
+		System.out.println("the  Constructor invoked" );
+	}
+	Rod(int rodId,int rodLength){
+		System.out.println("the  Constructor invoked" );
+		this.rodId=rodId;
+		this.rodLength=rodLength;
+		
+	}
+	Rod(int rodDaimeter,String rodType){
+		this.rodDaimeter=rodDaimeter;
+		this.rodType=rodType;
+		
+	}
+	Rod(String rodBrand[]){
+				this.rodBrand=rodBrand;
+
+	}
 	
 	
 	public void getroddInfo(){

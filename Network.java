@@ -1,26 +1,35 @@
 class Network{
-	
-	
-	
-			Network(){
-		System.out.println("the  Constructor invoked" );
-	}
-	Network(int networkId,int  noOfClient,int noOfServer,boolean isConnectionAvailable, String networkType){
-		System.out.println("the Parameter Constructor invoked" );
-		this.networkId=networkId;
-		this.noOfClient=noOfClient;
-		this.noOfServer=noOfServer;
-		this.isConnectionAvailable=isConnectionAvailable;
-		this.networkType=networkType;
-		
-	}
-	
-	
 	int networkId;
 	int noOfClient;
 	int noOfServer;
 	boolean isConnectionAvailable;
-	String networkType;
+	String networkType[];
+	
+	
+	
+	Network(){
+	
+	System.out.println("the  Constructor invoked" );
+	}
+	Network(int networkId,int  noOfClient){
+		System.out.println("the Parameter Constructor invoked" );
+		this.networkId=networkId;
+		this.noOfClient=noOfClient;
+		
+		
+	}
+	Network(int noOfServer,boolean isConnectionAvailable){
+	
+	this.noOfServer=noOfServer;
+		this.isConnectionAvailable=isConnectionAvailable;
+		
+	}
+	Network(String networkType[]){
+	
+	this.networkType=networkType;
+	}
+	
+	
 	
 	public void getnetworkinfo(){
 		System.out.println("the id of the network20 is " +networkId);

@@ -1,22 +1,29 @@
 class Roti{
-	
-	
-		Roti(){
-		
-	}
-	Roti(int rotiId,String  rotiShape,String rotiType,int rotiPrice, boolean isbuttered){
-		this.rotiId=rotiId;
-		this.rotiShape=rotiShape;
-		this.rotiType=rotiType;
-		this.rotiPrice=rotiPrice;
-		this.isbuttered=isbuttered;
-		
-	}
 	int rotiId;
-	String rotiShape;
+	String rotiShape[];
 	String rotiType;
 	int rotiPrice;
 	boolean isbuttered;
+	
+		Roti(){
+		System.out.println("the  Constructor invoked" );
+	}
+	Roti(int rotiId,String  rotiShape[] ){
+		System.out.println("the Parameter Constructor invoked" );
+		this.rotiId=rotiId;
+		this.rotiShape=rotiShape;
+		
+	}
+	Roti(String rotiType,int rotiPrice){
+		this.rotiType=rotiType;
+		this.rotiPrice=rotiPrice;
+		
+	}
+	Roti(boolean isbuttered){
+		this.isbuttered=isbuttered;
+		
+	}
+	
 	
 	public void getRotiInfo(){
 		System.out.println("the id of the roti1 "+rotiId);

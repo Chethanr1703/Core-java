@@ -1,24 +1,33 @@
 class Blazer{
-	Blazer(){System.out.println("the  Constructor invoked" );
-		
-	}
-	
-	Blazer(int blazerId,String blazerMaterailType,boolean isPipingAvaible,String blazerBrand,String manufactorCompanyName,String blazerColor){
-				System.out.println("the Parameter Constructor invoked" );
-		this.blazerId=blazerId;
-		this.blazerMaterailType=blazerMaterailType;
-		this.isPipingAvaible=isPipingAvaible;
-		this.blazerBrand=blazerBrand;
-		this.manufactorCompanyName=manufactorCompanyName;
-		this.blazerColor=blazerColor;
-	}
 	
 	int blazerId ;
 	String blazerMaterailType;
 	boolean isPipingAvaible;
 	String blazerBrand;
 	String manufactorCompanyName;
-	String blazerColor;
+	String blazerColor[];
+	
+	Blazer(){System.out.println("the  Constructor invoked" );
+		
+	}
+	
+	Blazer(int blazerId,String blazerMaterailType,String manufactorCompanyName){
+				System.out.println("the Parameter Constructor invoked" );
+		this.blazerId=blazerId;
+		this.blazerMaterailType=blazerMaterailType;
+		this.manufactorCompanyName=manufactorCompanyName;
+		
+	}
+	Blazer(boolean isPipingAvaible,String blazerBrand){
+		this.isPipingAvaible=isPipingAvaible;
+		this.blazerBrand=blazerBrand;
+		
+	}
+	Blazer(String blazerColor[]){
+		this.blazerColor=blazerColor;
+	}
+	
+	
 	
 	public void getBlazerInfo(){
 		System.out.println("the id of the blazer1 is :"+blazerId);

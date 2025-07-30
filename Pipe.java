@@ -1,25 +1,33 @@
 class Pipe{
 	
-	
+		int pipeId;
+	int pipeLength;
+	int pipeDaimeter;
+	String pipeType;
+	String pipeBrand[];
 	
 		Pipe(){
 		System.out.println("the  Constructor invoked" );
 	}
-	Pipe(int pipeId,int pipeLength,int pipeDaimeter,String pipeType,String pipeBrand){
+	Pipe(int pipeId){
 		System.out.println("the Parameter Constructor invoked" );
 		this.pipeId=pipeId;
+		
+	}
+	
+	Pipe(int pipeLength,int pipeDaimeter){
 		this.pipeLength=pipeLength;
 		this.pipeDaimeter=pipeDaimeter;
+		
+	}
+	
+	
+	Pipe(String pipeType,String pipeBrand[]){
 		this.pipeType=pipeType;
 		this.pipeBrand=pipeBrand;
 		
 	}
-	
-	int pipeId;
-	int pipeLength;
-	int pipeDaimeter;
-	String pipeType;
-	String pipeBrand;
+
 	
 	public void getpipeInfo(){
 		

@@ -1,5 +1,10 @@
 class Politician{
 	
+	int politicianId;
+	String partyName;
+	String partyType;
+	String position;
+	
 			Politician(){
 		System.out.println("the  Constructor invoked" );
 	}
@@ -15,10 +20,7 @@ class Politician{
 	
 	
 	
-	int politicianId;
-	String partyName;
-	String partyType;
-	String position;
+	
 	public void getploitiInfo(){
 		System.out.println("the id of the politician20: " + politicianId);
 	System.out.println("the partyName of the politician20: " + partyName);
