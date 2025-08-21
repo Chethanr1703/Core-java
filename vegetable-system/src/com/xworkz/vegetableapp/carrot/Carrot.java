@@ -1,4 +1,10 @@
 package com.xworkz.vegetableapp.carrot;
 
-public class Carrot extends Vegetable{
+import com.xworkz.vegetableapp.vegetable.Vegetable;
+
+public class Carrot extends Vegetable {
+    public Carrot(){
+        super();
+        System.out.println("Carrot cons is invoked");
+    }
 }

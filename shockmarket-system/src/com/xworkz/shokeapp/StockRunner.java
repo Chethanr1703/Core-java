@@ -1,11 +1,11 @@
-package com.xworkz.showapp;
+package com.xworkz.shokeapp;
 
-import com.xworkz.showapp.podcast.Podcast;
+import com.xworkz.shokeapp.nifty50.Nifty50;
 
-public class ShowRunner {
+public class StockRunner {
     public static void main(String[] args) {
         System.out.println("main started");
-        Podcast show1 = new Podcast();
+        Nifty50 stock = new Nifty50();
         System.out.println("main ended");
 
     }

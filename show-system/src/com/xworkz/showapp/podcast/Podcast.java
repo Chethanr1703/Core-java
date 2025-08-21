@@ -1,4 +1,10 @@
 package com.xworkz.showapp.podcast;
 
-public class Podcast extends Show{
+import com.xworkz.showapp.show.Show;
+
+public class Podcast extends Show {
+    public Podcast(){
+        super();
+        System.out.println("Podcast cons is invoked");
+    }
 }

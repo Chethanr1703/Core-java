@@ -1,4 +1,10 @@
 package com.xworkz.cosmeticapp.lipstick;
 
-public class Lipstick extends Cosmetics{
+import com.xworkz.cosmeticapp.cosmetics.Cosmetics;
+
+public class Lipstick extends Cosmetics {
+    public Lipstick(){
+        super();
+        System.out.println("Lipstick cons is invoked");
+    }
 }

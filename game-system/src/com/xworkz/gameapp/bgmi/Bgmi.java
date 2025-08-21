@@ -1,4 +1,10 @@
 package com.xworkz.gameapp.bgmi;
 
-public class Bgmi extends Game{
+import com.xworkz.gameapp.game.Game;
+
+public class Bgmi extends Game {
+    public Bgmi(){
+        super();
+        System.out.println("Bgmi cons is invoked");
+    }
 }
