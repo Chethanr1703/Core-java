@@ -7,4 +7,8 @@ public class Kannada extends Language {
         super();
         System.out.println("Kannada cons is invoked");
     }
+    @Override
+    public void toComminicate(){
+        System.out.println("it help to communicate with Karnataka people");
+    }
 }

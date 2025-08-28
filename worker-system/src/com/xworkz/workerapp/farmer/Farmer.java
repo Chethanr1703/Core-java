@@ -7,4 +7,8 @@ public class Farmer extends Worker {
         super();
         System.out.println("Farmer cons is invoked");
     }
+    @Override
+    public void toWork(){
+        System.out.println("to work for money and to do agriculture");
+    }
 }

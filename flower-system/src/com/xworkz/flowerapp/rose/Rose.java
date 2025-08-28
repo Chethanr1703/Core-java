@@ -7,5 +7,9 @@ public class Rose extends Flower {
         super();
         System.out.println("Rose cons is invoked");
     }
+    @Override
+    public void toDecoration(){
+        System.out.println("to do decoration and flower bhocke ");
+    }
 
 }

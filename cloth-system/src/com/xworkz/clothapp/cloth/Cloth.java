@@ -5,4 +5,7 @@ public class Cloth {
         super();
         System.out.println("Cloth cons is invoked");
     }
+    public void allTypeAvailable(){
+        System.out.println("all type of cloth are available");
+    }
 }

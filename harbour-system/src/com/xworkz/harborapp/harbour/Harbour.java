@@ -5,4 +5,7 @@ public class Harbour {
         super();
         System.out.println("Harbour cons is invoked");
     }
+    public void toFishing(){
+        System.out.println("to do fishing ");
+    }
 }

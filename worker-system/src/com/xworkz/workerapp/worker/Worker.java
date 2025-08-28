@@ -5,4 +5,7 @@ public class Worker {
         super();
         System.out.println("Worker cons is invoked");
     }
+    public void toWork(){
+        System.out.println("to work for money");
+    }
 }

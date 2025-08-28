@@ -7,4 +7,8 @@ public class Table extends Furniture {
         super();
         System.out.println("Table cons is invoked");
     }
+    @Override
+    public void  comfort(){
+        System.out.println("it give comfort to sit");
+    }
 }

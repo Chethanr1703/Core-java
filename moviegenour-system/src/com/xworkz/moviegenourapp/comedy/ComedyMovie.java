@@ -7,4 +7,8 @@ public class ComedyMovie extends MovieGenour {
         super();
         System.out.println("ComedyMovie cons is invoked");
     }
+    @Override
+    public void toEntertain(){
+        System.out.println(" Comedy movie is done to entertain the people");
+    }
 }

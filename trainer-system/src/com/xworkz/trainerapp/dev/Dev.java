@@ -8,4 +8,8 @@ public class Dev extends Trainer {
         System.out.println("Dev cons is invoked");
 
     }
+    @Override
+    public void toTeach(){
+        System.out.println("to teach the technical concept ");
+    }
 }

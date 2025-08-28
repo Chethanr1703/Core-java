@@ -5,4 +5,7 @@ public class Language {
         super();
         System.out.println("Language cons is invoked");
     }
+    public void toComminicate(){
+        System.out.println("it help to communicate with people");
+    }
 }

@@ -7,4 +7,8 @@ public class HariStationary extends Stationary {
         super();
         System.out.println("HariStationary cons is invoked");
     }
+    @Override
+    public void  provide(){
+        System.out.println("provide all stationary");
+    }
 }

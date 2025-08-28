@@ -7,4 +7,8 @@ public class Bgmi extends Game {
         super();
         System.out.println("Bgmi cons is invoked");
     }
+    @Override
+    public void fun(){
+        System.out.println("give fun playing bgmi ");
+    }
 }

@@ -7,4 +7,8 @@ public class India extends Country {
         super();
         System.out.println("India cons is invoked");
     }
+    @Override
+    public void typeOfTax(){
+        System.out.println("road tax and GST");
+    }
 }

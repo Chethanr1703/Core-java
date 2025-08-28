@@ -8,4 +8,8 @@ public class ShoppingMall {
         System.out.println("ShoppingMall cons is invoked");
     }
 
+    public void toShopping(){
+        System.out.println("for Shopping ");
+    }
+
 }

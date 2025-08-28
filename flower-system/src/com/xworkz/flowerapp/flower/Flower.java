@@ -6,4 +6,7 @@ public class Flower {
         super();
         System.out.println("Flower cons is invoked");
     }
+    public void toDecoration(){
+        System.out.println("to do decoration ");
+    }
 }

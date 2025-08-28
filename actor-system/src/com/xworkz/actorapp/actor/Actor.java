@@ -5,4 +5,9 @@ public class Actor {
         super();
         System.out.println("Actor constructor is invoved");
     }
+
+    public void doAllCinema(){
+        System.out.println("Actor is All type of cinema");
+    }
+
 }

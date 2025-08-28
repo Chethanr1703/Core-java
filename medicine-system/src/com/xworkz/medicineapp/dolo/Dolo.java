@@ -7,5 +7,9 @@ public class Dolo extends Medicine {
         super();
         System.out.println("Dolo cons is invoked");
     }
+    @Override
+    public void getCure(){
+        System.out.println("cure the fever");
+    }
 
 }

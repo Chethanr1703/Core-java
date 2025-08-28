@@ -5,4 +5,7 @@ public class Stationary {
         super();
         System.out.println("Stationary cons is invoked");
     }
+    public void  provide(){
+        System.out.println("provide all stationary and xerox");
+    }
 }

@@ -5,4 +5,7 @@ public class Vegetable {
         super();
         System.out.println("Vegetable cons is invoked");
     }
+    public void todo(){
+        System.out.println("to do sambar");
+    }
 }

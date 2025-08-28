@@ -7,4 +7,8 @@ public class Apollo extends Hospital {
         super();
         System.out.println("Apollo cons is invoked");
     }
+    @Override
+    public void admitPatient(){
+        System.out.println("admit only general disease Patient");
+    }
 }

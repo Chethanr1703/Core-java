@@ -5,4 +5,7 @@ public class Chacolate {
         super();
         System.out.println("Chacolate cons is invoked");
     }
+    public void avaliable(){
+        System.out.println("chocolate are available every ever");
+    }
 }

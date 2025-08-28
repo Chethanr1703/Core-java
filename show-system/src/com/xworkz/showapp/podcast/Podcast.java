@@ -7,4 +7,8 @@ public class Podcast extends Show {
         super();
         System.out.println("Podcast cons is invoked");
     }
+    @Override
+    public void toDoShow(){
+        System.out.println("to do Interview");
+    }
 }

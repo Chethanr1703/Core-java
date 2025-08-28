@@ -7,4 +7,9 @@ public class Shirt extends Cloth {
         super();
         System.out.println("Shirt cons is invoked");
     }
+
+    @Override
+    public void allTypeAvailable() {
+        System.out.println("only cotton type is available");
+    }
 }

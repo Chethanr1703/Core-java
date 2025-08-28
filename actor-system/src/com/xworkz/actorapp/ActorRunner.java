@@ -6,7 +6,12 @@ import com.xworkz.actorapp.visnuvardhan.VishnuVardhana;
 public class ActorRunner {
     public static void main(String[] args) {
         System.out.println("main started");
-        VishnuVardhana actor = new VishnuVardhana();
+
+
+        Actor actor = new VishnuVardhana();
+        actor.doAllCinema();
+
+
         System.out.println("main ended");
 
     }

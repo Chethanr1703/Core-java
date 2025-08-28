@@ -6,4 +6,8 @@ public class Bussinessmen {
         System.out.println("business men cons is invoked");
 
     }
+
+    public void toDoBusiness(){
+        System.out.println("business in all fields");
+    }
 }

@@ -7,4 +7,8 @@ public class Guitor extends Instrument {
         super();
         System.out.println("Guitor cons is invoked");
     }
+    @Override
+    public void toPlay(){
+        System.out.println("to play melody music");
+    }
 }

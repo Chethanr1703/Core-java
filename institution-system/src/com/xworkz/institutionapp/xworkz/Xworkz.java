@@ -7,4 +7,8 @@ public class Xworkz extends Institution {
         super();
         System.out.println("Xworkz cons is invoked");
     }
+    @Override
+    public void toProvide(){
+        System.out.println("institution provide technical education");
+    }
 }

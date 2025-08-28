@@ -5,4 +5,8 @@ public class Country {
         super();
         System.out.println("Country cons is invoked");
     }
+    public void typeOfTax(){
+        System.out.println("road tax");
+    }
+
 }

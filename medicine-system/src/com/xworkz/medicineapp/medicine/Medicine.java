@@ -5,4 +5,7 @@ public class Medicine {
         super();
         System.out.println("Medicine cons is invoked");
     }
+    public void getCure(){
+        System.out.println("cure the disease");
+    }
 }

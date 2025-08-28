@@ -7,4 +7,8 @@ public class Soldier extends Protector {
         super();
         System.out.println("Soldier cons is invoked");
     }
+    @Override
+    public void toSave(){
+        System.out.println("to save the life of the people of their country");
+    }
 }

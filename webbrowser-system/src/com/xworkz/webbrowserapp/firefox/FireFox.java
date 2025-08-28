@@ -8,5 +8,9 @@ public class FireFox extends WebBrowser {
         super();
         System.out.println("FireFox cons is invoked");
     }
+    @Override
+    public void toSearch(){
+        System.out.println("to search the information of all sites");
+    }
 
 }

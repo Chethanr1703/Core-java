@@ -7,4 +7,9 @@ public class MantriSquare extends ShoppingMall {
         super();
         System.out.println("MantriSquare cons is invoked");
     }
+
+    @Override
+    public void toShopping(){
+        System.out.println("for Shopping and multiplex movies");
+    }
 }

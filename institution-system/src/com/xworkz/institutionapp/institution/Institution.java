@@ -5,4 +5,7 @@ public class Institution {
         super();
         System.out.println("Institution cons is invoked");
     }
+    public void toProvide(){
+        System.out.println("institution provide education");
+    }
 }

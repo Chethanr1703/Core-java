@@ -1,11 +1,13 @@
 package com.xworkz.clothapp;
 
+import com.xworkz.clothapp.cloth.Cloth;
 import com.xworkz.clothapp.shirt.Shirt;
 
 public class ClothRunner {
     public static void main(String[] args) {
         System.out.println("main started");
-        Shirt cloth1 = new Shirt();
+        Cloth cloth1 = new Shirt();
+        cloth1.allTypeAvailable();
         System.out.println("main ended");
 
     }

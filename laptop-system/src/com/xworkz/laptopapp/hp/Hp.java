@@ -7,4 +7,8 @@ public class Hp extends Laptop {
         super();
         System.out.println("hp cons is invoked");
     }
+    @Override
+    public void toWork(){
+        System.out.println("to work easily and efficient");
+    }
 }

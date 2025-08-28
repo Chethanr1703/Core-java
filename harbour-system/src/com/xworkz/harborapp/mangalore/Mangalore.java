@@ -7,4 +7,8 @@ public class Mangalore extends Harbour {
         super();
         System.out.println("Mangalore cons is invoked");
     }
+    @Override
+    public void toFishing(){
+        System.out.println("to do fishing  and import and export");
+    }
 }

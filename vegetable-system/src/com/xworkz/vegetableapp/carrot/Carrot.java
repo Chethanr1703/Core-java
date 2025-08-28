@@ -7,4 +7,8 @@ public class Carrot extends Vegetable {
         super();
         System.out.println("Carrot cons is invoked");
     }
+    @Override
+    public void todo(){
+        System.out.println("to do Halwa");
+    }
 }

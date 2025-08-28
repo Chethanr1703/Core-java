@@ -5,4 +5,7 @@ public class Utensil {
         super();
         System.out.println("utensil cons is invoked");
     }
+    public void toFeed(){
+        System.out.println("to feed and cook food using utensile");
+    }
 }

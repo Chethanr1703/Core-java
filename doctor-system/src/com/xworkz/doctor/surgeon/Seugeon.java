@@ -7,4 +7,8 @@ public class Seugeon extends Doctor {
         super();
         System.out.println("Seugeon cons is invoked");
     }
+    @Override
+    public void doAllType(){
+        System.out.println("perform all type of operation");
+    }
 }

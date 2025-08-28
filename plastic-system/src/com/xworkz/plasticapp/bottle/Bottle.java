@@ -7,4 +7,7 @@ public class Bottle extends Plastic {
         super();
         System.out.println("Bottle cons is invoked");
     }
+    public void toStoreWater(){
+        System.out.println("it will store to drink ");
+    }
 }
