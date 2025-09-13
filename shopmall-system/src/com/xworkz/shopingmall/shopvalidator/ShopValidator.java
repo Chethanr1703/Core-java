@@ -28,7 +28,7 @@ public class ShopValidator {
         }else{
             System.out.println("the type of the shop is not valid");
         }
-        if(shop.getWhichFloor()>0){
+        if(shop.getWhichFloor()!= null){
             isWhichFloorValid=true;
         }else{
             System.out.println("the floor of the shop is not valid");

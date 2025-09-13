@@ -1,48 +1,113 @@
 package com.xworkz.lokhasaba;
 
+import com.xworkz.lokhasaba.constants.Nationality;
 import com.xworkz.lokhasaba.lokasaba.LokhaSaba;
 import com.xworkz.lokhasaba.politician.Politician;
+
+import java.util.Scanner;
 
 public class LokhaSabaRunner {
     public static void main(String[] args) {
 
-        Politician politician =new Politician();
-        politician.setId(1);
-        politician.setName("maniRatna");
-        politician.setConstitution("RR nagar");
-        politician.setAge(50);
-        politician.setNationality("Indian");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter no of politician :");
+        int size = scanner.nextInt();
 
-        Politician politician1 = new Politician(2,"Raj","yelhanka",45,"Indian");
-        Politician politician2  = new Politician(2, "Anita", "Indiranagar", 50, "Indian");
-        Politician politician3  = new Politician(3, "Kiran", "Malleswaram", 38, "Indian");
-        Politician politician4  = new Politician(4, "Meera", "Jayanagar", 42, "Indian");
-        Politician politician5  = new Politician(5, "Suresh", "Koramangala", 55, "Indian");
-        Politician politician6  = new Politician(6, "Divya", "Whitefield", 34, "Indian");
-        Politician politician7  = new Politician(7, "Prakash", "BTM Layout", 60, "Indian");
-        Politician politician8  = new Politician(8, "Lakshmi", "Hebbal", 48, "Indian");
-        Politician politician9  = new Politician(9, "Ravi", "Banashankari", 52, "Indian");
-        Politician politician10 = new Politician(10,"Shreya", "Marathahalli", 36, "Indian");
-        Politician politician11 = new Politician(11,"Arun", "Basavanagudi", 40, "Indian");
+        LokhaSaba lokhaSaba = new LokhaSaba(size);
+
+        for (int index=0; index<size ; index++){
+
+            Politician politician = new Politician();
+
+            System.out.println("Enter id :");
+            politician.setId(scanner.nextInt());
+
+            System.out.println("Enter name :");
+            politician.setName(scanner.next());
+
+            System.out.println("Enter Age :");
+            politician.setAge(scanner.nextInt());
+
+            System.out.println("Enter nationality");
+            politician.setNationality(Nationality.valueOf(scanner.next().toUpperCase()));
+
+            System.out.println("Enter constitution");
+            politician.setConstitution(scanner.next());
+
+            lokhaSaba.isPoliticionAdded(politician);
+
+        }
+        lokhaSaba.getDetails();
 
 
-        LokhaSaba lokhaSaba=new LokhaSaba();
-        boolean isAdded =lokhaSaba.isPoliticionAdded(politician);
-        isAdded = lokhaSaba.isPoliticionAdded(politician2);
-        isAdded = lokhaSaba.isPoliticionAdded(politician2);
-        isAdded = lokhaSaba.isPoliticionAdded(politician3);
-        isAdded = lokhaSaba.isPoliticionAdded(politician4);
-        isAdded = lokhaSaba.isPoliticionAdded(politician5);
-        isAdded = lokhaSaba.isPoliticionAdded(politician6);
-        isAdded = lokhaSaba.isPoliticionAdded(politician7);
-        isAdded = lokhaSaba.isPoliticionAdded(politician8);
-        isAdded = lokhaSaba.isPoliticionAdded(politician9);
-        isAdded = lokhaSaba.isPoliticionAdded(politician10);
-        isAdded = lokhaSaba.isPoliticionAdded(politician11);
-        if (isAdded){
+        System.out.println("enter  the id to get politician");
+        Politician politician=lokhaSaba.getPoliticianById(scanner.nextInt());
+       lokhaSaba.getDetails(politician);
+
+        System.out.println("enter the id to get Nationality");
+        Nationality nationality=lokhaSaba.getNationalityById(scanner.nextInt());
+        System.out.println(nationality);
+
+        System.out.println("enter  the id to get name");
+        String name=lokhaSaba.getNameById(scanner.nextInt());
+        System.out.println(name);
+
+        System.out.println("enter the name to get id");
+        int id = lokhaSaba.getIdByName(scanner.next());
+        System.out.println(id);
+
+        System.out.println("enter name to get constitution");
+        String consttituition=lokhaSaba.getConstitutionByName(scanner.next());
+        System.out.println(consttituition);
+
+        System.out.println("enter id to get constitution");
+        String constitution= lokhaSaba.getConstitutionById(scanner.nextInt());
+        System.out.println(constitution);
+
+        System.out.println("enter the id to get age");
+        int age = lokhaSaba.getAgeById(scanner.nextInt());
+        System.out.println(age);
+
+        System.out.println("enter name to get age");
+        int newAge=lokhaSaba.getAgeByName(scanner.next());
+        System.out.println(newAge);
+
+        //update
+        System.out.println("enter the id to update name");
+        int politicianId= scanner.nextInt();
+        System.out.println("enter the updated name ");
+         name = scanner.next();
+
+        boolean isnameUpdatedByid=lokhaSaba.updateNameById(politicianId,name);
+        if(isnameUpdatedByid){
             lokhaSaba.getDetails();
-        }else{
-            System.out.println("the details of the politicion is not valid ");
+        }
+
+        System.out.println("enter id to update constitution");
+        id= scanner.nextInt();
+        System.out.println("enter new constitution");
+        constitution= scanner.next();
+        boolean isConstitutionUpadtedById = lokhaSaba.updateConstitutionById(id,constitution);
+        if(isConstitutionUpadtedById){
+            lokhaSaba.getDetails();
+        }
+
+        System.out.println("enter id to update Age");
+        id= scanner.nextInt();
+        System.out.println("enter the updated age");
+        age= scanner.nextInt();
+        boolean isAgeUpdatedById= lokhaSaba.updateAgeById(id,age);
+        if(isAgeUpdatedById){
+            lokhaSaba.getDetails();
+        }
+
+        System.out.println("enter the id to updated Nationality");
+        id= scanner.nextInt();
+        System.out.println("enter the new nationality");
+        nationality= Nationality.valueOf(scanner.next());
+        boolean isNationalityUpdatedById=lokhaSaba.updateNationalityById(id,nationality);
+        if(isNationalityUpdatedById){
+            lokhaSaba.getDetails();
         }
     }
 }

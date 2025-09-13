@@ -34,7 +34,7 @@ public class PoliticianValidator {
         }else{
             System.out.println("the age of the politicion is not valid");
         }
-        if(politician.getNationality()!=null && !politician.getNationality().isEmpty()){
+        if(politician.getNationality()!=null ){
             isIndianValid=true;
         }else{
             System.out.println("the indian of the politicion is not valid");

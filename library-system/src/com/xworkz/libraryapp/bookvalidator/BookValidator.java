@@ -35,7 +35,7 @@ public class BookValidator {
        }else{
            System.out.println("the book no of pages is not valid");
        }
-       if(bookDetails.getPublication()!= null && !bookDetails.getPublication().isEmpty()){
+       if(bookDetails.getPublication()!= null){
            isPublicationValid=true;
        }else{
            System.out.println("the book publication name  is not valid");

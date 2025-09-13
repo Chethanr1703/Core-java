@@ -7,6 +7,7 @@ public class TraineeValidator {
     public boolean isTrainneInfoValidated(Trainee trainee){
 
         boolean isTrainneInfoValidated=false;
+
         boolean isIdValid=false;
         boolean isNameValid=false;
         boolean isPhoneNumber=false;
@@ -24,7 +25,7 @@ public class TraineeValidator {
             System.out.println("the name of the trainee is not valid");
         }
         if(trainee.getNoOfClassesTaken()>0){
-            isTrainneInfoValidated=true;
+            isNoClassesTakenValid=true;
         }else{
             System.out.println("the no of class of the trainee is not valid");
         }
@@ -33,14 +34,17 @@ public class TraineeValidator {
         }else{
             System.out.println("the phone number of the trainee is not valid");
         }
-        if(trainee.getSubject()!=null && !trainee.getSubject().isEmpty()){
+        if(trainee.getSubject()!=null){
             isSubjectValid=true;
         }else{
             System.out.println("the subject of the trainee is not valid");
         }
-        if(isIdValid&&isNameValid&&isNoClassesTakenValid&&isPhoneNumber&&isSubjectValid){
-            isTrainneInfoValidated=true;
-        }else{
+        if(isIdValid && isNameValid && isNoClassesTakenValid && isSubjectValid && isPhoneNumber ) {
+            isTrainneInfoValidated = true;
+            System.out.println(isTrainneInfoValidated);
+            System.out.println("hi");
+        }
+        else{
             System.out.println("the info of the trainee is not valid");
         }
         return  isTrainneInfoValidated;

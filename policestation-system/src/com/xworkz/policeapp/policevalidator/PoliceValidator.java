@@ -22,7 +22,7 @@ public class PoliceValidator {
         }else {
             System.out.println("the name is not valid");
         }
-        if(policeInfo.getTypeOfPost()!=null&&!policeInfo.getTypeOfPost().isEmpty()){
+        if(policeInfo.getTypeOfPost()!=null){
             isTypeOfPostValid=true;
         }else {
             System.out.println("the TypeOfPost is not valid");

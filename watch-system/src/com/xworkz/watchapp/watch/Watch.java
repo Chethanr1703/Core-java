@@ -1,5 +1,6 @@
 package com.xworkz.watchapp.watch;
 
+import com.xworkz.watchapp.contants.WaterResistant;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -13,6 +14,10 @@ public class Watch {
     private  String companyName;
     private double price;
     private String warrenty;
+    private WaterResistant waterResistant;
+
+
+
 
 //    public void setId(int id) {
 //        this.id = id;

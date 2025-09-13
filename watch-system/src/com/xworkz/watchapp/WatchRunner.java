@@ -1,43 +1,111 @@
 package com.xworkz.watchapp;
 
+import com.xworkz.watchapp.contants.WaterResistant;
 import com.xworkz.watchapp.watch.Watch;
 import com.xworkz.watchapp.watchshop.WatchShop;
 
+import java.util.Scanner;
+
 public class WatchRunner {
     public static void main(String[] args) {
-        Watch watch =new Watch();
-        watch.setId(2);
-        watch.setModelName("12265");
-        watch.setCompanyName("HMT");
-        watch.setPrice(1250.0);
-        watch.setWarrenty("4 years");
+        Scanner scanner= new Scanner(System.in);
 
-        Watch watch1 = new Watch(962,"125698","Sonata",1235.0,"3 years");
-        Watch watch2 = new Watch(882,"789654","Titan",3235.0,"3 years");
-        Watch watch3 = new Watch(702,"125698","HTM",2235.0,"3 years");
-        Watch watch4 = new Watch(602,"895623","Fasttrack",4235.0,"3 years");
-        Watch watch5 = new Watch(502,"789546","Sonata",3235.0,"3 years");
-        Watch watch6 = new Watch(402,"123569","titan",2505.0,"3 years");
-        Watch watch7 = new Watch(302,"125698","g shock",2235.0,"3 years");
-        Watch watch8 = new Watch(203,"856243","sports",1205.0,"3 years");
+        System.out.println("enter the size of the watch");
+        int size = scanner.nextInt();
+        WatchShop watchShop =new WatchShop(size);
 
+        for (int index =0; index<size;index++){
+            Watch watch = new Watch();
 
-        WatchShop watchShop =new WatchShop();
-        boolean isAdded=watchShop.isWatchAdded(watch);
-        isAdded = watchShop.isWatchAdded(watch1);
-        isAdded = watchShop.isWatchAdded(watch2);
-        isAdded = watchShop.isWatchAdded(watch3);
-        isAdded = watchShop.isWatchAdded(watch4);
-        isAdded = watchShop.isWatchAdded(watch5);
-        isAdded = watchShop.isWatchAdded(watch6);
-        isAdded = watchShop.isWatchAdded(watch7);
-        isAdded = watchShop.isWatchAdded(watch8);
+            System.out.println("enter the id of the0 watch ");
+            watch.setId(scanner.nextInt());
 
-        if(isAdded){
-            watchShop.getDetailsWatch();
+            System.out.println("enter the company Name ");
+            watch.setCompanyName(scanner.next());
+            System.out.println("enter model name ");
+            watch.setModelName(scanner.next());
 
-        }else{
-            System.out.println("details are not vaid");
+            System.out.println("enter the price");
+            watch.setPrice(scanner.nextDouble());
+
+            System.out.println("enter the warrenty");
+            watch.setWarrenty(scanner.next());
+
+            // fetchin gwhole watch details
+            System.out.println("is Watch is water resistant");
+            watch.setWaterResistant(WaterResistant.valueOf(scanner.next().toUpperCase()));
+
+            watchShop.isWatchAdded(watch);
+
         }
+        watchShop.getDetailsWatch();
+
+
+        System.out.println("enter the modelname to get company name ");
+        String companyName = watchShop.getCompanyNameByModelName(scanner.next());
+        System.out.println(companyName);
+
+        System.out.println("enter the id to get company name ");
+         companyName = watchShop.getCompanyNameById(scanner.nextInt());
+        System.out.println(companyName);
+
+        System.out.println("enter the id to get price ");
+        double price = watchShop.getPriceByid(scanner.nextInt());
+        System.out.println(price);
+
+        System.out.println("enter the id to get warrrent  ");
+        String warrrent = watchShop.getWarrentyById(scanner.nextInt());
+        System.out.println(warrrent);
+
+        System.out.println("enter the id to get water resistant ");
+        WaterResistant waterResistant = watchShop.getWaterResistantById(scanner.nextInt());
+        System.out.println(waterResistant);
+//
+        System.out.println("enter the id to get modelName  ");
+        String modelName = watchShop.getModelnameById(scanner.nextInt());
+        System.out.println(modelName);
+
+        System.out.println("enter the modelname to get price ");
+         price = watchShop.getPriceByModelName(scanner.next());
+        System.out.println(price);
+
+        System.out.println("enter the modelname to get waterResistant ");
+         waterResistant = watchShop.getWaterResistantByModelName(scanner.next());
+        System.out.println(waterResistant);
+
+        System.out.println("enter id to get Watch details");
+        Watch watch = watchShop.getWatchById(scanner.nextInt());
+        watchShop.getDetailsWatch(watch);
+
+        //update
+        System.out.println("enter the id to update model name");
+        int id = scanner.nextInt();
+        System.out.println("enter the updated model name");
+        modelName = scanner.next();
+        boolean isModelNameUpdated = watchShop.updateModelNameById(id,modelName);
+        if(isModelNameUpdated){
+            watchShop.getDetailsWatch();
+        }
+
+        System.out.println("enter the model name to update company name");
+         modelName = scanner.next();
+        System.out.println("enter the updated model name");
+        companyName = scanner.next();
+        boolean isCompanyNameUpdated = watchShop.updateCompanyNameByModelName(modelName,companyName);
+        if(isCompanyNameUpdated){
+            watchShop.getDetailsWatch();
+        }
+
+        System.out.println("enter the model name to update the water resistant of the watch");
+        modelName = scanner.next();
+        System.out.println("enter the updated water resistant");
+         waterResistant = WaterResistant.valueOf(scanner.next().toUpperCase());
+         boolean isWaterResitantUpdated = watchShop.updateWaterResistantByModelName(modelName,waterResistant);
+         if(isWaterResitantUpdated){
+             watchShop.getDetailsWatch();
+         }
+
+
+
     }
 }

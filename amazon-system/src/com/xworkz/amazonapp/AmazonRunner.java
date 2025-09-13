@@ -1,83 +1,121 @@
 package com.xworkz.amazonapp;
 
 import com.xworkz.amazonapp.amazon.Amazon;
+import com.xworkz.amazonapp.constants.Washable;
 import com.xworkz.amazonapp.product.Product;
+
+import java.util.Scanner;
 
 public class AmazonRunner {
     public static void main(String[] args) {
 
-        Product product1 =new Product();
-        product1.setProductId(1);
-        product1.setProductName("fan");
-        product1.setProductType("home appliance");
-        product1.setProductPrice(2000);
-        product1.setMfgDate("25-2-2008");
+        Scanner scanner = new Scanner(System.in);
 
-        Amazon amazon= new Amazon();
-        Product product3 = new Product(12,"laptop","electronics",75000.00,"24-05-2024");
-        Product product4 = new Product(13,"heater","electronics",7500.00,"24-05-2024");
-        Product product5 = new Product(14,"clock","electronics",5000.00,"24-05-2024");
-        Product product6 = new Product(151,"power bank","electronics",2000.00,"24-05-2024");
-        Product product7 = new Product(161,"phone","electronics",70000.00,"24-05-2024");
-        Product product8 = new Product(171,"table fan","electronics",1500.00,"24-05-2024");
-        Product product9 = new Product(181,"DVD","electronics",5000.00,"24-05-2024");
-        Product product10 = new Product(921,"camera","electronics",75000.00,"24-05-2024");
-        Product product11= new Product(121,"blender","electronics",5000.00,"24-05-2024");
-        Product product12= new Product(123,"Scanner","electronics",5000.00,"24-05-2024");
-        Product product13 = new Product(14,"printer","electronics",5000.00,"24-05-2024");
-        Product product14 = new Product(125,"oven","electronics",5000.00,"24-05-2024");
-        Product product15 = new Product(126,"headSet","electronics",3000.00,"24-05-2024");
-        Product product16= new Product(127,"hearPhone","electronics",300.00,"24-05-2024");
-        Product product17 = new Product(171,"pen drive","electronics",1000.00,"24-05-2024");
-        Product product18 = new Product(127,"Sefie Stick","electronics",1000.00,"24-05-2024");
-        Product product19 = new Product(123,"Charger","electronics",1000.00,"24-05-2024");
-        Product product20 = new Product(129,"laptop camera","electronics",75000.00,"24-05-2024");
+        System.out.println("enter the size of the products");
 
-        boolean isAdded =amazon.isProductAdded(product1);
+        int size = scanner.nextInt();
+        Amazon amazon= new Amazon(size);
+        for(int index =0;index<size;index++){
 
-        isAdded=  amazon.isProductAdded(product3);
+            Product product= new Product();
+            System.out.println("enter the id ");
+            product.setProductId(scanner.nextInt());
+            System.out.println("enter the product name ");
+            product.setProductName(scanner.next());
+            System.out.println("enter the product type");
+            product.setProductType(scanner.next());
+            System.out.println("enter the price");
+            product.setProductPrice(scanner.nextDouble());
+            System.out.println("enter the magf date");
+            product.setMfgDate(scanner.next());
+            System.out.println("enter the iswashable");
+            product.setWashable(Washable.valueOf(scanner.next().toUpperCase()));
+            amazon.isProductAdded(product);
 
-        isAdded=  amazon.isProductAdded(product4);
-        isAdded=  amazon.isProductAdded(product5);
-        isAdded=  amazon.isProductAdded(product6);
-        isAdded=  amazon.isProductAdded(product7);
-        isAdded=  amazon.isProductAdded(product8);
-        isAdded=  amazon.isProductAdded(product9);
-        isAdded=  amazon.isProductAdded(product10);
-        isAdded=  amazon.isProductAdded(product11);
-        isAdded=  amazon.isProductAdded(product12);
-        isAdded=  amazon.isProductAdded(product13);
-        isAdded=  amazon.isProductAdded(product14);
-        isAdded=  amazon.isProductAdded(product15);
-        isAdded=  amazon.isProductAdded(product16);
-        isAdded=  amazon.isProductAdded(product17);
-        isAdded=  amazon.isProductAdded(product18);
-        isAdded=  amazon.isProductAdded(product19);
-        isAdded=  amazon.isProductAdded(product20);
-
-
-
-
-
-        if(isAdded){
-            amazon.getProductInfo();
-        }else{
-            System.out.println("the Info of the product is not valid");
         }
+        amazon.getProductInfo();
 
-//       boolean isPriceUpdated = amazon.updateProductPrice(3000.00);
-//        if(isPriceUpdated){
-//            amazon.getProductInfo();
-//        }else{
-//            System.out.println("price is not updated");
-//        }
+        // get operation or fetch operation
+        System.out.println("enter the id to get product name");
+        Product  product = amazon.getProductById(scanner.nextInt());
+       amazon.getProductInfo(product);
 
-//        boolean isUpdated = amazon.updateProduct(3000.00,"table fan");
-//        if(isUpdated){
-//            amazon.getProductInfo();
-//        }else{
-//            System.out.println("price is not updated");
-//        }
+        System.out.println("enter the product name to get product Type");
+        String type=amazon.getProductTypeByName(scanner.next());
+        System.out.println(type);
+
+        System.out.println("enter the product name to get price ");
+        double price  = amazon.getProductPriceByName(scanner.next());
+        System.out.println(price);
+
+        System.out.println("enter the id to get product name");
+        String name = amazon.getProductNameById(scanner.nextInt());
+        System.out.println(name);
+
+        System.out.println("enter the id to get product price");
+         price = amazon.getPriceById(scanner.nextInt());
+        System.out.println(price);
+
+        System.out.println("enter the id to get product mfg date");
+        String mfgDate = amazon.getMagfDateByid(scanner.nextInt());
+        System.out.println(mfgDate);
+
+        System.out.println("enter the product name to get product mfg date");
+         mfgDate = amazon.getMagfDateByProductName(scanner.next());
+        System.out.println(mfgDate);
+
+        System.out.println("enter the product name to get product washable");
+        Washable washable = amazon.getWashablebyproductName(scanner.next());
+        System.out.println(washable);
+
+        System.out.println("enter the product mfgDate to get product id");
+        mfgDate = amazon.getmfgDateById(scanner.nextInt());
+        System.out.println(mfgDate);
+
+//        update operation
+
+        System.out.println("enter the product id to update productname ");
+        boolean isProductnameUpdatedById = amazon.updateProductNameById(1,"table");
+        System.out.println(isProductnameUpdatedById);
+        if(isProductnameUpdatedById==true){
+            amazon.getProductInfo();
+        }else System.out.println("not updated");
+
+
+        System.out.println("enter the product name to update product type");
+        boolean isproductTypeUpdated = amazon.updateProductTypeByProductName("fan","electronic");
+        System.out.println(isproductTypeUpdated);
+        if(isproductTypeUpdated==true){
+            amazon.getProductInfo();
+        }else System.out.println("not updated");
+
+
+        System.out.println("enter the product id to update product price");
+        boolean isPriceUpdatedById = amazon.updatePricebyId(1,5000.00);
+        System.out.println(isPriceUpdatedById);
+        if(isPriceUpdatedById==true){
+            amazon.getProductInfo();
+        }else System.out.println("not updated");
+
+        System.out.println("enter the id to update the product type");
+        boolean isTypeUpdatedById = amazon.updateProductTypeByID("wood",1);
+        System.out.println(isTypeUpdatedById);
+       if(isPriceUpdatedById==true){
+           amazon.getProductInfo();
+       }else System.out.println("not updated");
+
+       System.out.println("enter the product name to update washable ");
+       boolean isWashableUpdatedByName= amazon.updatedWashableByProductName(scanner.next(),Washable.YES);
+        System.out.println(isWashableUpdatedByName);
+        if(isWashableUpdatedByName){
+            amazon.getProductInfo();
+        }else System.out.println("not updated");
+
+
+
+
+
+
 
     }
 }

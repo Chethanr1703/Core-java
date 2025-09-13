@@ -1,5 +1,6 @@
 package com.xworkz.amazonapp.product;
 
+import com.xworkz.amazonapp.constants.Washable;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -15,6 +16,7 @@ public class Product {
     private String productType;
     private double productPrice;
    private String mfgDate;
+   private Washable washable;
 
 //    public int getProductId() {
 //        return productId;

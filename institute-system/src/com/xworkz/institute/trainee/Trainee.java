@@ -1,5 +1,6 @@
 package com.xworkz.institute.trainee;
 
+import com.xworkz.institute.constants.Subject;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -12,7 +13,7 @@ public class Trainee {
     private String name;
     private int noOfClassesTaken;
     private long phoneNumber;
-    private String subject;
+    private Subject subject;
 
 //    public int getId() {
 //        return id;

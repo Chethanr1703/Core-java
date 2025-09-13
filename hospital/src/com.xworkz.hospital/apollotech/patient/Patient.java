@@ -1,5 +1,7 @@
 package com.xworkz.apollotech.patient;
 
+import com.xworkz.apollotech.constants.BloodGroup;
+import com.xworkz.apollotech.constants.Gender;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -14,7 +16,8 @@ public class Patient {
     private String patientName;
     private String address;
     private int age;
-    private char gender;
+    private Gender gender;
     private String diseaseName;
+    private BloodGroup bloodGroup;
 
 }

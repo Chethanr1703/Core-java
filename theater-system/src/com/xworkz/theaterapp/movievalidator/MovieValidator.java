@@ -32,7 +32,7 @@ public class MovieValidator {
         }else{
             System.out.println("the duration of the movie is not valid ");
         }
-        if(movie.getCertification()!=null &&! movie.getCertification().isEmpty()){
+        if(movie.getCertification()!=null ){
             iscertificateValid=true;
         }else{
             System.out.println("the certification of the movie is not valid ");

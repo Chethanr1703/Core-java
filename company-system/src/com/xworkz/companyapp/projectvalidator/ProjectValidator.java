@@ -27,7 +27,7 @@ public class ProjectValidator {
         }else {
             System.out.println("the name of the project is not valid ");
         }
-        if(project.getNoOfMembers()>0){
+        if(project.getNoOfTeamMembers()>0){
             isNoOfMembersValid=true;
         }else {
             System.out.println("the no of members of the project is not valid ");

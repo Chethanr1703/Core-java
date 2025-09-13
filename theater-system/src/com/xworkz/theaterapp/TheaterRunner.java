@@ -1,43 +1,105 @@
 package com.xworkz.theaterapp;
 
+import com.xworkz.theaterapp.constants.Certificate;
 import com.xworkz.theaterapp.movie.Movie;
 import com.xworkz.theaterapp.theater.Theather;
 
+import java.util.Scanner;
+
 public class TheaterRunner {
     public static void main(String[] args) {
-        Movie movie=new Movie();
-        movie.setMovieId(1);
-        movie.setMovieName("A");
-        movie.setHero("Uppi");
-        movie.setDuration("2:15:35");
-        movie.setCertification("U and A");
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("enter the size of the theather");
+        int size = scanner.nextInt();
+        Theather theather = new Theather(size);
 
-        Movie movie1  = new Movie(1, "Kantara", "Rishab Shetty", "2:15:45", "U/A");
-        Movie movie2  = new Movie(2, "KGF Chapter 2", "Prashanth Neel", "2:48:30", "U/A");
-        Movie movie3  = new Movie(3, "RRR", "S. S. Rajamouli", "3:07:00", "U/A");
-        Movie movie4  = new Movie(4, "Pushpa", "Sukumar", "2:59:00", "U/A");
-        Movie movie5  = new Movie(5, "Vikram", "Lokesh Kanagaraj", "2:53:00", "A");
-        Movie movie6  = new Movie(6, "Leo", "Lokesh Kanagaraj", "2:44:00", "A");
-        Movie movie7  = new Movie(7, "Baahubali: The Beginning", "S. S. Rajamouli", "2:39:00", "U/A");
-        Movie movie8  = new Movie(8, "Baahubali: The Conclusion", "S. S. Rajamouli", "2:47:00", "U/A");
-        Movie movie9  = new Movie(9, "Kirik Party", "Rishab Shetty", "2:36:00", "U");
+        for(int index=0;index<size;index++){
+            Movie movie = new Movie();
 
-        Theather theather= new Theather();
-        boolean isAdded=theather.isMovieAdded(movie);
-        isAdded = theather.isMovieAdded(movie1);
-        isAdded = theather.isMovieAdded(movie2);
-        isAdded = theather.isMovieAdded(movie3);
-        isAdded = theather.isMovieAdded(movie4);
-        isAdded = theather.isMovieAdded(movie5);
-        isAdded = theather.isMovieAdded(movie6);
-        isAdded = theather.isMovieAdded(movie7);
-        isAdded = theather.isMovieAdded(movie8);
-        isAdded = theather.isMovieAdded(movie9);
+            System.out.println("enter movie id");
+            movie.setMovieId(scanner.nextInt());
 
-        if(isAdded){
-            theather.movieInfo();
-        }else{
-            System.out.println("the info is not valid");
+            System.out.println("enter the movie Name ");
+            movie.setMovieName(scanner.next());
+
+            System.out.println("enter the hero name");
+            movie.setHero(scanner.next());
+
+            System.out.println("enter the duration of the movie");
+            movie.setDuration(scanner.next());
+
+            System.out.println("enter the certification of the movie");
+            movie.setCertification(Certificate.valueOf(scanner.next().toUpperCase()));
+
+            theather.isMovieAdded(movie);
         }
+        theather.movieInfo();
+
+        //get operation
+
+        System.out.println("enter the id to get movie name");
+        String movieName = theather.getMovieNameById(scanner.nextInt());
+        System.out.println(movieName);
+
+        System.out.println("enter the id to get hero name");
+        String heroName = theather.getHeronameById(scanner.nextInt());
+        System.out.println(heroName);
+
+        System.out.println("enter the id to get duartion");
+        String duration = theather.getDurationById(scanner.nextInt());
+        System.out.println(duration);
+
+        System.out.println("enter the id to get Certificate");
+       Certificate certificate = theather.getCertificateById(scanner.nextInt());
+        System.out.println(certificate);
+
+        System.out.println("enter the movie name to get hero name");
+        heroName = theather.getHeroNameByMovieName(scanner.next());
+        System.out.println(heroName);
+
+        System.out.println("enter the movie name to get Certificate");
+         certificate = theather.getCertificateByMovieName(scanner.next());
+        System.out.println(certificate);
+
+        System.out.println("enter the id to get Movie");
+        Movie movie = theather.getMovieById(scanner.nextInt());
+        theather.movieInfo(movie);
+
+        //update operation
+        System.out.println("enter the id to update the movie name");
+        int id = scanner.nextInt();
+        System.out.println("enter updated movie name");
+         movieName= scanner.next();
+         boolean isMovieNameUpdated= theather.updateMovieNAmeById(id ,movieName);
+         if(isMovieNameUpdated){
+             theather.movieInfo();
+         }
+
+        System.out.println("enter the movie name to update the duartion");
+         movieName = scanner.next();
+        System.out.println("enter updated movie name");
+        duration= scanner.next();
+        boolean isDurationUpdatedByMovieName = theather.updateDurationByMovieName(movieName,duration);
+        if(isDurationUpdatedByMovieName){
+            theather.movieInfo();
+        }
+        System.out.println("enter the id to update the hero name");
+         id = scanner.nextInt();
+        System.out.println("enter updated hero name");
+        heroName= scanner.next();
+        boolean isHeroNameUpdated= theather.updateHeroById(id ,heroName);
+        if(isHeroNameUpdated){
+            theather.movieInfo();
+        }
+
+        System.out.println("enter the movie name to update the certificate");
+        movieName = scanner.next();
+        System.out.println("enter updated movie name");
+         certificate = Certificate.valueOf(scanner.next().toUpperCase());
+        boolean isCerificateUpdatedByMovieName = theather.updateCertificationBymovieName(movieName,certificate);
+        if(isCerificateUpdatedByMovieName){
+            theather.movieInfo();
+        }
+
     }
 }
