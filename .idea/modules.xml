@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/New folder.iml" filepath="$PROJECT_DIR$/.idea/New folder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/actor/actor.iml" filepath="$PROJECT_DIR$/actor/actor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/article-system/article-system.iml" filepath="$PROJECT_DIR$/article-system/article-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/artist/artist.iml" filepath="$PROJECT_DIR$/artist/artist.iml" />
+      <module fileurl="file://$PROJECT_DIR$/athlete/athlete.iml" filepath="$PROJECT_DIR$/athlete/athlete.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cafe-system/cafe-system.iml" filepath="$PROJECT_DIR$/cafe-system/cafe-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chef/chef.iml" filepath="$PROJECT_DIR$/chef/chef.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clerk/clerk.iml" filepath="$PROJECT_DIR$/clerk/clerk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/company/company.iml" filepath="$PROJECT_DIR$/company/company.iml" />
+      <module fileurl="file://$PROJECT_DIR$/counselor/counselor.iml" filepath="$PROJECT_DIR$/counselor/counselor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dancer/dancer.iml" filepath="$PROJECT_DIR$/dancer/dancer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/director/director.iml" filepath="$PROJECT_DIR$/director/director.iml" />
+      <module fileurl="file://$PROJECT_DIR$/engineer/engineer.iml" filepath="$PROJECT_DIR$/engineer/engineer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/farmer/farmer.iml" filepath="$PROJECT_DIR$/farmer/farmer.iml" />
+    </modules>
+  </component>
+</project>
