@@ -2,7 +2,7 @@ package com.xworkz.lokhasaba;
 
 import com.xworkz.lokhasaba.constants.Nationality;
 import com.xworkz.lokhasaba.lokasaba.LokaSaba;
-import com.xworkz.lokhasaba.lokasaba.LokhaSabaImpl;
+import com.xworkz.lokhasaba.lokasaba.impl.LokhaSabaImpl;
 import com.xworkz.lokhasaba.politician.Politician;
 
 import java.util.Scanner;

@@ -1,7 +1,7 @@
 package com.xworkz.companyapp;
 
 import com.xworkz.companyapp.company.Company;
-import com.xworkz.companyapp.company.CompanyImpl;
+import com.xworkz.companyapp.company.impl.CompanyImpl;
 import com.xworkz.companyapp.constants.ProjectType;
 import com.xworkz.companyapp.project.Project;
 
@@ -120,6 +120,8 @@ public class CompanyRunner {
         if(isDeveloperUpdated){
             company.getProjectDetails();
         }
+
+        scanner.close();
 
     }
 }

@@ -3,8 +3,7 @@ package com.xworkz.policeapp;
 import com.xworkz.policeapp.constants.Post;
 import com.xworkz.policeapp.police.Police;
 import com.xworkz.policeapp.policestation.PoliceStation;
-import com.xworkz.policeapp.policestation.PoliceStationImpl;
-import javafx.geometry.Pos;
+import com.xworkz.policeapp.policestation.impl.PoliceStationImpl;
 
 import java.util.Scanner;
 

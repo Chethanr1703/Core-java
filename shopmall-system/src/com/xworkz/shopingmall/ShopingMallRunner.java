@@ -3,7 +3,7 @@ package com.xworkz.shopingmall;
 import com.xworkz.shopingmall.constants.Floor;
 import com.xworkz.shopingmall.shop.Shop;
 
-import com.xworkz.shopingmall.shopingmall.ShopingMallImpl;
+import com.xworkz.shopingmall.shopingmall.impl.ShopingMallImpl;
 import com.xworkz.shopingmall.shopingmall.ShoppingMall;
 
 import java.util.Scanner;

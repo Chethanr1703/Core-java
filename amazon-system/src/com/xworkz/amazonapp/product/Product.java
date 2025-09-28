@@ -15,8 +15,8 @@ public class Product {
     private String productName;
     private String productType;
     private double productPrice;
-   private String mfgDate;
-   private Washable washable;
+    private String mfgDate;
+    private Washable washable;
 
 //    public int getProductId() {
 //        return productId;

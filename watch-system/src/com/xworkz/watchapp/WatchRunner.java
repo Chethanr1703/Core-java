@@ -3,7 +3,7 @@ package com.xworkz.watchapp;
 import com.xworkz.watchapp.contants.WaterResistant;
 import com.xworkz.watchapp.watch.Watch;
 import com.xworkz.watchapp.watchshop.WatchShop;
-import com.xworkz.watchapp.watchshop.WatchShopImpl;
+import com.xworkz.watchapp.watchshop.impl.WatchShopImpl;
 
 import java.util.Scanner;
 

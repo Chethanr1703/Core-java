@@ -2,7 +2,7 @@ package com.xworkz.libraryapp;
 
 import com.xworkz.libraryapp.book.Book;
 import com.xworkz.libraryapp.constants.Publications;
-import com.xworkz.libraryapp.library.LibraryImpl;
+import com.xworkz.libraryapp.library.impl.LibraryImpl;
 
 import java.util.Scanner;
 

@@ -3,7 +3,7 @@ package com.xworkz.institute;
 import com.xworkz.institute.constants.Subject;
 import com.xworkz.institute.trainee.Trainee;
 import com.xworkz.institute.xworkz.Xworkz;
-import com.xworkz.institute.xworkz.XworkzImpl;
+import com.xworkz.institute.xworkz.impl.XworkzImpl;
 
 import java.util.Scanner;
 

@@ -3,7 +3,7 @@ package com.xworkz.theaterapp;
 import com.xworkz.theaterapp.constants.Certificate;
 import com.xworkz.theaterapp.movie.Movie;
 import com.xworkz.theaterapp.theater.Theather;
-import com.xworkz.theaterapp.theater.TheatherImpl;
+import com.xworkz.theaterapp.theater.impl.TheatherImpl;
 
 import java.util.Scanner;
 
