@@ -11,17 +11,17 @@ public class HospitalRunner {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("enter the no of patient " );
+        System.out.println("enter the no of patient ");
         int size = scanner.nextInt();
 
 
         HospitalImpl hospital = new HospitalImpl(size);
 
-        for (int index =0;index<size; index++){
-            Patient patient =new Patient();
+        for (int index = 0; index < size; index++) {
+            Patient patient = new Patient();
 
             System.out.println("enter the id of the patient");
-            int patientId=scanner.nextInt();
+            int patientId = scanner.nextInt();
             patient.setPatientId(patientId);
 
             System.out.println("enter the name of the patient");
@@ -41,7 +41,6 @@ public class HospitalRunner {
             patient.setGender(Gender.valueOf(scanner.next().toUpperCase()));
 
 
-
             System.out.println("enter the disease name of the patient");
             patient.setDiseaseName(scanner.next());
 
@@ -54,55 +53,105 @@ public class HospitalRunner {
         hospital.displayInfo();
 
 
+        String input = null;
+        do {
+            System.out.println("press #1 to get gender by patient name");
+            System.out.println("press #2 to get disease name by id");
+            System.out.println("press #3 to get patient name by id");
+            System.out.println("press #4 to get patient details by id");
+            System.out.println("press #5 to update address by id");
+            System.out.println("press #6 to update age by id");
+            System.out.println("press #7 to update disease name by id");
+            System.out.println("press #8 to update disease name by patient name");
+            System.out.println(" ");
+            System.out.println("enter the option which you require");
 
+            int option = scanner.nextInt();
 
-        System.out.println("enter the patient name ");
-        Gender gender=hospital.getGenderByPatientName(scanner.next());
-        System.out.println(gender);
+            switch (option) {
+                case 1:
+                    System.out.println("enter the patient name");
+                    Gender gender = hospital.getGenderByPatientName(scanner.next());
+                    System.out.println(gender);
+                    break;
 
-        System.out.println("enter the id of the patient");
-        String diseaseName =hospital.getDiseaseNameById(scanner.nextInt());
-        System.out.println(diseaseName);
+                case 2:
+                    System.out.println("enter the id of the patient");
+                    String diseaseName = hospital.getDiseaseNameById(scanner.nextInt());
+                    System.out.println(diseaseName);
+                    break;
 
-        System.out.println("enter the id to get patientName");
-        String name = hospital.getPatientNameById(scanner.nextInt());
-        System.out.println(name);
-//
-        System.out.println("enter the id to get PatientDetails");
-        Patient patient1 = hospital.getPatientById(scanner.nextInt());
-        hospital.displayInfo(patient1);
+                case 3:
+                    System.out.println("enter the id to get patient name");
+                    String name = hospital.getPatientNameById(scanner.nextInt());
+                    System.out.println(name);
+                    break;
 
-        //update
-        System.out.println("enter the id to update address");
-        int id = scanner.nextInt();
-        System.out.println("enter the updated address");
-        String address = scanner.next();
-        boolean isAddressUpdated = hospital.updatedAddressById(address,id);
-        if(isAddressUpdated){
-            hospital.displayInfo();
-        }
+                case 4:
+                    System.out.println("enter the id to get patient details");
+                    Patient patient = hospital.getPatientById(scanner.nextInt());
+                    hospital.displayInfo(patient);
+                    break;
 
-        hospital.displayInfo();
-        hospital.isAgeUpdatedById(85,1);
-        hospital.displayInfo();
+                case 5:
+                    System.out.println("enter the id to update address");
+                    int id = scanner.nextInt();
+                    System.out.println("enter the updated address");
+                    String address = scanner.next();
+                    boolean isAddressUpdated = hospital.updatedAddressById(address, id);
+                    if (isAddressUpdated) {
+                        System.out.println(isAddressUpdated);
+//                        hospital.displayInfo();
+                    }
+                    break;
 
-        System.out.println("enter the id to update address");
-         id = scanner.nextInt();
-        System.out.println("enter the updated address");
-        String diseasename = scanner.next();
-        boolean isDiseaseUpdated = hospital.updateDiseaseNameById(diseasename,id);
-        if(isDiseaseUpdated){
-            hospital.displayInfo();
-        }
+                case 6:
+                    System.out.println("enter the id to update age");
+                    id = scanner.nextInt();
+                    System.out.println("enter the updated age");
+                    int age = scanner.nextInt();
+                    boolean isAgeUpdated = hospital.isAgeUpdatedById(age, id);
+                    if (isAgeUpdated) {
+                        System.out.println(isAgeUpdated);
+//                        hospital.displayInfo();
+                    }
+                    break;
 
-        System.out.println("enter the name to update DiseaseName");
-        name = scanner.next();
-        System.out.println("enter the updated DiseaseNameB");
-         diseasename = scanner.next();
-        boolean isDiseaseNameUpdated = hospital.updateDiseaseNameByName(diseasename,name);
-        if(isDiseaseNameUpdated){
-            hospital.displayInfo();
-        }
+                case 7:
+                    System.out.println("enter the id to update disease name");
+                    id = scanner.nextInt();
+                    System.out.println("enter the updated disease name");
+                    String updatedDisease = scanner.next();
+                    boolean isDiseaseUpdated = hospital.updateDiseaseNameById(updatedDisease, id);
+                    if (isDiseaseUpdated) {
+                        System.out.println(isDiseaseUpdated);
+//                        hospital.displayInfo();
+                    }
+                    break;
+
+                case 8:
+                    System.out.println("enter the patient name to update disease name");
+                    name = scanner.next();
+                    System.out.println("enter the updated disease name");
+                    updatedDisease = scanner.next();
+                    boolean isDiseaseNameUpdated = hospital.updateDiseaseNameByName(updatedDisease, name);
+                    if (isDiseaseNameUpdated) {
+                        System.out.println(isDiseaseNameUpdated);
+                    }
+                    break;
+                case 9:
+                    hospital.displayInfo();
+                    break;
+                default:
+                    System.out.println("you entered wrong option");
+            }
+
+            System.out.println("do you want to continue yes / no ");
+            input = scanner.next();
+
+        } while (input.equalsIgnoreCase("yes"));
+
+        System.out.println("thank you for visiting this app ........");
 
 
     }

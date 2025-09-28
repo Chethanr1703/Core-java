@@ -41,8 +41,7 @@ public class TraineeValidator {
         }
         if(isIdValid && isNameValid && isNoClassesTakenValid && isSubjectValid && isPhoneNumber ) {
             isTrainneInfoValidated = true;
-            System.out.println(isTrainneInfoValidated);
-            System.out.println("hi");
+
         }
         else{
             System.out.println("the info of the trainee is not valid");

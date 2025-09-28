@@ -37,56 +37,97 @@ public class ShopingMallRunner {
 
             shopingMall.isShopAdded(shop);
         }
-        shopingMall.getShopDetails();
+//        shopingMall.getShopDetails();
 
         // fetchOperation
 
-        System.out.println("enter the id to get shop Name");
-        String shopName = shopingMall.getNameByShopId(scanner.nextInt());
-        System.out.println(shopName);
 
-        System.out.println("enter the id to get shop type");
-        String type = shopingMall.getShopTypeByShopId(scanner.nextInt());
-        System.out.println(type);
+            String input;
+            do {
+                System.out.println("press #1 to fetch Shop Name by id");
+                System.out.println("press #2 to fetch Shop Type by id");
+                System.out.println("press #3 to fetch Shop Address by id");
+                System.out.println("press #4 to fetch Shop Id by Name");
+                System.out.println("press #5 to fetch Shop Address by Name");
+                System.out.println("press #6 to fetch Shop Details by id");
+                System.out.println("press #7 to update Shop Name by id");
+                System.out.println("press #8 to update Shop Address by id");
+                System.out.println(" ");
+                System.out.println("enter the option which you require");
 
-        System.out.println("enter the id to get shop address");
-        String address = shopingMall.getAddressByShopId(scanner.nextInt());
-        System.out.println(address);
+                int option = scanner.nextInt();
 
-        System.out.println("enter the shop name to get id");
-        int id = shopingMall.getIdByShopName(scanner.next());
-        System.out.println(id);
+                switch(option) {
+                    case 1:
+                        System.out.println("enter the id to get Shop Name");
+                        String shopName = shopingMall.getNameByShopId(scanner.nextInt());
+                        System.out.println(shopName);
+                        break;
+                    case 2:
+                        System.out.println("enter the id to get Shop Type");
+                        String type = shopingMall.getShopTypeByShopId(scanner.nextInt());
+                        System.out.println(type);
+                        break;
+                    case 3:
+                        System.out.println("enter the id to get Shop Address");
+                        String address = shopingMall.getAddressByShopId(scanner.nextInt());
+                        System.out.println(address);
+                        break;
+                    case 4:
+                        System.out.println("enter the Shop Name to get Id");
+                        int id = shopingMall.getIdByShopName(scanner.next());
+                        System.out.println(id);
+                        break;
+                    case 5:
+                        System.out.println("enter the Shop Name to get Shop Address");
+                        address = shopingMall.getAddressByShopName(scanner.next());
+                        System.out.println(address);
+                        break;
+                    case 6:
+                        System.out.println("enter the id to get Shop Details");
+                        Shop shop = shopingMall.getShopById(scanner.nextInt());
+                        shopingMall.getShopDetails(shop);
+                        break;
+                    case 7:
+                        System.out.println("enter the id to update Shop Name");
+                        id = scanner.nextInt();
+                        System.out.println("enter the updated Shop Name");
+                        shopName = scanner.next();
+                        boolean isShopNameUpdated = shopingMall.updateNameByShopId(id, shopName);
+                        System.out.println(isShopNameUpdated);
+                        if(isShopNameUpdated) {
+                            System.out.println(isShopNameUpdated);
+//                            shopingMall.getShopDetails();
+                        }
+                        break;
+                    case 8:
+                        System.out.println("enter the id to update Shop Address");
+                        id = scanner.nextInt();
+                        System.out.println("enter the updated Shop Address");
+                        address = scanner.next();
+                        boolean isShopAddressUpdated = shopingMall.updateAddressByShopId(id, address);
+                        System.out.println(isShopAddressUpdated);
+                        if(isShopAddressUpdated) {
+//                            shopingMall.getShopDetails();
+                            System.out.println(isShopAddressUpdated);
+                        }
+                        break;
+                    default:
+                        System.out.println("you entered wrong option");
+                }
 
-        System.out.println("enter the shop name to get shop address");
-         address = shopingMall.getAddressByShopName(scanner.next());
-        System.out.println(address);
+                System.out.println("do you want to continue yes / no ");
+                input = scanner.next();
 
-        System.out.println("enter the idto getShop details");
-        Shop shop= shopingMall.getShopById(scanner.nextInt());
-        shopingMall.getShopDetails(shop);
+            } while(input.equalsIgnoreCase("yes"));
 
-        //update
-        System.out.println("enter the id to update shop name");
-         id = scanner.nextInt();
-        System.out.println("enter the updated shop name");
-        shopName= scanner.next();
-        boolean isShopNameUpdated= shopingMall.updateNameByShopId(id,shopName);
-        if(isShopNameUpdated){
-            shopingMall.getShopDetails();
+            System.out.println("thank you for visiting this app ........");
         }
 
-        System.out.println("enter the id to update shop Address");
-        id = scanner.nextInt();
-        System.out.println("enter the updated shop Address");
-        address= scanner.next();
-        boolean isShopAddressUpdated= shopingMall.updateAddressByShopId(id,address);
-        if(isShopNameUpdated){
-            shopingMall.getShopDetails();
-        }
 
 
 
 
         }
-    }
+
 

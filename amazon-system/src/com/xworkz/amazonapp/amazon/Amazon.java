@@ -6,7 +6,7 @@ import com.xworkz.amazonapp.product.Product;
 public interface Amazon {
     boolean isProductAdded(Product product1Info);
 
-    void getProductInfo();
+    void getProductInfo() ;
 
     void getProductInfo(Product product);
 
@@ -26,7 +26,6 @@ public interface Amazon {
 
     Washable getWashablebyproductName(String name);
 
-    String getmfgDateById(int id);
 
     boolean updateProductPrice(double price);
 

@@ -34,7 +34,7 @@ public class AmazonImpl implements Amazon {
     }
 
     @Override
-    public void getProductInfo() {
+    public void getProductInfo()  {
 
         for (Product product : products) {
             System.out.println("the id of the product is  " + product.getProductId());
@@ -49,21 +49,44 @@ public class AmazonImpl implements Amazon {
 
     @Override
     public void getProductInfo(Product product) {
+        try {
+            if (product != null) {
+                System.out.println("the id of the product is  " + product.getProductId());
+                System.out.println("the name of the product is  " + product.getProductName());
+                System.out.println("the type of the product is  " + product.getProductType());
+                System.out.println("the price of the product is  " + product.getProductPrice());
+                System.out.println("the mfg date of the product is  " + product.getMfgDate());
+                System.out.println("is product are washable " + product.getWashable());
+                System.out.println(" " + "");
+            } else {
+                ProductNotFoundException productNotFoundException = new ProductNotFoundException("product not found ");
+                throw  productNotFoundException;
+            }
+        }catch (ProductNotFoundException e){
+            e.printStackTrace();
+        }
+    }
 
-            System.out.println("the id of the product is  " + product.getProductId());
-            System.out.println("the name of the product is  " + product.getProductName());
-            System.out.println("the type of the product is  " + product.getProductType());
-            System.out.println("the price of the product is  " + product.getProductPrice());
-            System.out.println("the mfg date of the product is  " + product.getMfgDate());
-            System.out.println("is product are washable " + product.getWashable());
-            System.out.println(" " + "");
 
-//          ProductNotFoundException productNotFoundException= new ProductNotFoundException("product not found");
-//        throw productNotFoundException;
-//        }
-//        }catch (ProductNotFoundException e){
-//            e.printStackTrace();
-//        }
+    @Override
+    public String getProductNameById(int id) {
+        String productName = null;
+        try {
+            if (id > 0) {
+                for (Product product : products) {
+                    if (product.getProductId() == id) {
+                        productName = product.getProductName();
+                    }
+                }
+            }
+            if (productName == null) {
+                ProductNameNotFoundException productNameNotFoundException = new ProductNameNotFoundException("product name not found ");
+                throw productNameNotFoundException;
+            }
+        } catch (ProductNameNotFoundException | NullPointerException e) {
+            e.printStackTrace();
+        }
+        return productName;
     }
 
     @Override
@@ -77,12 +100,12 @@ public class AmazonImpl implements Amazon {
                         productType = product.getProductType();
                     }
                 }
-            } else {
+            }
+            if(productType==null) {
                 NotFoundProductTypeException notFoundProductTypeException = new NotFoundProductTypeException("product type is not found");
                 throw notFoundProductTypeException;
             }
-
-        } catch (NoProductAddedException e) {
+        } catch (NotFoundProductTypeException e) {
             e.printStackTrace();
         }
         return productType;
@@ -98,13 +121,13 @@ public class AmazonImpl implements Amazon {
                         product = product1;
                     }
                 }
-            } else {
+            }
+            if (product == null) {
                 ProductNotFoundException productNotFound = new ProductNotFoundException("prodoct not found by fetching by id");
                 throw productNotFound;
             }
         } catch (ProductNotFoundException e) {
             e.printStackTrace();
-
         }
         return product;
     }
@@ -119,7 +142,7 @@ public class AmazonImpl implements Amazon {
                         price = product.getProductPrice();
                     }
                 }
-            } else if (price == 0.0) {
+            } if(price <=0) {
                 ProductPriceNotFoundException productPriceNotFoundException = new ProductPriceNotFoundException("thr price not found");
                 throw productPriceNotFoundException;
             }
@@ -129,26 +152,6 @@ public class AmazonImpl implements Amazon {
         return price;
     }
 
-    @Override
-    public String getProductNameById(int id) {
-        String productName = null;
-        try {
-            if (id != 0) {
-                for (Product product : products) {
-                    if (product.getProductId() == id) {
-                        productName = product.getProductName();
-                    }
-                }
-            }
-            if (productName == null) {
-                ProductNameNotFoundException productNameNotFoundException = new ProductNameNotFoundException("product name not found ");
-                throw productNameNotFoundException;
-            }
-        } catch (ProductNameNotFoundException e) {
-            e.printStackTrace();
-        }
-        return productName;
-    }
 
     @Override
     public double getPriceById(int id) {
@@ -161,7 +164,7 @@ public class AmazonImpl implements Amazon {
                     }
                 }
             }
-            if (price == 0.0) {
+            if (price <= 0.0) {
                 ProductPriceNotFoundException productPriceNotFoundException = new ProductPriceNotFoundException("Product price not found");
                 throw productPriceNotFoundException;
             }
@@ -203,8 +206,7 @@ public class AmazonImpl implements Amazon {
                         magfDate = product.getMfgDate();
                     }
                 }
-            }
-            if (magfDate == null) {
+            } if(magfDate== null) {
                 MfgDateNotFoundException mfgDateNotFoundException = new MfgDateNotFoundException("the product name is not valid to get date");
                 throw mfgDateNotFoundException;
             }
@@ -224,8 +226,7 @@ public class AmazonImpl implements Amazon {
                         washable = product.getWashable();
                     }
                 }
-            }
-            if (washable == null) {
+            } if (washable == null) {
                 WashableNotFoundException washableNotFoundException = new WashableNotFoundException("Washable id not found by giving product name");
                 throw washableNotFoundException;
             }
@@ -234,28 +235,6 @@ public class AmazonImpl implements Amazon {
         }
         return washable;
     }
-
-    @Override
-    public String getmfgDateById(int id) {
-        String mfgDate = null;
-        try {
-            if (id > 0) {
-                for (Product product : products) {
-                    if (product.getProductId() == id) {
-                        mfgDate = product.getMfgDate();
-                    }
-                }
-            }
-            if (mfgDate == null) {
-                MfgDateNotFoundException mfgDateNotFoundException = new MfgDateNotFoundException("Mfg not found by giving id");
-                throw mfgDateNotFoundException;
-            }
-        } catch (MfgDateNotFoundException e) {
-            e.printStackTrace();
-        }
-        return mfgDate;
-    }
-
 
     @Override
     public boolean updateProductPrice(double price) {

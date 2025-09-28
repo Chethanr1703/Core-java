@@ -34,80 +34,142 @@ public class XworkzRunner {
            if (isadded) System.out.println("sucessfull");
         }
 
-        xworkz.getDetailsOfTrainee();
+//        xworkz.getDetailsOfTrainee();
 
-        System.out.println("enter id to get ");
-        Trainee trainee = xworkz.getTraineeById(scanner.nextInt());
-        xworkz.getDetailsOfTrainee(trainee);
+        String input = null;
+        do {
+            System.out.println("press #1 to fetch trainee by id");
+            System.out.println("press #2 to fetch subject by trainee name");
+            System.out.println("press #3 to fetch phone number by trainee id");
+            System.out.println("press #4 to fetch no of classes taken by trainee id");
+            System.out.println("press #5 to fetch subject by trainee id");
+            System.out.println("press #6 to fetch phone number by trainee name");
+            System.out.println("press #7 to fetch no of classes taken by trainee name");
+            System.out.println("press #8 to fetch trainee id by name");
+            System.out.println("press #9 to fetch trainee name by id");
+            System.out.println("press #10 to update no of classes by trainee id");
+            System.out.println("press #11 to update phone number by trainee id");
+            System.out.println("press #12 to update subject by trainee id");
+            System.out.println("press #13 to update trainee name by trainee id");
+            System.out.println("press #14  to get all info");
+            System.out.println(" ");
+            System.out.println("enter the option which you require");
 
-        System.out.println("enter name to get Subject");
-        Subject name =xworkz.getSubjectByTraineeName(scanner.next());
-        System.out.println(name);
+            int option = scanner.nextInt();
 
-        System.out.println("enter id to get phone number");
-        long phone = xworkz.getPhoneNumberByTraineeId(scanner.nextInt());
-        System.out.println(phone);
+            switch (option) {
+                case 1:
+                    System.out.println("enter id to get trainee");
+                    Trainee trainee = xworkz.getTraineeById(scanner.nextInt());
+                    xworkz.getDetailsOfTrainee(trainee);
+                    break;
 
-        System.out.println("enter id to get NoClassTaken");
-        int noOfClasses =xworkz.getNoOfClassesTakenByTraineeId(scanner.nextInt());
-        System.out.println(noOfClasses);
+                case 2:
+                    System.out.println("enter name to get subject");
+                    Subject subject = xworkz.getSubjectByTraineeName(scanner.next());
+                    System.out.println(subject);
+                    break;
 
-        System.out.println("enter id to get subject");
-        name = xworkz.getSubjectNameByTraineeId(scanner.nextInt());
-        System.out.println(name);
+                case 3:
+                    System.out.println("enter id to get phone number");
+                    long phone = xworkz.getPhoneNumberByTraineeId(scanner.nextInt());
+                    System.out.println(phone);
+                    break;
 
-        System.out.println("enter name to get phone number");
-        phone = xworkz.getPhoneNumberByName(scanner.next());
-        System.out.println(phone);
+                case 4:
+                    System.out.println("enter id to get no of classes taken");
+                    int noOfClasses = xworkz.getNoOfClassesTakenByTraineeId(scanner.nextInt());
+                    System.out.println(noOfClasses);
+                    break;
 
-        System.out.println("enter name to get NoClassTaken");
-         noOfClasses =xworkz.getNoOfClassesTakenByName(scanner.next());
-        System.out.println(noOfClasses);
+                case 5:
+                    System.out.println("enter id to get subject");
+                    subject = xworkz.getSubjectNameByTraineeId(scanner.nextInt());
+                    System.out.println(subject);
+                    break;
 
-        System.out.println("enter name to get id");
-        int trainneID =xworkz. getTraineeIdByName(scanner.next());
-        System.out.println(trainneID);
+                case 6:
+                    System.out.println("enter name to get phone number");
+                    phone = xworkz.getPhoneNumberByName(scanner.next());
+                    System.out.println(phone);
+                    break;
 
-        System.out.println("enter id to get name");
-        String trainneNAme =xworkz. getTraineeNameById(scanner.nextInt());
-        System.out.println(trainneNAme);
+                case 7:
+                    System.out.println("enter name to get no of classes taken");
+                    noOfClasses = xworkz.getNoOfClassesTakenByName(scanner.next());
+                    System.out.println(noOfClasses);
+                    break;
 
-        //update
-        System.out.println("enter id to update no of class");
-        int id = scanner.nextInt();
-        System.out.println("enter the updated no of classes");
-        int noOfclass = scanner.nextInt();
-       boolean isupdateNoOfclass= xworkz.updateNoOfClassesTakenByTraineeId(id,noOfclass);
-       if(isupdateNoOfclass){
-           xworkz.getDetailsOfTrainee();
-       }
+                case 8:
+                    System.out.println("enter name to get trainee id");
+                    int traineeId = xworkz.getTraineeIdByName(scanner.next());
+                    System.out.println(traineeId);
+                    break;
 
-        System.out.println("enter id to update phone no ");
-         id = scanner.nextInt();
-        System.out.println("enter the updated phone no ");
-        long phoneNo = scanner.nextLong();
-        boolean isPhoneUpdated = xworkz.updatePhoneNumberByTraineeId(id,phoneNo);
-        if(isPhoneUpdated){
-            xworkz.getDetailsOfTrainee();
-        }
+                case 9:
+                    System.out.println("enter id to get trainee name");
+                    String traineeName = xworkz.getTraineeNameById(scanner.nextInt());
+                    System.out.println(traineeName);
+                    break;
 
-        System.out.println("enter id to update Subject");
-         id = scanner.nextInt();
-        System.out.println("enter the updated Subject");
-        Subject subject = Subject.valueOf(scanner.next().toUpperCase());
-        boolean isupdateSubjet= xworkz.updateSubjectByTraineeId(id,subject);
-        if(isupdateSubjet){
-            xworkz.getDetailsOfTrainee();
-        }
+                case 10:
+                    System.out.println("enter id to update no of classes");
+                    int id = scanner.nextInt();
+                    System.out.println("enter the updated no of classes");
+                    int updatedClasses = scanner.nextInt();
+                    boolean isClassesUpdated = xworkz.updateNoOfClassesTakenByTraineeId(id, updatedClasses);
+                    if (isClassesUpdated) {
+                        System.out.println(isClassesUpdated);
+//                        xworkz.getDetailsOfTrainee();
+                    }
+                    break;
 
+                case 11:
+                    System.out.println("enter id to update phone number");
+                    id = scanner.nextInt();
+                    System.out.println("enter the updated phone number");
+                    long updatedPhone = scanner.nextLong();
+                    boolean isPhoneUpdated = xworkz.updatePhoneNumberByTraineeId(id, updatedPhone);
+                    if (isPhoneUpdated) {
+                        System.out.println(isPhoneUpdated);//                        xworkz.getDetailsOfTrainee();
+                    }
+                    break;
 
-        System.out.println("enter id to update name");
-        id = scanner.nextInt();
-        System.out.println("enter the updated Subject");
-        String traineeName = scanner.next();
-        boolean isupdateName= xworkz.updateTraineeNameById(id,traineeName);
-        if(isupdateName){
-            xworkz.getDetailsOfTrainee();
-        }
+                case 12:
+                    System.out.println("enter id to update subject");
+                    id = scanner.nextInt();
+                    System.out.println("enter the updated subject");
+                    subject = Subject.valueOf(scanner.next().toUpperCase());
+                    boolean isSubjectUpdated = xworkz.updateSubjectByTraineeId(id, subject);
+                    if (isSubjectUpdated) {
+                        System.out.println(isSubjectUpdated);
+//                        xworkz.getDetailsOfTrainee();
+                    }
+                    break;
+
+                case 13:
+                    System.out.println("enter id to update trainee name");
+                    id = scanner.nextInt();
+                    System.out.println("enter the updated name");
+                    traineeName = scanner.next();
+                    boolean isNameUpdated = xworkz.updateTraineeNameById(id, traineeName);
+                    if (isNameUpdated) {
+//                        xworkz.getDetailsOfTrainee();
+                        System.out.println(isNameUpdated);
+                    }
+                    break;
+                case 14: xworkz.getDetailsOfTrainee();
+
+                default:
+                    System.out.println("you entered wrong option");
+            }
+
+            System.out.println("do you want to continue yes / no ");
+            input = scanner.next();
+
+        } while (input.equalsIgnoreCase("yes"));
+
+        System.out.println("thank you for visiting this app ........");
+
     }
 }

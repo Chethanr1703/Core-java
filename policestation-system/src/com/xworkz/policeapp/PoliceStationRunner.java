@@ -17,7 +17,7 @@ public class PoliceStationRunner {
 
         PoliceStation policeStation = new PoliceStationImpl(size);
 
-        for (int index = 0; index<size ;index++){
+        for (int index = 0; index < size; index++) {
             Police police = new Police();
             System.out.println("enter the id of the police ");
             police.setPoliceId(scanner.nextInt());
@@ -42,78 +42,133 @@ public class PoliceStationRunner {
 
 
         // fetch
+        String input = null;
+        do {
+            System.out.println("press #1 to fetch Name by id");
+            System.out.println("press #2 to fetch Post by id");
+            System.out.println("press #3 to fetch Post by Name");
+            System.out.println("press #4 to fetch Id by Name");
+            System.out.println("press #5 to fetch Salary by id");
+            System.out.println("press #6 to fetch Salary by Name");
+            System.out.println("press #7 to fetch Experience by id");
+            System.out.println("press #8 to fetch Experience by Name");
+            System.out.println("press #9 to fetch Police by id");
+            System.out.println("press #10 to update Name by id");
+            System.out.println("press #11 to update Post by id");
+            System.out.println("press #12 to update Salary by id");
+            System.out.println("press #13 to update Experience by id");
+            System.out.println(" ");
+            System.out.println("enter the option which you require");
 
-        System.out.println("enter the id to get name");
-       String name = policeStation.getNameById(scanner.nextInt());
-        System.out.println(name);
+            int option = scanner.nextInt();
 
-        System.out.println("enter the id to get Post");
-        Post post = policeStation.getPostById(scanner.nextInt());
-        System.out.println(post);
+            switch (option) {
+                case 1:
+                    System.out.println("enter the id to get Name");
+                    String name = policeStation.getNameById(scanner.nextInt());
+                    System.out.println(name);
+                    break;
+                case 2:
+                    System.out.println("enter the id to get Post");
+                    Post post = policeStation.getPostById(scanner.nextInt());
+                    System.out.println(post);
+                    break;
+                case 3:
+                    System.out.println("enter Name to get Post");
+                    post = policeStation.getPostByName(scanner.next());
+                    System.out.println(post);
+                    break;
+                case 4:
+                    System.out.println("enter Name to get Id");
+                    int id = policeStation.getIdByName(scanner.next());
+                    System.out.println(id);
+                    break;
+                case 5:
+                    System.out.println("enter the id to get Salary");
+                    double salary = policeStation.getSalaryById(scanner.nextInt());
+                    System.out.println(salary);
+                    break;
+                case 6:
+                    System.out.println("enter Name to get Salary");
+                    salary = policeStation.getSalaryByName(scanner.next());
+                    System.out.println(salary);
+                    break;
+                case 7:
+                    System.out.println("enter the id to get Experience");
+                    int experience = policeStation.getExperienceById(scanner.nextInt());
+                    System.out.println(experience);
+                    break;
+                case 8:
+                    System.out.println("enter Name to get Experience");
+                    experience = policeStation.getExperienceByName(scanner.next());
+                    System.out.println(experience);
+                    break;
+                case 9:
+                    System.out.println("enter the id to get Police");
+                    Police police = policeStation.getPoliceByid(scanner.nextInt());
+                    policeStation.getPoliceDetails(police);
+                    break;
+                case 10:
+                    System.out.println("enter id to update Name");
+                    id = scanner.nextInt();
+                    System.out.println("enter updated Name");
+                    name = scanner.next();
+                    boolean isNameUpdated = policeStation.updateNameById(id, name);
+                    System.out.println(isNameUpdated);
+                    if (isNameUpdated) {
+                        System.out.println(isNameUpdated);
+//                        policeStation.getPoliceDetails();
+                    }
+                    break;
+                case 11:
+                    System.out.println("enter id to update Post");
+                    id = scanner.nextInt();
+                    System.out.println("enter updated Post");
+                    Post post1 = Post.valueOf(scanner.next().toUpperCase());
+                    boolean isPostUpdated = policeStation.updatePostById(id, post1);
+                    System.out.println(isPostUpdated);
+                    if (isPostUpdated) {
+                        System.out.println(isPostUpdated);
+//                        policeStation.getPoliceDetails();
+                    }
+                    break;
+                case 12:
+                    System.out.println("enter id to update Salary");
+                    id = scanner.nextInt();
+                    System.out.println("enter updated Salary");
+                    salary = scanner.nextDouble();
+                    boolean isSalaryUpdated = policeStation.updateSalaryById(id, salary);
+                    System.out.println(isSalaryUpdated);
+                    if (isSalaryUpdated) {
+                        System.out.println(isSalaryUpdated);
+//                        policeStation.getPoliceDetails();
+                    }
+                    break;
+                case 13:
+                    System.out.println("enter id to update Experience");
+                    id = scanner.nextInt();
+                    System.out.println("enter updated Experience");
+                    experience = scanner.nextInt();
+                    boolean isExperienceUpdated = policeStation.updateExperienceById(id, experience);
+                    System.out.println(isExperienceUpdated);
+                    if (isExperienceUpdated) {
+                        System.out.println(isExperienceUpdated);
+//                        policeStation.getPoliceDetails();
+                    }
+                    break;
+                case 14:
+                    policeStation.getPoliceDetails();
+                    break;
+                default:
+                    System.out.println("you entered wrong option");
+            }
 
-        System.out.println("enter name to get Post");
-        post = policeStation.getPostByName(scanner.next());
-        System.out.println(post);
+            System.out.println("do you want to continue yes / no ");
+            input = scanner.next();
 
-        System.out.println("enter name to get id");
-        int id = policeStation.getIdByName(scanner.next());
-        System.out.println(id);
+        } while (input.equalsIgnoreCase("yes"));
 
-        System.out.println("enter id to get salary");
-        double salary = policeStation.getSalaryById(scanner.nextInt());
-        System.out.println(salary);
-
-        System.out.println("enter name to get salary");
-        salary = policeStation.getSalaryByName(scanner.next());
-        System.out.println(salary);
-
-        System.out.println("enter id to get experience");
-        int experience = policeStation.getExperienceById(scanner.nextInt());
-        System.out.println(experience);
-
-        System.out.println("enter name to get experience");
-        experience = policeStation.getExperienceByName(scanner.next());
-        System.out.println(experience);
-
-        System.out.println("enter the id to get police");
-         Police police = policeStation.getPoliceByid(scanner.nextInt());
-         policeStation.getPoliceDetails(police);
-         //update
-
-        System.out.println("enter id to update police name");
-         id = scanner.nextInt();
-        System.out.println("enter updated name");
-        name = scanner.next();
-        boolean isNameUpdated= policeStation.updateNameById(id,name);
-        if(isNameUpdated){
-            policeStation.getPoliceDetails();
-        }
-
-        System.out.println("enter id to update Post");
-        id = scanner.nextInt();
-        System.out.println("enter updated post");
-        Post post1 = Post.valueOf(scanner.next().toUpperCase());
-        boolean isPostUpdated = policeStation.updatePostById(id,post1);
-        if(isPostUpdated){
-            policeStation.getPoliceDetails();
-        }
-
-        System.out.println("enter id to update salary");
-        id = scanner.nextInt();
-        System.out.println("enter updated salary");
-        salary = scanner.nextDouble();
-        boolean isSalaryupdated = policeStation.updateSalaryById(id,salary);
-        if(isSalaryupdated){
-            policeStation.getPoliceDetails();
-        }
-        System.out.println("enter id to update experience");
-        id = scanner.nextInt();
-        System.out.println("enter updated experience");
-        experience = scanner.nextInt();
-        boolean isExperienceUpdated = policeStation.updateExperienceById(id ,experience);
-        if(isExperienceUpdated){
-            policeStation.getPoliceDetails();
-        }
+        System.out.println("thank you for visiting this app ........");
 
     }
 }
