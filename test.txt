@@ -1,0 +1,128 @@
+1) instanceOf operator it used to compare the object whether it is belong to the same type or not
+example : 
+   public boolean equals(Object obj) {
+        if (obj instanceof Book) {
+            Book book = (Book) obj;   // down casting
+            if (this.bookId == book.bookId) {
+                return true;
+            }
+        }
+		return false;
+		}
+		
+2) we can handle multiple inheritance using interface only because one class can extends only class in java, if we extend multiple classes it throws as diamond problem.the multiple inheritance is only achieved by the extending multiple interfaces.
+
+example: public interface extends interface1 , interface2{}
+
+
+3) this.:- is used to invoke instance members of same class
+this.id= id;
+super.:- is used to invoke parent class instance members
+super.id = id;
+this()- is used to invoke another constructor of the same class.
+super():- is used to invoke constructor from parent class
+
+4)
+Constructor means it is a special type of method where name is as same as class name to no return type. Constructor overloading means change in number of parameter
+
+Constructor is used to intialial the instance variable
+public class Book{
+public Book(){  // default Constructor
+}
+public Book(Parameter a){// parameterized Constructor
+}
+} 
+method Overloading means methods which as same methods name by change in number of parameter but methods same return type.
+ 		
+5) upcasting means when a child type of object is converted to its parent type then it is called as upcasting
+
+example:  parent p = new child();
+
+downcasting means when the parent type of object is converted to it child type then it is called as down casting.
+Parent parent
+example: Child c =(Child)parent.
+
+6)static binding compile time polymorphism is achieved  known method Overloading means methods which as same methods name by change in number of parameter but methods same return type.
+
+public int number(int a int b){
+int sum = a + b
+}
+public int number(int a,int b, int c ){
+
+int sum = a+b+c;
+}
+
+Dynamic binding is known as runtime polymorphism it is achieved by method overriding means when a method as same access specifier , return type ,and same number of parameter but change in the implementation.
+
+example :
+public int add(int a,int b){
+
+int sum = a+b;
+system.out.println(sum);
+}
+
+public int add(int a , int b){
+return a+b;
+}
+
+7) default and static methods helped us write the concrete methods in the in the interface in this it as enhanced abstraction from java 1.8 where it can contain both abstract methods and concrete methods in the interface
+
+8) is-a relationship means inheritance in java where one class extend another class of same type.
+example:
+ class Book{
+int id ;
+int noOfPage;
+int price;
+} 
+class Book1 extends Book{
+}
+
+has-a relationship means one class contain a instance of the another class or one class is depend up on the instance of the another class.
+example: 
+class Room{
+}
+class hotel{
+Room room
+}
+
+9)list will allow duplicate value and it will display in the same order of interstion.
+set will not allow duplicate value and it will not display in the same order of interstion.
+map take the key and value pair.
+
+14)public class Collections {
+    public static void main(String[] args) {
+        Collection<Integer> c = new LinkedHashSet();
+        c.add(50);
+        c.add(100);
+        c.add(50);
+        c.add(150);
+        System.out.println(c);
+    }
+}
+13)
+Collection is an interface found in the java.util package.
+It represents a single unit of objects, acting as the root interface for the entire collection hierarchy (excluding Map).
+It defines the fundamental operations that can be performed on a group of objects, such as adding, removing, checking for existence, and iterating through elements.
+Examples of concrete classes that implement the Collection interface include ArrayList, HashSet, LinkedList, and TreeSet.
+
+Collections is a utility class found in the java.util package.
+It provides static methods for performing various operations on objects that implement the Collection interface or its sub-interfaces (like List, Set, Queue).
+These methods are designed to manipulate or operate on existing collections, rather than defining the structure of a collection itself.
+Common utility methods include sort(), binarySearch(), reverse(), shuffle(), max(), min(), and methods for creating synchronized or unmodifiable collections.
+
+15)
+   public static void main(String[] args) {
+        Collection<Integer> c = new LinkedHashSet();
+        c.add(50);
+        c.add(100);
+        c.add(50);
+        c.add(150);
+        System.out.println(c);
+
+        List<String> c1 = new ArrayList<>();
+        c1.add("Apple");
+        c1.add("Orange");
+        c1.add("Annnanans");
+
+        c1.stream().filter(c2->c2.startsWith("A")).forEach(System.out::println);
+    }
